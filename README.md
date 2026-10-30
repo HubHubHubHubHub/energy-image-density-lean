@@ -1,5 +1,7 @@
 # Energy image density in Lean 4
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23807343.svg)](https://doi.org/10.5281/zenodo.23807343)
+
 A Lean 4 / Mathlib formalisation of the energy image density (EID) property for
 Dirichlet structures, following the short proof of Eriksson-Bique and Murugan,
 together with the part of the De Philippis–Rindler structure theorem that this
@@ -149,6 +151,12 @@ repository” button), or:
   title   = {Energy image density in {Lean} 4},
   year    = {2026},
   version = {1.0},
+  doi     = {10.5281/zenodo.23807344},
   url     = {https://github.com/HubHubHubHubHub/energy-image-density-lean}
 }
 ```
+
+The release is archived on Zenodo: DOI
+[10.5281/zenodo.23807344](https://doi.org/10.5281/zenodo.23807344) for version 1.0, and
+[10.5281/zenodo.23807343](https://doi.org/10.5281/zenodo.23807343) for all versions
+(it always resolves to the latest one).

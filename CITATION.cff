@@ -12,7 +12,15 @@ authors:
     given-names: Victor
     orcid: "https://orcid.org/0009-0003-3678-3457"
 version: "1.0"
+doi: 10.5281/zenodo.23807344
 date-released: "2026-10-30"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23807343
+    description: "Concept DOI: all versions of this software."
+  - type: doi
+    value: 10.5281/zenodo.23807344
+    description: "Version 1.0."
 license: Apache-2.0
 repository-code: "https://github.com/HubHubHubHubHub/energy-image-density-lean"
 keywords:
