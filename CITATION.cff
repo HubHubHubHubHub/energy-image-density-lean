@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Energy image density in Lean 4"
+abstract: >-
+  A Lean 4 / Mathlib formalisation of the energy image density property for
+  Dirichlet structures, following the short proof of Eriksson-Bique and Murugan,
+  together with the part of the De Philippis–Rindler structure theorem that this
+  proof uses, and the energy image density statement printed by Bouleau and Hirsch.
+authors:
+  - family-names: Rabiet
+    given-names: Victor
+    orcid: "https://orcid.org/0009-0003-3678-3457"
+version: "1.0"
+date-released: "2026-10-30"
+license: Apache-2.0
+repository-code: "https://github.com/HubHubHubHubHub/energy-image-density-lean"
+keywords:
+  - Lean 4
+  - Mathlib
+  - formal verification
+  - Dirichlet forms
+  - carré du champ
+  - energy image density
+  - normal currents
+references:
+  - type: article
+    title: "On the energy image density conjecture of Bouleau and Hirsch"
+    authors:
+      - family-names: Eriksson-Bique
+        given-names: Sylvester
+      - family-names: Murugan
+        given-names: Mathav
+    year: 2025
+    identifiers:
+      - type: other
+        value: "arXiv:2510.13659"

@@ -1,0 +1,33 @@
+import DprBridge.BH1991PrintedProof
+import DprBridge.ChainRuleBridge
+import DprBridge.EID
+import DprBridge.NormalContractionsBridge
+import GeometricMeasure.Current.CoordinateNormalFamily
+import GeometricMeasure.Current.FiniteNormalFamily
+import GeometricMeasure.Current.FirstOrderStructure
+import GeometricMeasure.Current.LocalStructure
+import GeometricMeasure.Current.MatrixStructure
+import GeometricMeasure.Current.NormalFamily
+import GeometricMeasure.Current.RectangularStructure
+import GeometricMeasure.VectorMeasure.LinearImage
+
+set_option pp.all true
+
+#check DprBridge.eid_unconditional
+#check DprBridge.TextStatements.ebm_theorem_1_7
+#check DprBridge.BH1991.bh1991_printed_eid_conjecture
+#check GeometricMeasure.ae_rank_matrixPolar_le
+#check GeometricMeasure.coordinateDePhilippisRindler
+#check GeometricMeasure.VectorMeasure.ae_apply_polar_mem_of_polar_linearImage_mem
+#check GeometricMeasure.VectorMeasure.ae_apply_polar_mem_of_polar_linearImage_mem_on
+#check GeometricMeasure.HasRectMeasureDivergence.ae_rank_polar_le
+#check GeometricMeasure.HasRectMeasureDivergenceOn.ae_rank_polar_le
+#check GeometricMeasure.FirstOrderOperator.HasEquation.ae_polar_mem_waveCone
+#check GeometricMeasure.absolutelyContinuous_volume_of_finite_span_polar
+#check GeometricMeasure.LocalStructureContracts.targetA3
+#check GeometricMeasure.LocalStructureContracts.targetA4Local
+#check GeometricMeasure.LocalStructureContracts.targetA5Local
+#check GeometricMeasure.LocalStructureContracts.targetA4
+#check GeometricMeasure.LocalStructureContracts.targetA5Finite
+#check GeometricMeasure.absolutelyContinuous_volume_of_span_polar
+#check DprBridge.TextStatements.missingNormalContractions

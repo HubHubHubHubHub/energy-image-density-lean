@@ -1,0 +1,3872 @@
+{
+  "format_version": 1,
+  "generator": "export_depot_eid.py",
+  "internal_git_revision": "7d4ab5ec86447ef830d63e6f77cc43792231fbcd",
+  "lean_toolchain": "leanprover/lean4:v4.32.1",
+  "heads": [
+    {
+      "name": "DprBridge.eid_unconditional",
+      "module": "DprBridge.EID"
+    },
+    {
+      "name": "DprBridge.TextStatements.ebm_theorem_1_7",
+      "module": "DprBridge.ChainRuleBridge"
+    },
+    {
+      "name": "DprBridge.BH1991.bh1991_printed_eid_conjecture",
+      "module": "DprBridge.BH1991PrintedProof"
+    },
+    {
+      "name": "GeometricMeasure.ae_rank_matrixPolar_le",
+      "module": "GeometricMeasure.Current.MatrixStructure"
+    },
+    {
+      "name": "GeometricMeasure.coordinateDePhilippisRindler",
+      "module": "GeometricMeasure.Current.CoordinateNormalFamily"
+    },
+    {
+      "name": "GeometricMeasure.VectorMeasure.ae_apply_polar_mem_of_polar_linearImage_mem",
+      "module": "GeometricMeasure.VectorMeasure.LinearImage"
+    },
+    {
+      "name": "GeometricMeasure.VectorMeasure.ae_apply_polar_mem_of_polar_linearImage_mem_on",
+      "module": "GeometricMeasure.VectorMeasure.LinearImage"
+    },
+    {
+      "name": "GeometricMeasure.HasRectMeasureDivergence.ae_rank_polar_le",
+      "module": "GeometricMeasure.Current.RectangularStructure"
+    },
+    {
+      "name": "GeometricMeasure.HasRectMeasureDivergenceOn.ae_rank_polar_le",
+      "module": "GeometricMeasure.Current.RectangularStructure"
+    },
+    {
+      "name": "GeometricMeasure.FirstOrderOperator.HasEquation.ae_polar_mem_waveCone",
+      "module": "GeometricMeasure.Current.FirstOrderStructure"
+    },
+    {
+      "name": "GeometricMeasure.absolutelyContinuous_volume_of_finite_span_polar",
+      "module": "GeometricMeasure.Current.FiniteNormalFamily"
+    },
+    {
+      "name": "GeometricMeasure.LocalStructureContracts.targetA3",
+      "module": "GeometricMeasure.Current.LocalStructure"
+    },
+    {
+      "name": "GeometricMeasure.LocalStructureContracts.targetA4Local",
+      "module": "GeometricMeasure.Current.LocalStructure"
+    },
+    {
+      "name": "GeometricMeasure.LocalStructureContracts.targetA5Local",
+      "module": "GeometricMeasure.Current.LocalStructure"
+    },
+    {
+      "name": "GeometricMeasure.LocalStructureContracts.targetA4",
+      "module": "GeometricMeasure.Current.LocalStructure"
+    },
+    {
+      "name": "GeometricMeasure.LocalStructureContracts.targetA5Finite",
+      "module": "GeometricMeasure.Current.LocalStructure"
+    },
+    {
+      "name": "GeometricMeasure.absolutelyContinuous_volume_of_span_polar",
+      "module": "GeometricMeasure.Current.NormalFamily"
+    },
+    {
+      "name": "DprBridge.TextStatements.missingNormalContractions",
+      "module": "DprBridge.NormalContractionsBridge"
+    }
+  ],
+  "root_modules": [
+    "DprBridge.BH1991PrintedProof",
+    "DprBridge.ChainRuleBridge",
+    "DprBridge.EID",
+    "DprBridge.NormalContractionsBridge",
+    "GeometricMeasure.Current.CoordinateNormalFamily",
+    "GeometricMeasure.Current.FiniteNormalFamily",
+    "GeometricMeasure.Current.FirstOrderStructure",
+    "GeometricMeasure.Current.LocalStructure",
+    "GeometricMeasure.Current.MatrixStructure",
+    "GeometricMeasure.Current.NormalFamily",
+    "GeometricMeasure.Current.RectangularStructure",
+    "GeometricMeasure.VectorMeasure.LinearImage"
+  ],
+  "modules": [
+    {
+      "module": "DprBridge.BH1991ChainCurrents",
+      "path": "DprBridge/BH1991ChainCurrents.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/BH1991ChainCurrents.lean",
+      "sha256_source": "2801265284ecd8cbada9acbbfec134e16bf70bd8594d7564542f98ca82aafd3d",
+      "sha256_copy": "2801265284ecd8cbada9acbbfec134e16bf70bd8594d7564542f98ca82aafd3d",
+      "lines": 1439,
+      "bytes": 76648
+    },
+    {
+      "module": "DprBridge.BH1991ChainRules",
+      "path": "DprBridge/BH1991ChainRules.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/BH1991ChainRules.lean",
+      "sha256_source": "751e383c811dfc09cf4640a0cb48fe39977d85ba5bc662be29ed4c6b5db26df7",
+      "sha256_copy": "751e383c811dfc09cf4640a0cb48fe39977d85ba5bc662be29ed4c6b5db26df7",
+      "lines": 536,
+      "bytes": 27179
+    },
+    {
+      "module": "DprBridge.BH1991GammaLocality",
+      "path": "DprBridge/BH1991GammaLocality.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/BH1991GammaLocality.lean",
+      "sha256_source": "11655ec531dd2baa1aac47511c8adbec3696a0e3b31df9b9cbcfd03e7f68ec1e",
+      "sha256_copy": "11655ec531dd2baa1aac47511c8adbec3696a0e3b31df9b9cbcfd03e7f68ec1e",
+      "lines": 669,
+      "bytes": 32472
+    },
+    {
+      "module": "DprBridge.BH1991LevelCancellation",
+      "path": "DprBridge/BH1991LevelCancellation.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/BH1991LevelCancellation.lean",
+      "sha256_source": "74692ea6bd391544e694fadd71f8acba1f360b93e944890d0fe5e67cd14022af",
+      "sha256_copy": "74692ea6bd391544e694fadd71f8acba1f360b93e944890d0fe5e67cd14022af",
+      "lines": 551,
+      "bytes": 26817
+    },
+    {
+      "module": "DprBridge.BH1991NormalContractions",
+      "path": "DprBridge/BH1991NormalContractions.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/BH1991NormalContractions.lean",
+      "sha256_source": "9f4f5af32d9f862d45a8da92c2d33fa7b44075404f2fd1d0876e2bdae075670d",
+      "sha256_copy": "9f4f5af32d9f862d45a8da92c2d33fa7b44075404f2fd1d0876e2bdae075670d",
+      "lines": 853,
+      "bytes": 40877
+    },
+    {
+      "module": "DprBridge.BH1991Printed",
+      "path": "DprBridge/BH1991Printed.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/BH1991Printed.lean",
+      "sha256_source": "57ff1693195fee3e8513d3e3e16f57d53b3d47f18090dce0cd2b04cebe5dfeca",
+      "sha256_copy": "57ff1693195fee3e8513d3e3e16f57d53b3d47f18090dce0cd2b04cebe5dfeca",
+      "lines": 566,
+      "bytes": 24190
+    },
+    {
+      "module": "DprBridge.BH1991PrintedProof",
+      "path": "DprBridge/BH1991PrintedProof.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/BH1991PrintedProof.lean",
+      "sha256_source": "7ff006cd516264ae70c5f4493fdaebacfa17b7691ef79530b173b82d26127c55",
+      "sha256_copy": "7ff006cd516264ae70c5f4493fdaebacfa17b7691ef79530b173b82d26127c55",
+      "lines": 968,
+      "bytes": 50215
+    },
+    {
+      "module": "DprBridge.BH1991ResolventCore",
+      "path": "DprBridge/BH1991ResolventCore.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/BH1991ResolventCore.lean",
+      "sha256_source": "5a038bf06b4b02d3f9183d61a2426bcb06464e8e44f95c04ddfeadd900877f32",
+      "sha256_copy": "5a038bf06b4b02d3f9183d61a2426bcb06464e8e44f95c04ddfeadd900877f32",
+      "lines": 730,
+      "bytes": 37279
+    },
+    {
+      "module": "DprBridge.ChainRuleBridge",
+      "path": "DprBridge/ChainRuleBridge.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/ChainRuleBridge.lean",
+      "sha256_source": "31c8d137cd17c386f05ca552c02ecebddd58758450b45b0168e3f656805b6c71",
+      "sha256_copy": "31c8d137cd17c386f05ca552c02ecebddd58758450b45b0168e3f656805b6c71",
+      "lines": 211,
+      "bytes": 10835
+    },
+    {
+      "module": "DprBridge.Coordinate",
+      "path": "DprBridge/Coordinate.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/Coordinate.lean",
+      "sha256_source": "de99315998ec2d9a10b58b496cb5739fb92b2eef60e84a641b96929e103ec7b5",
+      "sha256_copy": "de99315998ec2d9a10b58b496cb5739fb92b2eef60e84a641b96929e103ec7b5",
+      "lines": 55,
+      "bytes": 2589
+    },
+    {
+      "module": "DprBridge.EID",
+      "path": "DprBridge/EID.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/EID.lean",
+      "sha256_source": "425147021a357de2ae7ea47fae702dd49afffd25272c7766549cd7f3f0799148",
+      "sha256_copy": "425147021a357de2ae7ea47fae702dd49afffd25272c7766549cd7f3f0799148",
+      "lines": 59,
+      "bytes": 2879
+    },
+    {
+      "module": "DprBridge.GenericCarreDuChamp",
+      "path": "DprBridge/GenericCarreDuChamp.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/GenericCarreDuChamp.lean",
+      "sha256_source": "16ce9524365ed37c36ca6cda918a1cb80457c2eb713e23d07480266fb628f99a",
+      "sha256_copy": "16ce9524365ed37c36ca6cda918a1cb80457c2eb713e23d07480266fb628f99a",
+      "lines": 296,
+      "bytes": 13976
+    },
+    {
+      "module": "DprBridge.NormalContractionsBridge",
+      "path": "DprBridge/NormalContractionsBridge.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/NormalContractionsBridge.lean",
+      "sha256_source": "ca9359b1e4888d9509630ed3cb74c33241f8ad26dd6c2c27428a2364f7fc63e4",
+      "sha256_copy": "ca9359b1e4888d9509630ed3cb74c33241f8ad26dd6c2c27428a2364f7fc63e4",
+      "lines": 93,
+      "bytes": 4793
+    },
+    {
+      "module": "DprBridge.TextStatements",
+      "path": "DprBridge/TextStatements.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/TextStatements.lean",
+      "sha256_source": "a2d01231a6060dbee28c66c9482add2ce639aa191c6e1ea1dcd83ed62ad6d6df",
+      "sha256_copy": "a2d01231a6060dbee28c66c9482add2ce639aa191c6e1ea1dcd83ed62ad6d6df",
+      "lines": 670,
+      "bytes": 32678
+    },
+    {
+      "module": "DprBridge.TextStatementsContracts",
+      "path": "DprBridge/TextStatementsContracts.lean",
+      "source": "Recherche/lean_calcul_erreurs/K_pont_dpr/DprBridge/TextStatementsContracts.lean",
+      "sha256_source": "2b2c09dbe241f9f40fa40695b74c3e2f7e315d1798b4aa8506c2aac7635cf18f",
+      "sha256_copy": "2b2c09dbe241f9f40fa40695b74c3e2f7e315d1798b4aa8506c2aac7635cf18f",
+      "lines": 118,
+      "bytes": 5168
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ApproximatingForm",
+      "path": "ErrorCalculus/Dirichlet/ApproximatingForm.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ApproximatingForm.lean",
+      "sha256_source": "341016f645252eef0791cdb0943b59861c43ced22aa4da999254443ee3f4bbb9",
+      "sha256_copy": "341016f645252eef0791cdb0943b59861c43ced22aa4da999254443ee3f4bbb9",
+      "lines": 123,
+      "bytes": 6992
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.BoundedDense",
+      "path": "ErrorCalculus/Dirichlet/BoundedDense.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/BoundedDense.lean",
+      "sha256_source": "4dfa27905a2aa1fba028d4e7c7bed2737043f432837d8bfa7171cef777942e08",
+      "sha256_copy": "4dfa27905a2aa1fba028d4e7c7bed2737043f432837d8bfa7171cef777942e08",
+      "lines": 110,
+      "bytes": 5798
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.BoundedDenseStrong",
+      "path": "ErrorCalculus/Dirichlet/BoundedDenseStrong.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/BoundedDenseStrong.lean",
+      "sha256_source": "23f92fbf3b42c06101c3c67815aa53ec1acac6be10b9666b0dd8b6d75886f5fc",
+      "sha256_copy": "23f92fbf3b42c06101c3c67815aa53ec1acac6be10b9666b0dd8b6d75886f5fc",
+      "lines": 108,
+      "bytes": 5457
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.BoxPartition",
+      "path": "ErrorCalculus/Dirichlet/BoxPartition.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/BoxPartition.lean",
+      "sha256_source": "e1f7ade2893042f5f66c8ffcce75c077b0a6f4e65ba5e0dea50c0f3b307e982c",
+      "sha256_copy": "e1f7ade2893042f5f66c8ffcce75c077b0a6f4e65ba5e0dea50c0f3b307e982c",
+      "lines": 486,
+      "bytes": 25707
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.Calculus",
+      "path": "ErrorCalculus/Dirichlet/Calculus.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/Calculus.lean",
+      "sha256_source": "f59374ea7a92eec75f7c583ea4d4ec1f67a3eca6010ac0006b086d74b6c6d03d",
+      "sha256_copy": "f59374ea7a92eec75f7c583ea4d4ec1f67a3eca6010ac0006b086d74b6c6d03d",
+      "lines": 95,
+      "bytes": 4586
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.Capacity",
+      "path": "ErrorCalculus/Dirichlet/Capacity.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/Capacity.lean",
+      "sha256_source": "e3a6188c6b3317c305b192cee8ad391f72d3e12a0a233755b9e3952231c43413",
+      "sha256_copy": "e3a6188c6b3317c305b192cee8ad391f72d3e12a0a233755b9e3952231c43413",
+      "lines": 527,
+      "bytes": 25204
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.CapacityExamples",
+      "path": "ErrorCalculus/Dirichlet/CapacityExamples.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/CapacityExamples.lean",
+      "sha256_source": "6fe79228fc9fe0712dd2cf38bcefb71b8e16924a1ea01c23aa8085bea7b9a0bf",
+      "sha256_copy": "6fe79228fc9fe0712dd2cf38bcefb71b8e16924a1ea01c23aa8085bea7b9a0bf",
+      "lines": 136,
+      "bytes": 6106
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.CapacityForm",
+      "path": "ErrorCalculus/Dirichlet/CapacityForm.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/CapacityForm.lean",
+      "sha256_source": "6a54949197113a94c719d381055beb766e249e2b04e656ad9486ed4ec61a388b",
+      "sha256_copy": "6a54949197113a94c719d381055beb766e249e2b04e656ad9486ed4ec61a388b",
+      "lines": 190,
+      "bytes": 9008
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.CapacityHilbert",
+      "path": "ErrorCalculus/Dirichlet/CapacityHilbert.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/CapacityHilbert.lean",
+      "sha256_source": "b78c1023629078b2d8f1a5c9a2199cd940738c4c8e0850812a7dc1033f6938d6",
+      "sha256_copy": "b78c1023629078b2d8f1a5c9a2199cd940738c4c8e0850812a7dc1033f6938d6",
+      "lines": 102,
+      "bytes": 5052
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.CapacityVariational",
+      "path": "ErrorCalculus/Dirichlet/CapacityVariational.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/CapacityVariational.lean",
+      "sha256_source": "6b04056c184d382f69592437624f55462bae0d7db4b6782c59a966da84e17129",
+      "sha256_copy": "6b04056c184d382f69592437624f55462bae0d7db4b6782c59a966da84e17129",
+      "lines": 125,
+      "bytes": 5561
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.CarreDuChampAlgebra",
+      "path": "ErrorCalculus/Dirichlet/CarreDuChampAlgebra.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/CarreDuChampAlgebra.lean",
+      "sha256_source": "21af78a55b1153d35f98a1c419eed7f2cf76839816512aac18305da9d1b8304a",
+      "sha256_copy": "21af78a55b1153d35f98a1c419eed7f2cf76839816512aac18305da9d1b8304a",
+      "lines": 541,
+      "bytes": 26565
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.CarreDuChampApprox",
+      "path": "ErrorCalculus/Dirichlet/CarreDuChampApprox.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/CarreDuChampApprox.lean",
+      "sha256_source": "5104be7b12e63f3591b37df0e932a80f7d3383c491f695df74c942e95e2bfc2f",
+      "sha256_copy": "5104be7b12e63f3591b37df0e932a80f7d3383c491f695df74c942e95e2bfc2f",
+      "lines": 347,
+      "bytes": 17847
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.CarreDuChampExistence",
+      "path": "ErrorCalculus/Dirichlet/CarreDuChampExistence.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/CarreDuChampExistence.lean",
+      "sha256_source": "372e8bce6e9770a328ca6d0f53bf6eeaa7d4e2c86ae06f73165d759c4463a3ad",
+      "sha256_copy": "372e8bce6e9770a328ca6d0f53bf6eeaa7d4e2c86ae06f73165d759c4463a3ad",
+      "lines": 975,
+      "bytes": 49550
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.Closure",
+      "path": "ErrorCalculus/Dirichlet/Closure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/Closure.lean",
+      "sha256_source": "8d9def7e618c87ee05a46421107a82da335de8b3de19450ec670ed5a66223c5a",
+      "sha256_copy": "8d9def7e618c87ee05a46421107a82da335de8b3de19450ec670ed5a66223c5a",
+      "lines": 222,
+      "bytes": 10833
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ClosureApproximation",
+      "path": "ErrorCalculus/Dirichlet/ClosureApproximation.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ClosureApproximation.lean",
+      "sha256_source": "686f075a18e6993100728761b6f438bcb0b81a0c1363e629bac4c885e570d642",
+      "sha256_copy": "686f075a18e6993100728761b6f438bcb0b81a0c1363e629bac4c885e570d642",
+      "lines": 91,
+      "bytes": 4597
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ClosureCalculus",
+      "path": "ErrorCalculus/Dirichlet/ClosureCalculus.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ClosureCalculus.lean",
+      "sha256_source": "5302edee9fe22acd7c0d84fad1faf6bc1f169a4ea1fefabe4bab7c8ca4ced2e6",
+      "sha256_copy": "5302edee9fe22acd7c0d84fad1faf6bc1f169a4ea1fefabe4bab7c8ca4ced2e6",
+      "lines": 79,
+      "bytes": 4832
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ClosureCalculusBounds",
+      "path": "ErrorCalculus/Dirichlet/ClosureCalculusBounds.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ClosureCalculusBounds.lean",
+      "sha256_source": "13645c590b9948ae4c1b3eb76502e02a816f439d03ca2d1e7a3413e2a209de86",
+      "sha256_copy": "13645c590b9948ae4c1b3eb76502e02a816f439d03ca2d1e7a3413e2a209de86",
+      "lines": 85,
+      "bytes": 4409
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ClosureCalculusLimits",
+      "path": "ErrorCalculus/Dirichlet/ClosureCalculusLimits.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ClosureCalculusLimits.lean",
+      "sha256_source": "6785d04af90ab4a59517866219964112bb6982ad6861ad4bf7f979c467f4115a",
+      "sha256_copy": "6785d04af90ab4a59517866219964112bb6982ad6861ad4bf7f979c467f4115a",
+      "lines": 98,
+      "bytes": 5259
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ClosureCalculusSequence",
+      "path": "ErrorCalculus/Dirichlet/ClosureCalculusSequence.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ClosureCalculusSequence.lean",
+      "sha256_source": "98bae9bf40576b6938fce04a76ed99bce277d1cec87661324415bdc897077b1c",
+      "sha256_copy": "98bae9bf40576b6938fce04a76ed99bce277d1cec87661324415bdc897077b1c",
+      "lines": 153,
+      "bytes": 8559
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ClosureData",
+      "path": "ErrorCalculus/Dirichlet/ClosureData.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ClosureData.lean",
+      "sha256_source": "0752382990ab9c0de98c2a48c904028e0a817692c09a1ac23fa12d0207d231a0",
+      "sha256_copy": "0752382990ab9c0de98c2a48c904028e0a817692c09a1ac23fa12d0207d231a0",
+      "lines": 102,
+      "bytes": 4598
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ClosureExamples",
+      "path": "ErrorCalculus/Dirichlet/ClosureExamples.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ClosureExamples.lean",
+      "sha256_source": "653f76c76b5fd45db52d135d8c938489296553c47db300a851ced8cfe94c6741",
+      "sha256_copy": "653f76c76b5fd45db52d135d8c938489296553c47db300a851ced8cfe94c6741",
+      "lines": 78,
+      "bytes": 4054
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ClosureStructure",
+      "path": "ErrorCalculus/Dirichlet/ClosureStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ClosureStructure.lean",
+      "sha256_source": "5f228b7d3e4b4c8f931336534dad57452dc4756714b9885ab7468255ff8befd1",
+      "sha256_copy": "5f228b7d3e4b4c8f931336534dad57452dc4756714b9885ab7468255ff8befd1",
+      "lines": 57,
+      "bytes": 2801
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ClosureUniqueness",
+      "path": "ErrorCalculus/Dirichlet/ClosureUniqueness.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ClosureUniqueness.lean",
+      "sha256_source": "947acc8facc0cf4c7d584f7c174c68cd6efd8db02249540b64d275d646131a47",
+      "sha256_copy": "947acc8facc0cf4c7d584f7c174c68cd6efd8db02249540b64d275d646131a47",
+      "lines": 49,
+      "bytes": 2545
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ConditionalMatrix",
+      "path": "ErrorCalculus/Dirichlet/ConditionalMatrix.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ConditionalMatrix.lean",
+      "sha256_source": "7b244bf3467d4c5e50d0356bc73031d5d3b8074be83c7d7fd073732a6c3d1aee",
+      "sha256_copy": "7b244bf3467d4c5e50d0356bc73031d5d3b8074be83c7d7fd073732a6c3d1aee",
+      "lines": 102,
+      "bytes": 4845
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ConditionalMatrixLemma",
+      "path": "ErrorCalculus/Dirichlet/ConditionalMatrixLemma.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ConditionalMatrixLemma.lean",
+      "sha256_source": "9db12f71b912ea9d8107a0ca3777ee343be79f12c0286018692c8028e0684fca",
+      "sha256_copy": "9db12f71b912ea9d8107a0ca3777ee343be79f12c0286018692c8028e0684fca",
+      "lines": 108,
+      "bytes": 6001
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ContractionLipschitz",
+      "path": "ErrorCalculus/Dirichlet/ContractionLipschitz.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ContractionLipschitz.lean",
+      "sha256_source": "75fd0ae4a09d6901005ca45bf2d6d439ea8a64fc1d8adfb40447a37374c95a80",
+      "sha256_copy": "75fd0ae4a09d6901005ca45bf2d6d439ea8a64fc1d8adfb40447a37374c95a80",
+      "lines": 84,
+      "bytes": 4488
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ContractionMollify",
+      "path": "ErrorCalculus/Dirichlet/ContractionMollify.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ContractionMollify.lean",
+      "sha256_source": "f7e5f0bbe9c3ce360233aeeaa62ecd9ef3b129f4d790b4a4ab85b9adb6469667",
+      "sha256_copy": "f7e5f0bbe9c3ce360233aeeaa62ecd9ef3b129f4d790b4a4ab85b9adb6469667",
+      "lines": 82,
+      "bytes": 4146
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DePhilippisRindlerHypothesis",
+      "path": "ErrorCalculus/Dirichlet/DePhilippisRindlerHypothesis.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DePhilippisRindlerHypothesis.lean",
+      "sha256_source": "0248f6273979abf482e624f846a9097d16cfbbf510b1f7adda8b739b0c8e732d",
+      "sha256_copy": "0248f6273979abf482e624f846a9097d16cfbbf510b1f7adda8b739b0c8e732d",
+      "lines": 20,
+      "bytes": 745
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityBasic",
+      "path": "ErrorCalculus/Dirichlet/DensityBasic.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityBasic.lean",
+      "sha256_source": "b4c8d68acd360426cd64d98924c39ea008de2b8dc8f645b57d55bcd98469482e",
+      "sha256_copy": "b4c8d68acd360426cd64d98924c39ea008de2b8dc8f645b57d55bcd98469482e",
+      "lines": 148,
+      "bytes": 6956
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityCalculus",
+      "path": "ErrorCalculus/Dirichlet/DensityCalculus.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityCalculus.lean",
+      "sha256_source": "822646fbf4147ed0b3824dde06ec5ba331c53df9031d078d79584aba95cfeaa8",
+      "sha256_copy": "822646fbf4147ed0b3824dde06ec5ba331c53df9031d078d79584aba95cfeaa8",
+      "lines": 139,
+      "bytes": 7101
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityClosure",
+      "path": "ErrorCalculus/Dirichlet/DensityClosure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityClosure.lean",
+      "sha256_source": "e0c2407b774bbc8996aeb2bfcad6ab631495acfbfcbe2ae345a959067e69d013",
+      "sha256_copy": "e0c2407b774bbc8996aeb2bfcad6ab631495acfbfcbe2ae345a959067e69d013",
+      "lines": 79,
+      "bytes": 3880
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDBasic",
+      "path": "ErrorCalculus/Dirichlet/DensityDBasic.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDBasic.lean",
+      "sha256_source": "8ec14daab8a8e7c969fc8d701fac00c0b09cd45307d1329576dd73d056846994",
+      "sha256_copy": "8ec14daab8a8e7c969fc8d701fac00c0b09cd45307d1329576dd73d056846994",
+      "lines": 157,
+      "bytes": 7683
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDCalculus",
+      "path": "ErrorCalculus/Dirichlet/DensityDCalculus.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDCalculus.lean",
+      "sha256_source": "40e3722a9599e85dee4310608c0c85680f6aa689848439258541f638cae19b08",
+      "sha256_copy": "40e3722a9599e85dee4310608c0c85680f6aa689848439258541f638cae19b08",
+      "lines": 113,
+      "bytes": 5891
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDClosure",
+      "path": "ErrorCalculus/Dirichlet/DensityDClosure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDClosure.lean",
+      "sha256_source": "714b580acb44f25ea928137d07e12e392564ceb5671ff0afe22c1c627e15bc72",
+      "sha256_copy": "714b580acb44f25ea928137d07e12e392564ceb5671ff0afe22c1c627e15bc72",
+      "lines": 85,
+      "bytes": 4406
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDCoordinates",
+      "path": "ErrorCalculus/Dirichlet/DensityDCoordinates.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDCoordinates.lean",
+      "sha256_source": "47ae574718c7f657ec54995f465395ac415f25a864eb21d10635175b79fbefc0",
+      "sha256_copy": "47ae574718c7f657ec54995f465395ac415f25a864eb21d10635175b79fbefc0",
+      "lines": 81,
+      "bytes": 3953
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDGamma",
+      "path": "ErrorCalculus/Dirichlet/DensityDGamma.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDGamma.lean",
+      "sha256_source": "53a062f6266dfcee8cdf546cb019f40b3c781b28e6f1c6ed6b7fd2e12b75c7c7",
+      "sha256_copy": "53a062f6266dfcee8cdf546cb019f40b3c781b28e6f1c6ed6b7fd2e12b75c7c7",
+      "lines": 152,
+      "bytes": 6812
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDIBP",
+      "path": "ErrorCalculus/Dirichlet/DensityDIBP.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDIBP.lean",
+      "sha256_source": "3eb1554452da70002a51b5da5f8ec2ea30f19bddc9641717ba7575a6e7a54560",
+      "sha256_copy": "3eb1554452da70002a51b5da5f8ec2ea30f19bddc9641717ba7575a6e7a54560",
+      "lines": 108,
+      "bytes": 5703
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDStructure",
+      "path": "ErrorCalculus/Dirichlet/DensityDStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDStructure.lean",
+      "sha256_source": "bcebeddeab46035ec32f743af93359b2f49fd0f458beda4f83648593ec5a6c56",
+      "sha256_copy": "bcebeddeab46035ec32f743af93359b2f49fd0f458beda4f83648593ec5a6c56",
+      "lines": 39,
+      "bytes": 2050
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDomainEID",
+      "path": "ErrorCalculus/Dirichlet/DensityDomainEID.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDomainEID.lean",
+      "sha256_source": "a699cfad27e6b826a6a2c10161c26bc00984efa93406e800654535c6a126adf1",
+      "sha256_copy": "a699cfad27e6b826a6a2c10161c26bc00984efa93406e800654535c6a126adf1",
+      "lines": 131,
+      "bytes": 7206
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDomainEquality",
+      "path": "ErrorCalculus/Dirichlet/DensityDomainEquality.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDomainEquality.lean",
+      "sha256_source": "f25b8773fbfb82e21107126ca2d3844ef4c02cfe9441894444a1d2d4b07d3db7",
+      "sha256_copy": "f25b8773fbfb82e21107126ca2d3844ef4c02cfe9441894444a1d2d4b07d3db7",
+      "lines": 142,
+      "bytes": 7684
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDomainRepresentative",
+      "path": "ErrorCalculus/Dirichlet/DensityDomainRepresentative.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDomainRepresentative.lean",
+      "sha256_source": "23a3cbc8907e6b8469b63967e3823cd54448d1a0b2d3b2c91b56236c656c8480",
+      "sha256_copy": "23a3cbc8907e6b8469b63967e3823cd54448d1a0b2d3b2c91b56236c656c8480",
+      "lines": 136,
+      "bytes": 7275
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityDomainWeakDeriv",
+      "path": "ErrorCalculus/Dirichlet/DensityDomainWeakDeriv.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityDomainWeakDeriv.lean",
+      "sha256_source": "7b65191d70561da82dd756ded8fea3c96dca5ec3efc4afaa25fc7d73f5e1ff8d",
+      "sha256_copy": "7b65191d70561da82dd756ded8fea3c96dca5ec3efc4afaa25fc7d73f5e1ff8d",
+      "lines": 115,
+      "bytes": 6142
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityGamma",
+      "path": "ErrorCalculus/Dirichlet/DensityGamma.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityGamma.lean",
+      "sha256_source": "db6bbe30702566a27c2546b70deb6b6e3bce41c0ee25a8698fb5940e9c27aed0",
+      "sha256_copy": "db6bbe30702566a27c2546b70deb6b6e3bce41c0ee25a8698fb5940e9c27aed0",
+      "lines": 133,
+      "bytes": 5711
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityGaussian",
+      "path": "ErrorCalculus/Dirichlet/DensityGaussian.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityGaussian.lean",
+      "sha256_source": "0c15c82e4806fa1b45d8df789a913f4ae7427ac2cf4b7a4a30b2b487b70b5f9d",
+      "sha256_copy": "0c15c82e4806fa1b45d8df789a913f4ae7427ac2cf4b7a4a30b2b487b70b5f9d",
+      "lines": 36,
+      "bytes": 1294
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DensityIBP",
+      "path": "ErrorCalculus/Dirichlet/DensityIBP.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DensityIBP.lean",
+      "sha256_source": "949f3eb94a6041c71fbd22d3ad69ae6bed6dbbd14761e037531558e940ce5e3c",
+      "sha256_copy": "949f3eb94a6041c71fbd22d3ad69ae6bed6dbbd14761e037531558e940ce5e3c",
+      "lines": 99,
+      "bytes": 5019
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DetBounded",
+      "path": "ErrorCalculus/Dirichlet/DetBounded.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DetBounded.lean",
+      "sha256_source": "2e6f278ca9ed8fa0c3c24270256be569962d6fd645565547889caa314b324203",
+      "sha256_copy": "2e6f278ca9ed8fa0c3c24270256be569962d6fd645565547889caa314b324203",
+      "lines": 125,
+      "bytes": 5878
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DirichletCurrent",
+      "path": "ErrorCalculus/Dirichlet/DirichletCurrent.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DirichletCurrent.lean",
+      "sha256_source": "8aec7b03ceafae574c7716bedf189d9cc6236646199bddb38484a79b12056ee2",
+      "sha256_copy": "8aec7b03ceafae574c7716bedf189d9cc6236646199bddb38484a79b12056ee2",
+      "lines": 66,
+      "bytes": 3505
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DirichletCurrentNormal",
+      "path": "ErrorCalculus/Dirichlet/DirichletCurrentNormal.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DirichletCurrentNormal.lean",
+      "sha256_source": "b3009e5e98e125d5c4b022fa3686c40b203ad85d97ae7e05871e1a038192a6a7",
+      "sha256_copy": "b3009e5e98e125d5c4b022fa3686c40b203ad85d97ae7e05871e1a038192a6a7",
+      "lines": 64,
+      "bytes": 3447
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DirichletFormTruncation",
+      "path": "ErrorCalculus/Dirichlet/DirichletFormTruncation.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DirichletFormTruncation.lean",
+      "sha256_source": "ef8db86c4fdab0e7e22ce0c2111f43517ba181bd29f5e12b9f24745126a86baa",
+      "sha256_copy": "ef8db86c4fdab0e7e22ce0c2111f43517ba181bd29f5e12b9f24745126a86baa",
+      "lines": 121,
+      "bytes": 5438
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DirichletProperty",
+      "path": "ErrorCalculus/Dirichlet/DirichletProperty.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DirichletProperty.lean",
+      "sha256_source": "8ba2c6ae7db611056d6f11648c53d2911640de2f290f4b8b0ddc04090e92138e",
+      "sha256_copy": "8ba2c6ae7db611056d6f11648c53d2911640de2f290f4b8b0ddc04090e92138e",
+      "lines": 137,
+      "bytes": 7410
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.DivergenceOU",
+      "path": "ErrorCalculus/Dirichlet/DivergenceOU.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/DivergenceOU.lean",
+      "sha256_source": "0ef8214c3b1883af0e69adea395b370d0046af1da34522a339fd6594a839ec85",
+      "sha256_copy": "0ef8214c3b1883af0e69adea395b370d0046af1da34522a339fd6594a839ec85",
+      "lines": 179,
+      "bytes": 9710
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EIDConditional",
+      "path": "ErrorCalculus/Dirichlet/EIDConditional.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EIDConditional.lean",
+      "sha256_source": "05a962643b4b6a6f562405dd924eedce7e8305e3003dc9d206aaa4f7f4539d82",
+      "sha256_copy": "05a962643b4b6a6f562405dd924eedce7e8305e3003dc9d206aaa4f7f4539d82",
+      "lines": 78,
+      "bytes": 3891
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EIDConditionalGeneral",
+      "path": "ErrorCalculus/Dirichlet/EIDConditionalGeneral.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EIDConditionalGeneral.lean",
+      "sha256_source": "cfb3361ede19fb9d688fed8395cef2ab76f523c73d7cbbf2dc685f38f65f3279",
+      "sha256_copy": "cfb3361ede19fb9d688fed8395cef2ab76f523c73d7cbbf2dc685f38f65f3279",
+      "lines": 72,
+      "bytes": 3844
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EIDConditionalVariants",
+      "path": "ErrorCalculus/Dirichlet/EIDConditionalVariants.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EIDConditionalVariants.lean",
+      "sha256_source": "52ebc4c46c4c979b4dc091fe0f56d37f52031bc88e0cfc4a7c59edb55823c5a1",
+      "sha256_copy": "52ebc4c46c4c979b4dc091fe0f56d37f52031bc88e0cfc4a7c59edb55823c5a1",
+      "lines": 73,
+      "bytes": 3752
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EIDDensity",
+      "path": "ErrorCalculus/Dirichlet/EIDDensity.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EIDDensity.lean",
+      "sha256_source": "def24ab29de88a53dba73171b2cad119f4134305b65a7728bda950c74fc7cf11",
+      "sha256_copy": "def24ab29de88a53dba73171b2cad119f4134305b65a7728bda950c74fc7cf11",
+      "lines": 84,
+      "bytes": 4362
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EIDStability",
+      "path": "ErrorCalculus/Dirichlet/EIDStability.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EIDStability.lean",
+      "sha256_source": "22a2bd7e2953e176b9fcb6931929e3c011eab3c158d2714d21a258b9c9a4eec4",
+      "sha256_copy": "22a2bd7e2953e176b9fcb6931929e3c011eab3c158d2714d21a258b9c9a4eec4",
+      "lines": 122,
+      "bytes": 6313
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EIDUniversal",
+      "path": "ErrorCalculus/Dirichlet/EIDUniversal.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EIDUniversal.lean",
+      "sha256_source": "a0e04ad9c9d40ebc95fe2ed2996f42e62a13956f77bc96d3f8d04aeb1ca3b062",
+      "sha256_copy": "a0e04ad9c9d40ebc95fe2ed2996f42e62a13956f77bc96d3f8d04aeb1ca3b062",
+      "lines": 51,
+      "bytes": 2444
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EIDVectorChain",
+      "path": "ErrorCalculus/Dirichlet/EIDVectorChain.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EIDVectorChain.lean",
+      "sha256_source": "aa8b902121a6c86652c168822ed58beeea39c78ddb92615aeb22d974e250ba20",
+      "sha256_copy": "aa8b902121a6c86652c168822ed58beeea39c78ddb92615aeb22d974e250ba20",
+      "lines": 78,
+      "bytes": 4024
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EIDVectorCriterion",
+      "path": "ErrorCalculus/Dirichlet/EIDVectorCriterion.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EIDVectorCriterion.lean",
+      "sha256_source": "9572368489c5a9cd34418b848020141e88d604ab0ae387f314ff88103bdeb3ca",
+      "sha256_copy": "9572368489c5a9cd34418b848020141e88d604ab0ae387f314ff88103bdeb3ca",
+      "lines": 110,
+      "bytes": 6041
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EIDVectorWeights",
+      "path": "ErrorCalculus/Dirichlet/EIDVectorWeights.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EIDVectorWeights.lean",
+      "sha256_source": "94b692a451c31f6951e25191f7a4a710e5cf2d41ef4b3d87437617bef40d3213",
+      "sha256_copy": "94b692a451c31f6951e25191f7a4a710e5cf2d41ef4b3d87437617bef40d3213",
+      "lines": 51,
+      "bytes": 2235
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EnergyImageDensity",
+      "path": "ErrorCalculus/Dirichlet/EnergyImageDensity.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EnergyImageDensity.lean",
+      "sha256_source": "21bc397ae65962dfe1adae49df351c8ca8bbdc998ff5cadd16585214aeba1f3f",
+      "sha256_copy": "21bc397ae65962dfe1adae49df351c8ca8bbdc998ff5cadd16585214aeba1f3f",
+      "lines": 157,
+      "bytes": 9296
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EnergyImagePrimitive",
+      "path": "ErrorCalculus/Dirichlet/EnergyImagePrimitive.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EnergyImagePrimitive.lean",
+      "sha256_source": "f4e00bdd548a43289f577c292878dc4783b0e74f64b4d8232dc842f991a390fb",
+      "sha256_copy": "f4e00bdd548a43289f577c292878dc4783b0e74f64b4d8232dc842f991a390fb",
+      "lines": 187,
+      "bytes": 9442
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EnergyImageWeak",
+      "path": "ErrorCalculus/Dirichlet/EnergyImageWeak.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EnergyImageWeak.lean",
+      "sha256_source": "e0984edeb190727c97f023ad1ff1e2c16c5df02e20a1b9c43f63b97906333b3a",
+      "sha256_copy": "e0984edeb190727c97f023ad1ff1e2c16c5df02e20a1b9c43f63b97906333b3a",
+      "lines": 79,
+      "bytes": 3927
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.Entropy",
+      "path": "ErrorCalculus/Dirichlet/Entropy.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/Entropy.lean",
+      "sha256_source": "98962f5d490b86e893893f223fc0c67773bd4c6e5d5d276d0aef5c56e38cec47",
+      "sha256_copy": "98962f5d490b86e893893f223fc0c67773bd4c6e5d5d276d0aef5c56e38cec47",
+      "lines": 65,
+      "bytes": 2837
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EntropyDecay",
+      "path": "ErrorCalculus/Dirichlet/EntropyDecay.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EntropyDecay.lean",
+      "sha256_source": "ffacc4cf4254afe670a331cca2777b54ee88b99627d4875fcef6b8d1fd353b8c",
+      "sha256_copy": "ffacc4cf4254afe670a331cca2777b54ee88b99627d4875fcef6b8d1fd353b8c",
+      "lines": 199,
+      "bytes": 10101
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.EntropyLimit",
+      "path": "ErrorCalculus/Dirichlet/EntropyLimit.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/EntropyLimit.lean",
+      "sha256_source": "aa6aa51bd475a15c809185c2ef54c1dc64ad7b4639014c8faa585f1c02cbeff9",
+      "sha256_copy": "aa6aa51bd475a15c809185c2ef54c1dc64ad7b4639014c8faa585f1c02cbeff9",
+      "lines": 98,
+      "bytes": 5160
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ErrorStructure",
+      "path": "ErrorCalculus/Dirichlet/ErrorStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ErrorStructure.lean",
+      "sha256_source": "1bc79d2d1867355eae47fd354822885e50db0d9e37557c61f3e1653fc0f73056",
+      "sha256_copy": "1bc79d2d1867355eae47fd354822885e50db0d9e37557c61f3e1653fc0f73056",
+      "lines": 136,
+      "bytes": 5714
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.Extension",
+      "path": "ErrorCalculus/Dirichlet/Extension.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/Extension.lean",
+      "sha256_source": "1c5e11516e1e511f42c003b0241b75db2517ea08740c51df1dd20aaa40e27bbf",
+      "sha256_copy": "1c5e11516e1e511f42c003b0241b75db2517ea08740c51df1dd20aaa40e27bbf",
+      "lines": 105,
+      "bytes": 4446
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ExtensionGamma",
+      "path": "ErrorCalculus/Dirichlet/ExtensionGamma.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ExtensionGamma.lean",
+      "sha256_source": "87ebcd8c84eb24abd1596c9b9acd1eef0b89c3599a5b0d556c329c98ef3ffb90",
+      "sha256_copy": "87ebcd8c84eb24abd1596c9b9acd1eef0b89c3599a5b0d556c329c98ef3ffb90",
+      "lines": 145,
+      "bytes": 7791
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ExtensionGammaBounds",
+      "path": "ErrorCalculus/Dirichlet/ExtensionGammaBounds.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ExtensionGammaBounds.lean",
+      "sha256_source": "5b003b471384cc86bd3511d90f5509ebd1709f985b7837d949dedb86c1c7679d",
+      "sha256_copy": "5b003b471384cc86bd3511d90f5509ebd1709f985b7837d949dedb86c1c7679d",
+      "lines": 202,
+      "bytes": 9563
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ExtensionLp",
+      "path": "ErrorCalculus/Dirichlet/ExtensionLp.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ExtensionLp.lean",
+      "sha256_source": "a9929768ac2ffa4004e96346a744d087ee8f463af9bbb2553bd6cfbc7e71be2c",
+      "sha256_copy": "a9929768ac2ffa4004e96346a744d087ee8f463af9bbb2553bd6cfbc7e71be2c",
+      "lines": 111,
+      "bytes": 5382
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.FiniteEnergyDual",
+      "path": "ErrorCalculus/Dirichlet/FiniteEnergyDual.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/FiniteEnergyDual.lean",
+      "sha256_source": "d68142d000f2779dcf75451951e56c27b3bd03bf5bb3e3e7094046c9cc7c1cb0",
+      "sha256_copy": "d68142d000f2779dcf75451951e56c27b3bd03bf5bb3e3e7094046c9cc7c1cb0",
+      "lines": 397,
+      "bytes": 17093
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.FiniteEnergyExamples",
+      "path": "ErrorCalculus/Dirichlet/FiniteEnergyExamples.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/FiniteEnergyExamples.lean",
+      "sha256_source": "757f334ec104f6fbc08eb181067fe7ab251387463ef5c7dc671c1a3facd4ded9",
+      "sha256_copy": "757f334ec104f6fbc08eb181067fe7ab251387463ef5c7dc671c1a3facd4ded9",
+      "lines": 247,
+      "bytes": 12191
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.FiniteEnergyMeasure",
+      "path": "ErrorCalculus/Dirichlet/FiniteEnergyMeasure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/FiniteEnergyMeasure.lean",
+      "sha256_source": "b10810389f47549d9b9dfc89db8ce869d1be1d04e9d4c37c6332c1135471132c",
+      "sha256_copy": "b10810389f47549d9b9dfc89db8ce869d1be1d04e9d4c37c6332c1135471132c",
+      "lines": 591,
+      "bytes": 29397
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.FiniteEnergyPotential",
+      "path": "ErrorCalculus/Dirichlet/FiniteEnergyPotential.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/FiniteEnergyPotential.lean",
+      "sha256_source": "76b1a023514deb7390bf9a3641437a7899d8896104da27e8b8958c4e2e1c8515",
+      "sha256_copy": "76b1a023514deb7390bf9a3641437a7899d8896104da27e8b8958c4e2e1c8515",
+      "lines": 256,
+      "bytes": 10889
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.FiniteL1Subsequence",
+      "path": "ErrorCalculus/Dirichlet/FiniteL1Subsequence.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/FiniteL1Subsequence.lean",
+      "sha256_source": "2408f6eb73a7d888c3419fb396914e18d5369f69ecd16ecdd7f8c20afd3aea40",
+      "sha256_copy": "2408f6eb73a7d888c3419fb396914e18d5369f69ecd16ecdd7f8c20afd3aea40",
+      "lines": 66,
+      "bytes": 2957
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.FormConvergence",
+      "path": "ErrorCalculus/Dirichlet/FormConvergence.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/FormConvergence.lean",
+      "sha256_source": "514d5dfebd113e251d304cee27129b09027df70c42edacee2f91e17b0a311fda",
+      "sha256_copy": "514d5dfebd113e251d304cee27129b09027df70c42edacee2f91e17b0a311fda",
+      "lines": 82,
+      "bytes": 3992
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.FormNorm",
+      "path": "ErrorCalculus/Dirichlet/FormNorm.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/FormNorm.lean",
+      "sha256_source": "e7a4a665968cb1cd13249c1bf17fd7af2ec00ad44261eb62de354e23279bad2d",
+      "sha256_copy": "e7a4a665968cb1cd13249c1bf17fd7af2ec00ad44261eb62de354e23279bad2d",
+      "lines": 70,
+      "bytes": 3013
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.FormSpace",
+      "path": "ErrorCalculus/Dirichlet/FormSpace.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/FormSpace.lean",
+      "sha256_source": "828128da6d1cb709edd6c7477db11a97bab9e094d3db5c95c13d8105224c7e93",
+      "sha256_copy": "828128da6d1cb709edd6c7477db11a97bab9e094d3db5c95c13d8105224c7e93",
+      "lines": 57,
+      "bytes": 2699
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.FormSpaceDensityLadder",
+      "path": "ErrorCalculus/Dirichlet/FormSpaceDensityLadder.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/FormSpaceDensityLadder.lean",
+      "sha256_source": "77d1e16e86a29822a13f23249b1f3dd72b92c76f321bd36737e42d9ae7286fe4",
+      "sha256_copy": "77d1e16e86a29822a13f23249b1f3dd72b92c76f321bd36737e42d9ae7286fe4",
+      "lines": 203,
+      "bytes": 11250
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.GammaCauchySchwarz",
+      "path": "ErrorCalculus/Dirichlet/GammaCauchySchwarz.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/GammaCauchySchwarz.lean",
+      "sha256_source": "567100e84ee77b250000d9481bf92e9a3ef35a7089836cdc4f01b33f23c67978",
+      "sha256_copy": "567100e84ee77b250000d9481bf92e9a3ef35a7089836cdc4f01b33f23c67978",
+      "lines": 45,
+      "bytes": 2140
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.GammaKernel",
+      "path": "ErrorCalculus/Dirichlet/GammaKernel.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/GammaKernel.lean",
+      "sha256_source": "b53d072db31ddfe7c7f30d807063b55fdc7628e150e63d89a4f4d987ac99bdf9",
+      "sha256_copy": "b53d072db31ddfe7c7f30d807063b55fdc7628e150e63d89a4f4d987ac99bdf9",
+      "lines": 164,
+      "bytes": 7285
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.GaussianD",
+      "path": "ErrorCalculus/Dirichlet/GaussianD.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/GaussianD.lean",
+      "sha256_source": "0d67c5faeac69ffd8cb71e85b954c32479123dde7e1a5220c460277046a04b2a",
+      "sha256_copy": "0d67c5faeac69ffd8cb71e85b954c32479123dde7e1a5220c460277046a04b2a",
+      "lines": 113,
+      "bytes": 5209
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.GeneratorApproximation",
+      "path": "ErrorCalculus/Dirichlet/GeneratorApproximation.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/GeneratorApproximation.lean",
+      "sha256_source": "401c3c0e048d503a7aeeb1a6601cf785bcd4da0bcade019b89d584a8a9291b9f",
+      "sha256_copy": "401c3c0e048d503a7aeeb1a6601cf785bcd4da0bcade019b89d584a8a9291b9f",
+      "lines": 31,
+      "bytes": 1552
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.GeneratorComposition",
+      "path": "ErrorCalculus/Dirichlet/GeneratorComposition.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/GeneratorComposition.lean",
+      "sha256_source": "cc2542141829b4a51989a0f6abf9f9b2c0bb18277666eea8114f5f98707e3566",
+      "sha256_copy": "cc2542141829b4a51989a0f6abf9f9b2c0bb18277666eea8114f5f98707e3566",
+      "lines": 245,
+      "bytes": 14396
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.GeneratorWeights",
+      "path": "ErrorCalculus/Dirichlet/GeneratorWeights.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/GeneratorWeights.lean",
+      "sha256_source": "09dbc08caa0e3283a04d6a42d67727afb3f864cc0c9991035014f2d017612c3c",
+      "sha256_copy": "09dbc08caa0e3283a04d6a42d67727afb3f864cc0c9991035014f2d017612c3c",
+      "lines": 201,
+      "bytes": 10702
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.GradientD",
+      "path": "ErrorCalculus/Dirichlet/GradientD.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/GradientD.lean",
+      "sha256_source": "06bb1e9672c31c088eabce0e4d7541be852112fafa4793a24b52fc11ac451dbc",
+      "sha256_copy": "06bb1e9672c31c088eabce0e4d7541be852112fafa4793a24b52fc11ac451dbc",
+      "lines": 196,
+      "bytes": 10486
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.GrossExponent",
+      "path": "ErrorCalculus/Dirichlet/GrossExponent.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/GrossExponent.lean",
+      "sha256_source": "81ee2c91df521a526f9fd6f0547b4b29879a970694b7c81849fcc62adb7cd30a",
+      "sha256_copy": "81ee2c91df521a526f9fd6f0547b4b29879a970694b7c81849fcc62adb7cd30a",
+      "lines": 40,
+      "bytes": 1268
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.GrossTheorem",
+      "path": "ErrorCalculus/Dirichlet/GrossTheorem.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/GrossTheorem.lean",
+      "sha256_source": "6c388f0b01d7d09253a0f9307d17fe412038c033d2bbcad5b046446664b321a5",
+      "sha256_copy": "6c388f0b01d7d09253a0f9307d17fe412038c033d2bbcad5b046446664b321a5",
+      "lines": 123,
+      "bytes": 6144
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.HilbertWeakStrong",
+      "path": "ErrorCalculus/Dirichlet/HilbertWeakStrong.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/HilbertWeakStrong.lean",
+      "sha256_source": "a2933671f891034617e75d642b8d405b125fb8f2475b3e1af2184cbf22304fc5",
+      "sha256_copy": "a2933671f891034617e75d642b8d405b125fb8f2475b3e1af2184cbf22304fc5",
+      "lines": 141,
+      "bytes": 6848
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ImageBasic",
+      "path": "ErrorCalculus/Dirichlet/ImageBasic.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ImageBasic.lean",
+      "sha256_source": "5d75c81c22b6f1a7ac59867959b1c8786cab73d009469f9a9ed16942c10c90fa",
+      "sha256_copy": "5d75c81c22b6f1a7ac59867959b1c8786cab73d009469f9a9ed16942c10c90fa",
+      "lines": 64,
+      "bytes": 2914
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ImageCalculus",
+      "path": "ErrorCalculus/Dirichlet/ImageCalculus.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ImageCalculus.lean",
+      "sha256_source": "155d46602b6c528480d41b859938d6a211e7e968273ee6d07815617d958ebb9e",
+      "sha256_copy": "155d46602b6c528480d41b859938d6a211e7e968273ee6d07815617d958ebb9e",
+      "lines": 96,
+      "bytes": 4629
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ImageCondExp",
+      "path": "ErrorCalculus/Dirichlet/ImageCondExp.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ImageCondExp.lean",
+      "sha256_source": "4f2b7aa26c963b9dc6fd8a00c083fbca6480070970f21ecbb9e896ae78b679ec",
+      "sha256_copy": "4f2b7aa26c963b9dc6fd8a00c083fbca6480070970f21ecbb9e896ae78b679ec",
+      "lines": 86,
+      "bytes": 4361
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ImageCoordinates",
+      "path": "ErrorCalculus/Dirichlet/ImageCoordinates.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ImageCoordinates.lean",
+      "sha256_source": "287efcaa4a0f14b237b23de7292b08d159f728601367c935b74ce449300e6eba",
+      "sha256_copy": "287efcaa4a0f14b237b23de7292b08d159f728601367c935b74ce449300e6eba",
+      "lines": 68,
+      "bytes": 3258
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ImageData",
+      "path": "ErrorCalculus/Dirichlet/ImageData.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ImageData.lean",
+      "sha256_source": "e5c7ed03751b5897235ab9b49a7822b647ae4632ea65ebeb13946e5b74756068",
+      "sha256_copy": "e5c7ed03751b5897235ab9b49a7822b647ae4632ea65ebeb13946e5b74756068",
+      "lines": 76,
+      "bytes": 3172
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ImageDomain",
+      "path": "ErrorCalculus/Dirichlet/ImageDomain.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ImageDomain.lean",
+      "sha256_source": "dcd7b39e14d302026582106d38597753915cecbc21b87e226c328028ff7e2acb",
+      "sha256_copy": "dcd7b39e14d302026582106d38597753915cecbc21b87e226c328028ff7e2acb",
+      "lines": 82,
+      "bytes": 3798
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ImageGamma",
+      "path": "ErrorCalculus/Dirichlet/ImageGamma.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ImageGamma.lean",
+      "sha256_source": "952578ad38ab10ce4f5dbba3b363237850d436c1924dd7596126cedaec49533b",
+      "sha256_copy": "952578ad38ab10ce4f5dbba3b363237850d436c1924dd7596126cedaec49533b",
+      "lines": 129,
+      "bytes": 6251
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ImageL1Transfer",
+      "path": "ErrorCalculus/Dirichlet/ImageL1Transfer.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ImageL1Transfer.lean",
+      "sha256_source": "e263fce95fae2888659434ca5b527695932dde4b358de226960a3e4fbb40ebf2",
+      "sha256_copy": "e263fce95fae2888659434ca5b527695932dde4b358de226960a3e4fbb40ebf2",
+      "lines": 104,
+      "bytes": 5616
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ImageStructure",
+      "path": "ErrorCalculus/Dirichlet/ImageStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ImageStructure.lean",
+      "sha256_source": "88d10358237aed0c12d6092df5c3914c8b33c8043f3dc8fc1b28a39cbcee1716",
+      "sha256_copy": "88d10358237aed0c12d6092df5c3914c8b33c8043f3dc8fc1b28a39cbcee1716",
+      "lines": 42,
+      "bytes": 2100
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ImageTests",
+      "path": "ErrorCalculus/Dirichlet/ImageTests.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ImageTests.lean",
+      "sha256_source": "ed0d99032c05a872428f293bc81ebc930e6e15e1bb4483ef9cb96a17db572978",
+      "sha256_copy": "ed0d99032c05a872428f293bc81ebc930e6e15e1bb4483ef9cb96a17db572978",
+      "lines": 86,
+      "bytes": 3502
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.IntegralFunctional",
+      "path": "ErrorCalculus/Dirichlet/IntegralFunctional.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/IntegralFunctional.lean",
+      "sha256_source": "ab248e44f0b397d4d995d00d5f17807199d8634708477cf4dda0245bf3c076b5",
+      "sha256_copy": "ab248e44f0b397d4d995d00d5f17807199d8634708477cf4dda0245bf3c076b5",
+      "lines": 165,
+      "bytes": 8567
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.IntegralRpowExponent",
+      "path": "ErrorCalculus/Dirichlet/IntegralRpowExponent.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/IntegralRpowExponent.lean",
+      "sha256_source": "5b4d35e2c6d5a2b26974e2eb8685a6d1b5166b0d11232548c71d4009f029b9ca",
+      "sha256_copy": "5b4d35e2c6d5a2b26974e2eb8685a6d1b5166b0d11232548c71d4009f029b9ca",
+      "lines": 209,
+      "bytes": 11472
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.KernelProjection",
+      "path": "ErrorCalculus/Dirichlet/KernelProjection.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/KernelProjection.lean",
+      "sha256_source": "bb87641aa918c920ee38d458281da6d2e1ec9ff0a388f6f7bf258b7f886f6761",
+      "sha256_copy": "bb87641aa918c920ee38d458281da6d2e1ec9ff0a388f6f7bf258b7f886f6761",
+      "lines": 74,
+      "bytes": 3487
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LatticeGamma",
+      "path": "ErrorCalculus/Dirichlet/LatticeGamma.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LatticeGamma.lean",
+      "sha256_source": "c13e45aa5e82a1d6cd503cb1e0ad2eebc663801f6a4637cdbfb9aebb57308ad5",
+      "sha256_copy": "c13e45aa5e82a1d6cd503cb1e0ad2eebc663801f6a4637cdbfb9aebb57308ad5",
+      "lines": 151,
+      "bytes": 7991
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LipschitzCalculus",
+      "path": "ErrorCalculus/Dirichlet/LipschitzCalculus.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LipschitzCalculus.lean",
+      "sha256_source": "f7b81350d182593d7a46e42e3acd38184322854caa34d0ad52aef2418af7b18d",
+      "sha256_copy": "f7b81350d182593d7a46e42e3acd38184322854caa34d0ad52aef2418af7b18d",
+      "lines": 160,
+      "bytes": 8373
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LipschitzChainGeneral",
+      "path": "ErrorCalculus/Dirichlet/LipschitzChainGeneral.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LipschitzChainGeneral.lean",
+      "sha256_source": "bcf6afe85aaad8a6e93061aa8da8b889c306ffda86d8486cbc531a3f6ebe1265",
+      "sha256_copy": "bcf6afe85aaad8a6e93061aa8da8b889c306ffda86d8486cbc531a3f6ebe1265",
+      "lines": 37,
+      "bytes": 1826
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LipschitzContinuity",
+      "path": "ErrorCalculus/Dirichlet/LipschitzContinuity.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LipschitzContinuity.lean",
+      "sha256_source": "e4d7d01b2f4cb3b958dcd3b7a7dc900d92c4bea9fe28b5cd387587fae88f5553",
+      "sha256_copy": "e4d7d01b2f4cb3b958dcd3b7a7dc900d92c4bea9fe28b5cd387587fae88f5553",
+      "lines": 250,
+      "bytes": 14263
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LipschitzEID",
+      "path": "ErrorCalculus/Dirichlet/LipschitzEID.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LipschitzEID.lean",
+      "sha256_source": "cfeb31a3312ba48e978837eb7c24231b1abff456f232d378c025c2322a56b213",
+      "sha256_copy": "cfeb31a3312ba48e978837eb7c24231b1abff456f232d378c025c2322a56b213",
+      "lines": 63,
+      "bytes": 2898
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LipschitzLimits",
+      "path": "ErrorCalculus/Dirichlet/LipschitzLimits.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LipschitzLimits.lean",
+      "sha256_source": "7057df2b1dcd59ec2674fb5fd99d3f42f506d6e1cbdf0af75b263ef53e581ee1",
+      "sha256_copy": "7057df2b1dcd59ec2674fb5fd99d3f42f506d6e1cbdf0af75b263ef53e581ee1",
+      "lines": 159,
+      "bytes": 8034
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LipschitzRegularize",
+      "path": "ErrorCalculus/Dirichlet/LipschitzRegularize.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LipschitzRegularize.lean",
+      "sha256_source": "eb6a03ab87199d3d1b6d642194369cae518c715e7a889a1774b66ba28904828b",
+      "sha256_copy": "eb6a03ab87199d3d1b6d642194369cae518c715e7a889a1774b66ba28904828b",
+      "lines": 158,
+      "bytes": 7966
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalCarreDuChamp",
+      "path": "ErrorCalculus/Dirichlet/LocalCarreDuChamp.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalCarreDuChamp.lean",
+      "sha256_source": "9b57e3d50f5324b752adcc0bc4dc2157cd5416e858cb9c34f142d0e9893bdb80",
+      "sha256_copy": "9b57e3d50f5324b752adcc0bc4dc2157cd5416e858cb9c34f142d0e9893bdb80",
+      "lines": 612,
+      "bytes": 30240
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalCarreDuChampChain",
+      "path": "ErrorCalculus/Dirichlet/LocalCarreDuChampChain.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalCarreDuChampChain.lean",
+      "sha256_source": "54119a351a97881ebbdf51f85f54eec2b37bd026582ef19a2e679094f70a0377",
+      "sha256_copy": "54119a351a97881ebbdf51f85f54eec2b37bd026582ef19a2e679094f70a0377",
+      "lines": 581,
+      "bytes": 30846
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalCarreDuChampChainRule",
+      "path": "ErrorCalculus/Dirichlet/LocalCarreDuChampChainRule.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalCarreDuChampChainRule.lean",
+      "sha256_source": "73cc31b30581ce1d0c30c0674bff2684d6c2f6281ab5e5929aa446ddbd73ebd5",
+      "sha256_copy": "73cc31b30581ce1d0c30c0674bff2684d6c2f6281ab5e5929aa446ddbd73ebd5",
+      "lines": 497,
+      "bytes": 27047
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalCarreDuChampClamp",
+      "path": "ErrorCalculus/Dirichlet/LocalCarreDuChampClamp.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalCarreDuChampClamp.lean",
+      "sha256_source": "84e7963ff6c95e4e74579a5ec6ca57235d233dbb8a49c2a590f72239c716f4a6",
+      "sha256_copy": "84e7963ff6c95e4e74579a5ec6ca57235d233dbb8a49c2a590f72239c716f4a6",
+      "lines": 257,
+      "bytes": 12196
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalCarreDuChampLevels",
+      "path": "ErrorCalculus/Dirichlet/LocalCarreDuChampLevels.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalCarreDuChampLevels.lean",
+      "sha256_source": "92b0333817936ce660c64cc26e924ed861a7422f2ac6a89f5ef5003de795749e",
+      "sha256_copy": "92b0333817936ce660c64cc26e924ed861a7422f2ac6a89f5ef5003de795749e",
+      "lines": 296,
+      "bytes": 14696
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalCarreDuChampMultivariate",
+      "path": "ErrorCalculus/Dirichlet/LocalCarreDuChampMultivariate.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalCarreDuChampMultivariate.lean",
+      "sha256_source": "75453cbdd4d596ed7f890782d21ee870064cce5d34afc1f3c9a19f8bb88f3fa5",
+      "sha256_copy": "75453cbdd4d596ed7f890782d21ee870064cce5d34afc1f3c9a19f8bb88f3fa5",
+      "lines": 407,
+      "bytes": 21759
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalDirichletForm",
+      "path": "ErrorCalculus/Dirichlet/LocalDirichletForm.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalDirichletForm.lean",
+      "sha256_source": "c25232c57f4989c0941c38320d821997f2c11fc9b1370763d43bdce2c06d8ada",
+      "sha256_copy": "c25232c57f4989c0941c38320d821997f2c11fc9b1370763d43bdce2c06d8ada",
+      "lines": 208,
+      "bytes": 10052
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalDirichletFormBounded",
+      "path": "ErrorCalculus/Dirichlet/LocalDirichletFormBounded.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalDirichletFormBounded.lean",
+      "sha256_source": "6e97fb6819d074065bd80883062d7d56d1ce439a716fb520c440e4297f606488",
+      "sha256_copy": "6e97fb6819d074065bd80883062d7d56d1ce439a716fb520c440e4297f606488",
+      "lines": 337,
+      "bytes": 15988
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalDirichletFormLipschitz",
+      "path": "ErrorCalculus/Dirichlet/LocalDirichletFormLipschitz.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalDirichletFormLipschitz.lean",
+      "sha256_source": "e72af7820e40e043e6b7da11370b0c6c0fd5560d203f38245b7e4e751f4eb167",
+      "sha256_copy": "e72af7820e40e043e6b7da11370b0c6c0fd5560d203f38245b7e4e751f4eb167",
+      "lines": 392,
+      "bytes": 19195
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalityApproximation",
+      "path": "ErrorCalculus/Dirichlet/LocalityApproximation.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalityApproximation.lean",
+      "sha256_source": "ac0d38ff06512dacdcd28c79240a6a0b73bc829df7a35a86cb982ff31b7202d9",
+      "sha256_copy": "ac0d38ff06512dacdcd28c79240a6a0b73bc829df7a35a86cb982ff31b7202d9",
+      "lines": 105,
+      "bytes": 6021
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalityZero",
+      "path": "ErrorCalculus/Dirichlet/LocalityZero.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalityZero.lean",
+      "sha256_source": "7ca39e38a7114a157be07b146146a682d8ab23cfeb962f1baf039c6880bbd1b9",
+      "sha256_copy": "7ca39e38a7114a157be07b146146a682d8ab23cfeb962f1baf039c6880bbd1b9",
+      "lines": 197,
+      "bytes": 9951
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalizedEID",
+      "path": "ErrorCalculus/Dirichlet/LocalizedEID.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalizedEID.lean",
+      "sha256_source": "85f1186b5039e6a8d8c5c72dfaea353653ea14f2a2ca0511206378a215481bce",
+      "sha256_copy": "85f1186b5039e6a8d8c5c72dfaea353653ea14f2a2ca0511206378a215481bce",
+      "lines": 151,
+      "bytes": 8127
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LocalizedWeights",
+      "path": "ErrorCalculus/Dirichlet/LocalizedWeights.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LocalizedWeights.lean",
+      "sha256_source": "1eba77760ccd6c6f23051318d9a2dbe993734bf7a22c8c96f116afec29ad7034",
+      "sha256_copy": "1eba77760ccd6c6f23051318d9a2dbe993734bf7a22c8c96f116afec29ad7034",
+      "lines": 165,
+      "bytes": 8193
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LogSobolev",
+      "path": "ErrorCalculus/Dirichlet/LogSobolev.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LogSobolev.lean",
+      "sha256_source": "6eb92432ae370d2b944261148d2387d5d380ac53818f35e054f5bbf5b41d3a10",
+      "sha256_copy": "6eb92432ae370d2b944261148d2387d5d380ac53818f35e054f5bbf5b41d3a10",
+      "lines": 107,
+      "bytes": 5601
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.LowerSemicontinuous",
+      "path": "ErrorCalculus/Dirichlet/LowerSemicontinuous.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/LowerSemicontinuous.lean",
+      "sha256_source": "61f3c2d9328239d4352c00268d13e7d11405a10c4b5c9c0d432e2376c14025e4",
+      "sha256_copy": "61f3c2d9328239d4352c00268d13e7d11405a10c4b5c9c0d432e2376c14025e4",
+      "lines": 99,
+      "bytes": 5010
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.MatrixFunctionalMeasurable",
+      "path": "ErrorCalculus/Dirichlet/MatrixFunctionalMeasurable.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/MatrixFunctionalMeasurable.lean",
+      "sha256_source": "1f3780b29235885acbae7f7a875aa39c547af7b1a326a6abda9dd562c4c876c9",
+      "sha256_copy": "1f3780b29235885acbae7f7a875aa39c547af7b1a326a6abda9dd562c4c876c9",
+      "lines": 65,
+      "bytes": 3053
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.MatrixSqrtMeasurable",
+      "path": "ErrorCalculus/Dirichlet/MatrixSqrtMeasurable.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/MatrixSqrtMeasurable.lean",
+      "sha256_source": "2dab98d5a9a8624e225f344adbf1e61ef453b9d39f270699c8b08213ce763c61",
+      "sha256_copy": "2dab98d5a9a8624e225f344adbf1e61ef453b9d39f270699c8b08213ce763c61",
+      "lines": 138,
+      "bytes": 6750
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.MixedConditionalMatrix",
+      "path": "ErrorCalculus/Dirichlet/MixedConditionalMatrix.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/MixedConditionalMatrix.lean",
+      "sha256_source": "5ff328c4da886f84b835d08c8085b558467a3580a91d29647aea9cf9c4334fbc",
+      "sha256_copy": "5ff328c4da886f84b835d08c8085b558467a3580a91d29647aea9cf9c4334fbc",
+      "lines": 73,
+      "bytes": 4060
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.MixedDirichletCurrent",
+      "path": "ErrorCalculus/Dirichlet/MixedDirichletCurrent.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/MixedDirichletCurrent.lean",
+      "sha256_source": "8227fa80923d889b07f0351ea659bd91605745c2a0b5d914f098a13955ed0d95",
+      "sha256_copy": "8227fa80923d889b07f0351ea659bd91605745c2a0b5d914f098a13955ed0d95",
+      "lines": 87,
+      "bytes": 4875
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.OUDIBP",
+      "path": "ErrorCalculus/Dirichlet/OUDIBP.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/OUDIBP.lean",
+      "sha256_source": "2a71eb6521b29d41076f5513ba4ed66d363f532798b8b7ea7dfc266c8786c7be",
+      "sha256_copy": "2a71eb6521b29d41076f5513ba4ed66d363f532798b8b7ea7dfc266c8786c7be",
+      "lines": 151,
+      "bytes": 7644
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.OUDLogSobolev",
+      "path": "ErrorCalculus/Dirichlet/OUDLogSobolev.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/OUDLogSobolev.lean",
+      "sha256_source": "a1d384305e6da8db4ade46ca876cf938d3bcfe91a8be32cfc9e0a56db3dd2103",
+      "sha256_copy": "a1d384305e6da8db4ade46ca876cf938d3bcfe91a8be32cfc9e0a56db3dd2103",
+      "lines": 81,
+      "bytes": 4084
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.OUDLogSobolevC2",
+      "path": "ErrorCalculus/Dirichlet/OUDLogSobolevC2.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/OUDLogSobolevC2.lean",
+      "sha256_source": "e0b48f2be34c66117f1f3bf317c7aa0b645fa6395d240f08dc2f73751d1e54a0",
+      "sha256_copy": "e0b48f2be34c66117f1f3bf317c7aa0b645fa6395d240f08dc2f73751d1e54a0",
+      "lines": 72,
+      "bytes": 3500
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.OUDMollify",
+      "path": "ErrorCalculus/Dirichlet/OUDMollify.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/OUDMollify.lean",
+      "sha256_source": "ad95b19681a95fa84304edbc0a0ec872a0181b8d352a671bf96194c45fbd2b6e",
+      "sha256_copy": "ad95b19681a95fa84304edbc0a0ec872a0181b8d352a671bf96194c45fbd2b6e",
+      "lines": 145,
+      "bytes": 7822
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.OUDomain",
+      "path": "ErrorCalculus/Dirichlet/OUDomain.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/OUDomain.lean",
+      "sha256_source": "b3411ed3a0e58f93c802f92f9a09a6cd550dca05bcf3641e840a81b1b3219d60",
+      "sha256_copy": "b3411ed3a0e58f93c802f92f9a09a6cd550dca05bcf3641e840a81b1b3219d60",
+      "lines": 105,
+      "bytes": 5704
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.OULogSobolev",
+      "path": "ErrorCalculus/Dirichlet/OULogSobolev.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/OULogSobolev.lean",
+      "sha256_source": "d056ef595789a55375fffe53fb99a0b3a7bf967cf1082c54b9889519e48a73a4",
+      "sha256_copy": "d056ef595789a55375fffe53fb99a0b3a7bf967cf1082c54b9889519e48a73a4",
+      "lines": 42,
+      "bytes": 2045
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.OrnsteinUhlenbeckD",
+      "path": "ErrorCalculus/Dirichlet/OrnsteinUhlenbeckD.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/OrnsteinUhlenbeckD.lean",
+      "sha256_source": "ebbcee12abb65ad2c68292bf7d2d950110b0ce9f45a7cc295b247406d1502971",
+      "sha256_copy": "ebbcee12abb65ad2c68292bf7d2d950110b0ce9f45a7cc295b247406d1502971",
+      "lines": 54,
+      "bytes": 2579
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.OrnsteinUhlenbeckDMeasure",
+      "path": "ErrorCalculus/Dirichlet/OrnsteinUhlenbeckDMeasure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/OrnsteinUhlenbeckDMeasure.lean",
+      "sha256_source": "63fb66ab4c0dc193c5a5f213d91d2d6bea33c48f0f09f74e3f2f35b4aa879877",
+      "sha256_copy": "63fb66ab4c0dc193c5a5f213d91d2d6bea33c48f0f09f74e3f2f35b4aa879877",
+      "lines": 27,
+      "bytes": 1212
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.PiecewiseChain",
+      "path": "ErrorCalculus/Dirichlet/PiecewiseChain.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/PiecewiseChain.lean",
+      "sha256_source": "ea2d7d46eceecc46a283bbed14ad5d34a945022e2011040d1f6aab9680aafb92",
+      "sha256_copy": "ea2d7d46eceecc46a283bbed14ad5d34a945022e2011040d1f6aab9680aafb92",
+      "lines": 104,
+      "bytes": 5650
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.PolarCurrent",
+      "path": "ErrorCalculus/Dirichlet/PolarCurrent.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/PolarCurrent.lean",
+      "sha256_source": "d1c5d1d39ebfe1b2777b28ee712d4708e7a5c9114bfd9eee939bef4555847d75",
+      "sha256_copy": "d1c5d1d39ebfe1b2777b28ee712d4708e7a5c9114bfd9eee939bef4555847d75",
+      "lines": 76,
+      "bytes": 3273
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.PolarCurrentDensity",
+      "path": "ErrorCalculus/Dirichlet/PolarCurrentDensity.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/PolarCurrentDensity.lean",
+      "sha256_source": "b809775c9accc08ddb6c45d942097c700f33ef897913c653425658cc30078f71",
+      "sha256_copy": "b809775c9accc08ddb6c45d942097c700f33ef897913c653425658cc30078f71",
+      "lines": 78,
+      "bytes": 3867
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.PolarCurrentNormal",
+      "path": "ErrorCalculus/Dirichlet/PolarCurrentNormal.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/PolarCurrentNormal.lean",
+      "sha256_source": "e354b1a7e9017ed1b5989666f8a3d6c2741efdd7d6d252b863e5116f6f026147",
+      "sha256_copy": "e354b1a7e9017ed1b5989666f8a3d6c2741efdd7d6d252b863e5116f6f026147",
+      "lines": 60,
+      "bytes": 3228
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ProductDensityBasic",
+      "path": "ErrorCalculus/Dirichlet/ProductDensityBasic.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ProductDensityBasic.lean",
+      "sha256_source": "ee81c5edff18a1f394af36998bc1ea0aadf027eb5cd5822989ce5557f24225f7",
+      "sha256_copy": "ee81c5edff18a1f394af36998bc1ea0aadf027eb5cd5822989ce5557f24225f7",
+      "lines": 96,
+      "bytes": 5205
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ProductDensityEnergy",
+      "path": "ErrorCalculus/Dirichlet/ProductDensityEnergy.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ProductDensityEnergy.lean",
+      "sha256_source": "3fcf32eba8237875c19c18989066a41f55849b1e9861e88d0700455a5f87c8e7",
+      "sha256_copy": "3fcf32eba8237875c19c18989066a41f55849b1e9861e88d0700455a5f87c8e7",
+      "lines": 118,
+      "bytes": 7310
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ProductDensityGamma",
+      "path": "ErrorCalculus/Dirichlet/ProductDensityGamma.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ProductDensityGamma.lean",
+      "sha256_source": "aa813ef05c476a5d2d475f1a8d5ce7a26c96b42950a4177f046da22b5d32ed43",
+      "sha256_copy": "aa813ef05c476a5d2d475f1a8d5ce7a26c96b42950a4177f046da22b5d32ed43",
+      "lines": 157,
+      "bytes": 9642
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ProductDensityMeasure",
+      "path": "ErrorCalculus/Dirichlet/ProductDensityMeasure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ProductDensityMeasure.lean",
+      "sha256_source": "e386a7db869ad4a1ed2f47eae3b765794b118ac55ebcb67e3e77f3e4fa47cb42",
+      "sha256_copy": "e386a7db869ad4a1ed2f47eae3b765794b118ac55ebcb67e3e77f3e4fa47cb42",
+      "lines": 100,
+      "bytes": 5868
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ProductDensityOU",
+      "path": "ErrorCalculus/Dirichlet/ProductDensityOU.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ProductDensityOU.lean",
+      "sha256_source": "da6f7511eb1e1837621b56fe398dad639c618ae9b62bb46ecc13e447ddb5e0ac",
+      "sha256_copy": "da6f7511eb1e1837621b56fe398dad639c618ae9b62bb46ecc13e447ddb5e0ac",
+      "lines": 105,
+      "bytes": 6606
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ProductDensityStructure",
+      "path": "ErrorCalculus/Dirichlet/ProductDensityStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ProductDensityStructure.lean",
+      "sha256_source": "64d39ede185fb41aa2c0874faeb55fe1881c84a670dea9594cedc4bce926cd44",
+      "sha256_copy": "64d39ede185fb41aa2c0874faeb55fe1881c84a670dea9594cedc4bce926cd44",
+      "lines": 101,
+      "bytes": 6512
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ProductRule",
+      "path": "ErrorCalculus/Dirichlet/ProductRule.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ProductRule.lean",
+      "sha256_source": "5e34765273d648b37c97861712dcf7ec4e4d54660a9f10fb7e498ba4d6ad8dda",
+      "sha256_copy": "5e34765273d648b37c97861712dcf7ec4e4d54660a9f10fb7e498ba4d6ad8dda",
+      "lines": 104,
+      "bytes": 5075
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.QuadForm",
+      "path": "ErrorCalculus/Dirichlet/QuadForm.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/QuadForm.lean",
+      "sha256_source": "b727fdc96ba64422c07df21e20ad79ca80bbc7cfa7303611d017c488e0618090",
+      "sha256_copy": "b727fdc96ba64422c07df21e20ad79ca80bbc7cfa7303611d017c488e0618090",
+      "lines": 177,
+      "bytes": 7697
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.QuasiContinuity",
+      "path": "ErrorCalculus/Dirichlet/QuasiContinuity.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/QuasiContinuity.lean",
+      "sha256_source": "4bb68df4f9274776945a1c75ce5edc7c2c3f11999e2fbf625bac321faba126d6",
+      "sha256_copy": "4bb68df4f9274776945a1c75ce5edc7c2c3f11999e2fbf625bac321faba126d6",
+      "lines": 206,
+      "bytes": 10105
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.QuasiContinuousRepresentative",
+      "path": "ErrorCalculus/Dirichlet/QuasiContinuousRepresentative.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/QuasiContinuousRepresentative.lean",
+      "sha256_source": "fd17861e439c40385737cbe410ae9fb6e7e3e827a758f51dc7bfe9a61235dd96",
+      "sha256_copy": "fd17861e439c40385737cbe410ae9fb6e7e3e827a758f51dc7bfe9a61235dd96",
+      "lines": 399,
+      "bytes": 21102
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.RangeProjectionMeasurable",
+      "path": "ErrorCalculus/Dirichlet/RangeProjectionMeasurable.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/RangeProjectionMeasurable.lean",
+      "sha256_source": "e173ed3dfffa9084ffa07431362e841161d9fc5d320e491b944394c1208e4c9b",
+      "sha256_copy": "e173ed3dfffa9084ffa07431362e841161d9fc5d320e491b944394c1208e4c9b",
+      "lines": 127,
+      "bytes": 5654
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ResolventBasic",
+      "path": "ErrorCalculus/Dirichlet/ResolventBasic.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ResolventBasic.lean",
+      "sha256_source": "7b25b8abb5a3336ad76eec882412cd2a9eea146fceb971c4137c3d28a81527c7",
+      "sha256_copy": "7b25b8abb5a3336ad76eec882412cd2a9eea146fceb971c4137c3d28a81527c7",
+      "lines": 192,
+      "bytes": 9687
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ResolventEquation",
+      "path": "ErrorCalculus/Dirichlet/ResolventEquation.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ResolventEquation.lean",
+      "sha256_source": "d5aa7fad5dee7a5593ce5a6e5c9bf838023d0259523e9b6b5d8ff14682d0f424",
+      "sha256_copy": "d5aa7fad5dee7a5593ce5a6e5c9bf838023d0259523e9b6b5d8ff14682d0f424",
+      "lines": 165,
+      "bytes": 8577
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.ResolventMarkov",
+      "path": "ErrorCalculus/Dirichlet/ResolventMarkov.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/ResolventMarkov.lean",
+      "sha256_source": "a53767e946403b0cf48e5260c6e491a25e9a21517f7873a1cac85bf325b81a3e",
+      "sha256_copy": "a53767e946403b0cf48e5260c6e491a25e9a21517f7873a1cac85bf325b81a3e",
+      "lines": 90,
+      "bytes": 4619
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.RightDerivativesZero",
+      "path": "ErrorCalculus/Dirichlet/RightDerivativesZero.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/RightDerivativesZero.lean",
+      "sha256_source": "5d63d438f123a6f18560bbd12e788fd63d335973c951b70f92a5f243f4d9e5f9",
+      "sha256_copy": "5d63d438f123a6f18560bbd12e788fd63d335973c951b70f92a5f243f4d9e5f9",
+      "lines": 212,
+      "bytes": 11553
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupBasic",
+      "path": "ErrorCalculus/Dirichlet/SemigroupBasic.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupBasic.lean",
+      "sha256_source": "d3616487e776fd90d72f853cc96012be8b3fd5b6229c1c1dbeb9e2893549b514",
+      "sha256_copy": "d3616487e776fd90d72f853cc96012be8b3fd5b6229c1c1dbeb9e2893549b514",
+      "lines": 81,
+      "bytes": 3739
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupContraction",
+      "path": "ErrorCalculus/Dirichlet/SemigroupContraction.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupContraction.lean",
+      "sha256_source": "ef47ef924a95f18f135280b0f0bf8a6981be5ce2d96f5eb59671587eaa44ecd2",
+      "sha256_copy": "ef47ef924a95f18f135280b0f0bf8a6981be5ce2d96f5eb59671587eaa44ecd2",
+      "lines": 130,
+      "bytes": 6546
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupDissipation",
+      "path": "ErrorCalculus/Dirichlet/SemigroupDissipation.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupDissipation.lean",
+      "sha256_source": "c8284da74e7795abf2163d03986feb5618fa95c3cee9726c9224a8519c45272a",
+      "sha256_copy": "c8284da74e7795abf2163d03986feb5618fa95c3cee9726c9224a8519c45272a",
+      "lines": 201,
+      "bytes": 10562
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupEnergy",
+      "path": "ErrorCalculus/Dirichlet/SemigroupEnergy.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupEnergy.lean",
+      "sha256_source": "591358917d59eb84464984c8f82970a4880835eed0899c28eceefa805a700b11",
+      "sha256_copy": "591358917d59eb84464984c8f82970a4880835eed0899c28eceefa805a700b11",
+      "lines": 63,
+      "bytes": 3106
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupEnergyContraction",
+      "path": "ErrorCalculus/Dirichlet/SemigroupEnergyContraction.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupEnergyContraction.lean",
+      "sha256_source": "72fb71327f4c7eeda67beb43dcf2981108cd43c011f2817d05a5902fae7d62db",
+      "sha256_copy": "72fb71327f4c7eeda67beb43dcf2981108cd43c011f2817d05a5902fae7d62db",
+      "lines": 159,
+      "bytes": 7621
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupEnergyQuotient",
+      "path": "ErrorCalculus/Dirichlet/SemigroupEnergyQuotient.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupEnergyQuotient.lean",
+      "sha256_source": "b06b2e3475ab18d4bf208dca9ae62b0c64a7ea28ae583661310b67ef8a845479",
+      "sha256_copy": "b06b2e3475ab18d4bf208dca9ae62b0c64a7ea28ae583661310b67ef8a845479",
+      "lines": 166,
+      "bytes": 8097
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupGenerator",
+      "path": "ErrorCalculus/Dirichlet/SemigroupGenerator.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupGenerator.lean",
+      "sha256_source": "f86a84841edd4ee3db9c85c81774025d679b8b4b2950d0e2e7b620449ec4ae55",
+      "sha256_copy": "f86a84841edd4ee3db9c85c81774025d679b8b4b2950d0e2e7b620449ec4ae55",
+      "lines": 35,
+      "bytes": 1726
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupJensen",
+      "path": "ErrorCalculus/Dirichlet/SemigroupJensen.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupJensen.lean",
+      "sha256_source": "325b56ef32211c76ef4f96992f385eeccca414d5369f92b3cbb16ac04b230ede",
+      "sha256_copy": "325b56ef32211c76ef4f96992f385eeccca414d5369f92b3cbb16ac04b230ede",
+      "lines": 168,
+      "bytes": 8085
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupMarkov",
+      "path": "ErrorCalculus/Dirichlet/SemigroupMarkov.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupMarkov.lean",
+      "sha256_source": "941a0e17a2a98094ec509210f6f3b0372d71c3e6231b468315c26877315d2206",
+      "sha256_copy": "941a0e17a2a98094ec509210f6f3b0372d71c3e6231b468315c26877315d2206",
+      "lines": 147,
+      "bytes": 7969
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupOrbitDeriv",
+      "path": "ErrorCalculus/Dirichlet/SemigroupOrbitDeriv.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupOrbitDeriv.lean",
+      "sha256_source": "cbdc62f07d78631384890d10c92f91f8eeeb195a25d8bf6748a5882e1490e70e",
+      "sha256_copy": "cbdc62f07d78631384890d10c92f91f8eeeb195a25d8bf6748a5882e1490e70e",
+      "lines": 85,
+      "bytes": 4152
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupResolvent",
+      "path": "ErrorCalculus/Dirichlet/SemigroupResolvent.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupResolvent.lean",
+      "sha256_source": "6b50129a064777f9e4d25b26851877d5cef6c77701a144da39bc193e9e219292",
+      "sha256_copy": "6b50129a064777f9e4d25b26851877d5cef6c77701a144da39bc193e9e219292",
+      "lines": 51,
+      "bytes": 2130
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.SemigroupVariableExponent",
+      "path": "ErrorCalculus/Dirichlet/SemigroupVariableExponent.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/SemigroupVariableExponent.lean",
+      "sha256_source": "31134abf2a69709651a6b3590eea8c3883f598ff76e0e345f6fd5484dc556d4d",
+      "sha256_copy": "31134abf2a69709651a6b3590eea8c3883f598ff76e0e345f6fd5484dc556d4d",
+      "lines": 104,
+      "bytes": 5137
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.StroockVaropoulos",
+      "path": "ErrorCalculus/Dirichlet/StroockVaropoulos.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/StroockVaropoulos.lean",
+      "sha256_source": "928c65a04e64a6df2dd8fd917251c7bd04e272517ec233dbebd9c648b49abb15",
+      "sha256_copy": "928c65a04e64a6df2dd8fd917251c7bd04e272517ec233dbebd9c648b49abb15",
+      "lines": 202,
+      "bytes": 10695
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.TangentExtension",
+      "path": "ErrorCalculus/Dirichlet/TangentExtension.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/TangentExtension.lean",
+      "sha256_source": "3afaf50fe86f646bd1b6a427407248b947d21214b3efc4f679c74d2cc1fcc2d0",
+      "sha256_copy": "3afaf50fe86f646bd1b6a427407248b947d21214b3efc4f679c74d2cc1fcc2d0",
+      "lines": 190,
+      "bytes": 9525
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.TransportL2",
+      "path": "ErrorCalculus/Dirichlet/TransportL2.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/TransportL2.lean",
+      "sha256_source": "6a1c41c69b381fc304b3e5bbb3594b5c0d8d009a5deebc57ce122bb5d9f6912c",
+      "sha256_copy": "6a1c41c69b381fc304b3e5bbb3594b5c0d8d009a5deebc57ce122bb5d9f6912c",
+      "lines": 104,
+      "bytes": 4591
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.TransportStructure",
+      "path": "ErrorCalculus/Dirichlet/TransportStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/TransportStructure.lean",
+      "sha256_source": "047ee8e61da11eacbb4306e4783565c3c8d192da9cae1409516e62991ad8bc17",
+      "sha256_copy": "047ee8e61da11eacbb4306e4783565c3c8d192da9cae1409516e62991ad8bc17",
+      "lines": 130,
+      "bytes": 5681
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.Truncation",
+      "path": "ErrorCalculus/Dirichlet/Truncation.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/Truncation.lean",
+      "sha256_source": "8173f23adc064da1bc9bf7dbc0c998f6dbad27ba0e494eb6496b7ea21ea70b83",
+      "sha256_copy": "8173f23adc064da1bc9bf7dbc0c998f6dbad27ba0e494eb6496b7ea21ea70b83",
+      "lines": 130,
+      "bytes": 6489
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WeakCluster",
+      "path": "ErrorCalculus/Dirichlet/WeakCluster.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WeakCluster.lean",
+      "sha256_source": "44be69ebf83e4bba913b858880c34a9c971e46e5944022ea1af5fd6638730eaa",
+      "sha256_copy": "44be69ebf83e4bba913b858880c34a9c971e46e5944022ea1af5fd6638730eaa",
+      "lines": 55,
+      "bytes": 2700
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WhiteNoise",
+      "path": "ErrorCalculus/Dirichlet/WhiteNoise.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WhiteNoise.lean",
+      "sha256_source": "f284da136d315aa37d905813695f9e9f4987758c980d03acfcfe57b4b9c5bc94",
+      "sha256_copy": "f284da136d315aa37d905813695f9e9f4987758c980d03acfcfe57b4b9c5bc94",
+      "lines": 235,
+      "bytes": 11496
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WhiteNoiseHilbert",
+      "path": "ErrorCalculus/Dirichlet/WhiteNoiseHilbert.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WhiteNoiseHilbert.lean",
+      "sha256_source": "c26ef16fb76579f14d834a7c8e76e904c682bc29f7226488f2f868aa03fce517",
+      "sha256_copy": "c26ef16fb76579f14d834a7c8e76e904c682bc29f7226488f2f868aa03fce517",
+      "lines": 276,
+      "bytes": 13611
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerBasic",
+      "path": "ErrorCalculus/Dirichlet/WienerBasic.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerBasic.lean",
+      "sha256_source": "c8e07ed94a0ed4da1b14bc8a735e775d56a0e952c91be4d4eb45926cc23993ea",
+      "sha256_copy": "c8e07ed94a0ed4da1b14bc8a735e775d56a0e952c91be4d4eb45926cc23993ea",
+      "lines": 110,
+      "bytes": 5208
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerCalculus",
+      "path": "ErrorCalculus/Dirichlet/WienerCalculus.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerCalculus.lean",
+      "sha256_source": "469fd6cc1983bf04932d593972e8c075b68a6870e1416536d1795de14deb69d5",
+      "sha256_copy": "469fd6cc1983bf04932d593972e8c075b68a6870e1416536d1795de14deb69d5",
+      "lines": 81,
+      "bytes": 4469
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerClosable",
+      "path": "ErrorCalculus/Dirichlet/WienerClosable.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerClosable.lean",
+      "sha256_source": "85e4bbfd1a358b13fac15a284a34548fde4cbc1f2571c8c4c00e9b684b93b9a9",
+      "sha256_copy": "85e4bbfd1a358b13fac15a284a34548fde4cbc1f2571c8c4c00e9b684b93b9a9",
+      "lines": 109,
+      "bytes": 5619
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerCoordinates",
+      "path": "ErrorCalculus/Dirichlet/WienerCoordinates.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerCoordinates.lean",
+      "sha256_source": "e671a3920356557eaf573959509d98a79a9e5956e3b22fc0ff8e45d0f3196de0",
+      "sha256_copy": "e671a3920356557eaf573959509d98a79a9e5956e3b22fc0ff8e45d0f3196de0",
+      "lines": 300,
+      "bytes": 14821
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerDense",
+      "path": "ErrorCalculus/Dirichlet/WienerDense.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerDense.lean",
+      "sha256_source": "fbcdd69bc24c1971874a3c3cf295cf6a9a7ea2d4ee406f007b1821f7263f9980",
+      "sha256_copy": "fbcdd69bc24c1971874a3c3cf295cf6a9a7ea2d4ee406f007b1821f7263f9980",
+      "lines": 102,
+      "bytes": 5276
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerDomain",
+      "path": "ErrorCalculus/Dirichlet/WienerDomain.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerDomain.lean",
+      "sha256_source": "6b4fece45e866afd54a1916b05695285a8abf3b81ef7e1036489bd63c88cf92a",
+      "sha256_copy": "6b4fece45e866afd54a1916b05695285a8abf3b81ef7e1036489bd63c88cf92a",
+      "lines": 100,
+      "bytes": 4596
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerEnergy",
+      "path": "ErrorCalculus/Dirichlet/WienerEnergy.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerEnergy.lean",
+      "sha256_source": "6ded5d38dae08ea6dc2ed2f09c589829bb7d96bf1a079bbe108e2f4ba0691915",
+      "sha256_copy": "6ded5d38dae08ea6dc2ed2f09c589829bb7d96bf1a079bbe108e2f4ba0691915",
+      "lines": 118,
+      "bytes": 5496
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerGamma",
+      "path": "ErrorCalculus/Dirichlet/WienerGamma.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerGamma.lean",
+      "sha256_source": "1dbf77d93d595b8717baaa7c4edda45c9275c3553be8bbac51fb92ed943e59da",
+      "sha256_copy": "1dbf77d93d595b8717baaa7c4edda45c9275c3553be8bbac51fb92ed943e59da",
+      "lines": 92,
+      "bytes": 4236
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerIBP",
+      "path": "ErrorCalculus/Dirichlet/WienerIBP.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerIBP.lean",
+      "sha256_source": "eab70c36dab3820dd688c8c94335215dab0abefcff0e686b86141d19780f0d1a",
+      "sha256_copy": "eab70c36dab3820dd688c8c94335215dab0abefcff0e686b86141d19780f0d1a",
+      "lines": 174,
+      "bytes": 9259
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerLevels",
+      "path": "ErrorCalculus/Dirichlet/WienerLevels.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerLevels.lean",
+      "sha256_source": "a7fcc5968fce1b95ed051b6e8bc3d89e7982a15ee522b231a5f3a17bd9567938",
+      "sha256_copy": "a7fcc5968fce1b95ed051b6e8bc3d89e7982a15ee522b231a5f3a17bd9567938",
+      "lines": 136,
+      "bytes": 6260
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerLogSobolev",
+      "path": "ErrorCalculus/Dirichlet/WienerLogSobolev.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerLogSobolev.lean",
+      "sha256_source": "03df6f4d9932885763ea452af25d769fba6a507e60b6fe03cab65c23ed67a598",
+      "sha256_copy": "03df6f4d9932885763ea452af25d769fba6a507e60b6fe03cab65c23ed67a598",
+      "lines": 92,
+      "bytes": 4950
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerLogSobolevCyl",
+      "path": "ErrorCalculus/Dirichlet/WienerLogSobolevCyl.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerLogSobolevCyl.lean",
+      "sha256_source": "3361fc65955e47de35c673bde09258dc928708ac12a0b8085dd15125e0f75a3d",
+      "sha256_copy": "3361fc65955e47de35c673bde09258dc928708ac12a0b8085dd15125e0f75a3d",
+      "lines": 46,
+      "bytes": 2065
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerPartial",
+      "path": "ErrorCalculus/Dirichlet/WienerPartial.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerPartial.lean",
+      "sha256_source": "d44120b833f2de52968a0d3471a5cd48a6ed988c977196fbe230e911d74e5529",
+      "sha256_copy": "d44120b833f2de52968a0d3471a5cd48a6ed988c977196fbe230e911d74e5529",
+      "lines": 103,
+      "bytes": 4758
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerPathBrownian",
+      "path": "ErrorCalculus/Dirichlet/WienerPathBrownian.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerPathBrownian.lean",
+      "sha256_source": "5863e0ddef929357ac5165328d6a3650e689edf367861d09467f9c83c9dd2513",
+      "sha256_copy": "5863e0ddef929357ac5165328d6a3650e689edf367861d09467f9c83c9dd2513",
+      "lines": 99,
+      "bytes": 4993
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerPathCalculus",
+      "path": "ErrorCalculus/Dirichlet/WienerPathCalculus.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerPathCalculus.lean",
+      "sha256_source": "17daf6bbfbfa98627c126e46be3ed91437eaf61f5756c0ebf8c158676b57353d",
+      "sha256_copy": "17daf6bbfbfa98627c126e46be3ed91437eaf61f5756c0ebf8c158676b57353d",
+      "lines": 60,
+      "bytes": 3051
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerPathFirstChaos",
+      "path": "ErrorCalculus/Dirichlet/WienerPathFirstChaos.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerPathFirstChaos.lean",
+      "sha256_source": "f3717d3ece97bcbbb4416a1cb3e4f85af58778a791e75444dc8639de4a3f4d42",
+      "sha256_copy": "f3717d3ece97bcbbb4416a1cb3e4f85af58778a791e75444dc8639de4a3f4d42",
+      "lines": 120,
+      "bytes": 6048
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerPathStructure",
+      "path": "ErrorCalculus/Dirichlet/WienerPathStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerPathStructure.lean",
+      "sha256_source": "ede3ed72e83b715f30122160d3c109c583e745bd620bcf9f11b8fbf0bae9c3c0",
+      "sha256_copy": "ede3ed72e83b715f30122160d3c109c583e745bd620bcf9f11b8fbf0bae9c3c0",
+      "lines": 46,
+      "bytes": 2064
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerProto",
+      "path": "ErrorCalculus/Dirichlet/WienerProto.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerProto.lean",
+      "sha256_source": "147feed52958d8c29ab6754501f162bfc7cb99865d16b79cb879e6a5bf12a09e",
+      "sha256_copy": "147feed52958d8c29ab6754501f162bfc7cb99865d16b79cb879e6a5bf12a09e",
+      "lines": 35,
+      "bytes": 1497
+    },
+    {
+      "module": "ErrorCalculus.Dirichlet.WienerStructure",
+      "path": "ErrorCalculus/Dirichlet/WienerStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/C_lean/ErrorCalculus/Dirichlet/WienerStructure.lean",
+      "sha256_source": "d5c95052f9c39efb119404052f6e0734732c03779fa4775aebd2932af224a752",
+      "sha256_copy": "d5c95052f9c39efb119404052f6e0734732c03779fa4775aebd2932af224a752",
+      "lines": 101,
+      "bytes": 4960
+    },
+    {
+      "module": "Foundations.AbsCont.Abstract",
+      "path": "Foundations/AbsCont/Abstract.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/AbsCont/Abstract.lean",
+      "sha256_source": "25f13794746b782b0fa2935585c241caf2231e4dbbe039ab977d162bb7af01cc",
+      "sha256_copy": "25f13794746b782b0fa2935585c241caf2231e4dbbe039ab977d162bb7af01cc",
+      "lines": 76,
+      "bytes": 4100
+    },
+    {
+      "module": "Foundations.AbsCont.Applications",
+      "path": "Foundations/AbsCont/Applications.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/AbsCont/Applications.lean",
+      "sha256_source": "1b0b37ba065e5f553b5742b8c600a311a7c9ce9c0ed262f2a127f4e67ad01f42",
+      "sha256_copy": "1b0b37ba065e5f553b5742b8c600a311a7c9ce9c0ed262f2a127f4e67ad01f42",
+      "lines": 82,
+      "bytes": 4475
+    },
+    {
+      "module": "Foundations.AbsCont.Criterion",
+      "path": "Foundations/AbsCont/Criterion.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/AbsCont/Criterion.lean",
+      "sha256_source": "07eecead499ba3b195d9e4cd96543413d57308a598e1903c506c28885318adca",
+      "sha256_copy": "07eecead499ba3b195d9e4cd96543413d57308a598e1903c506c28885318adca",
+      "lines": 85,
+      "bytes": 4999
+    },
+    {
+      "module": "Foundations.AbsCont.IntegrationByParts",
+      "path": "Foundations/AbsCont/IntegrationByParts.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/AbsCont/IntegrationByParts.lean",
+      "sha256_source": "1e4ce9d4c9b98092054b7099d85529d7e68a90d94788c04aa9eb85fbb542aba8",
+      "sha256_copy": "1e4ce9d4c9b98092054b7099d85529d7e68a90d94788c04aa9eb85fbb542aba8",
+      "lines": 114,
+      "bytes": 5813
+    },
+    {
+      "module": "Foundations.AbsCont.Mollify",
+      "path": "Foundations/AbsCont/Mollify.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/AbsCont/Mollify.lean",
+      "sha256_source": "56dcfae49d4ec382f5aaa7c809eb0dec28c9680cada9d8b6d2934395d136c65e",
+      "sha256_copy": "56dcfae49d4ec382f5aaa7c809eb0dec28c9680cada9d8b6d2934395d136c65e",
+      "lines": 106,
+      "bytes": 5374
+    },
+    {
+      "module": "Foundations.AbsCont.Real",
+      "path": "Foundations/AbsCont/Real.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/AbsCont/Real.lean",
+      "sha256_source": "6eca92dc41db97d0de630e791afef365bf196fd38d48998c5a0645654dc7e572",
+      "sha256_copy": "6eca92dc41db97d0de630e791afef365bf196fd38d48998c5a0645654dc7e572",
+      "lines": 40,
+      "bytes": 2131
+    },
+    {
+      "module": "Foundations.AbsCont.Sobolev",
+      "path": "Foundations/AbsCont/Sobolev.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/AbsCont/Sobolev.lean",
+      "sha256_source": "df214695db3b4366deb23dc665a2ea292b768cf2ea8614dd4fb2b2556f395c34",
+      "sha256_copy": "df214695db3b4366deb23dc665a2ea292b768cf2ea8614dd4fb2b2556f395c34",
+      "lines": 101,
+      "bytes": 6102
+    },
+    {
+      "module": "Foundations.AbsCont.TotalVariation",
+      "path": "Foundations/AbsCont/TotalVariation.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/AbsCont/TotalVariation.lean",
+      "sha256_source": "961f331a6c5d6b1a48fcb92d20ab26a273364a1f26b832e407f7aba80bac7965",
+      "sha256_copy": "961f331a6c5d6b1a48fcb92d20ab26a273364a1f26b832e407f7aba80bac7965",
+      "lines": 74,
+      "bytes": 4048
+    },
+    {
+      "module": "Foundations.AbsCont.WeakLimit",
+      "path": "Foundations/AbsCont/WeakLimit.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/AbsCont/WeakLimit.lean",
+      "sha256_source": "a5405be2d2dea3e1dc6370881e30e80a4b5ed91cc6caab5f935f3e966e22832e",
+      "sha256_copy": "a5405be2d2dea3e1dc6370881e30e80a4b5ed91cc6caab5f935f3e966e22832e",
+      "lines": 94,
+      "bytes": 4915
+    },
+    {
+      "module": "Foundations.CameronMartin.Cylinders",
+      "path": "Foundations/CameronMartin/Cylinders.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartin/Cylinders.lean",
+      "sha256_source": "2f4a2302a11e34d2e1974823fc1329ed2e150513760be314c674a05ad966728a",
+      "sha256_copy": "2f4a2302a11e34d2e1974823fc1329ed2e150513760be314c674a05ad966728a",
+      "lines": 62,
+      "bytes": 3325
+    },
+    {
+      "module": "Foundations.CameronMartin.Density",
+      "path": "Foundations/CameronMartin/Density.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartin/Density.lean",
+      "sha256_source": "b0fb1e1805de11ae08ff7ba3031fcbf7d421ab9f87911ebd92c36ef8fe2d1e36",
+      "sha256_copy": "b0fb1e1805de11ae08ff7ba3031fcbf7d421ab9f87911ebd92c36ef8fe2d1e36",
+      "lines": 116,
+      "bytes": 5875
+    },
+    {
+      "module": "Foundations.CameronMartin.DensityLimit",
+      "path": "Foundations/CameronMartin/DensityLimit.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartin/DensityLimit.lean",
+      "sha256_source": "2e1189bcad2a1b8740d794f054bfff858938febfbd4ef3fabf7c1c56b121966c",
+      "sha256_copy": "2e1189bcad2a1b8740d794f054bfff858938febfbd4ef3fabf7c1c56b121966c",
+      "lines": 71,
+      "bytes": 3822
+    },
+    {
+      "module": "Foundations.CameronMartin.ExpEstimate",
+      "path": "Foundations/CameronMartin/ExpEstimate.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartin/ExpEstimate.lean",
+      "sha256_source": "c4473d28209d2cf08e7ac5fc81f5c478d19f4717bd75c0649a7a7465f017a936",
+      "sha256_copy": "c4473d28209d2cf08e7ac5fc81f5c478d19f4717bd75c0649a7a7465f017a936",
+      "lines": 56,
+      "bytes": 2499
+    },
+    {
+      "module": "Foundations.CameronMartin.Exponential",
+      "path": "Foundations/CameronMartin/Exponential.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartin/Exponential.lean",
+      "sha256_source": "7857e7463242c6913f2ef653445728cc9830901d7f4e4117e49e8b47e722cbac",
+      "sha256_copy": "7857e7463242c6913f2ef653445728cc9830901d7f4e4117e49e8b47e722cbac",
+      "lines": 50,
+      "bytes": 1846
+    },
+    {
+      "module": "Foundations.CameronMartin.FiniteLevel",
+      "path": "Foundations/CameronMartin/FiniteLevel.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartin/FiniteLevel.lean",
+      "sha256_source": "601bf2983534213d953ecc7389bf30585162a2b95594f7b515481ceb0ca08671",
+      "sha256_copy": "601bf2983534213d953ecc7389bf30585162a2b95594f7b515481ceb0ca08671",
+      "lines": 76,
+      "bytes": 3744
+    },
+    {
+      "module": "Foundations.CameronMartin.GaussianLaw",
+      "path": "Foundations/CameronMartin/GaussianLaw.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartin/GaussianLaw.lean",
+      "sha256_source": "3f09b77bf69c12b24dd2bb45c7cfa9d0b645e3e37bbe2745b6b8942d9623406b",
+      "sha256_copy": "3f09b77bf69c12b24dd2bb45c7cfa9d0b645e3e37bbe2745b6b8942d9623406b",
+      "lines": 57,
+      "bytes": 2716
+    },
+    {
+      "module": "Foundations.CameronMartin.Theorem",
+      "path": "Foundations/CameronMartin/Theorem.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartin/Theorem.lean",
+      "sha256_source": "3e3d94a4d43c153f4e7448f0215cd51f525ef7dc175c2ccfbf33991e9dddebf0",
+      "sha256_copy": "3e3d94a4d43c153f4e7448f0215cd51f525ef7dc175c2ccfbf33991e9dddebf0",
+      "lines": 95,
+      "bytes": 5129
+    },
+    {
+      "module": "Foundations.CameronMartin.WienerIntegral",
+      "path": "Foundations/CameronMartin/WienerIntegral.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartin/WienerIntegral.lean",
+      "sha256_source": "840cb6b96062f49c361f9db25e04151bcd145ddfadc36fd1c4365800c1177128",
+      "sha256_copy": "840cb6b96062f49c361f9db25e04151bcd145ddfadc36fd1c4365800c1177128",
+      "lines": 85,
+      "bytes": 3959
+    },
+    {
+      "module": "Foundations.CameronMartinPath.Space",
+      "path": "Foundations/CameronMartinPath/Space.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartinPath/Space.lean",
+      "sha256_source": "b818caa3a43214b1d294ed740bf70d41c3371a0b4eab3d1ec2323711dc54bfdc",
+      "sha256_copy": "b818caa3a43214b1d294ed740bf70d41c3371a0b4eab3d1ec2323711dc54bfdc",
+      "lines": 100,
+      "bytes": 4680
+    },
+    {
+      "module": "Foundations.CameronMartinPath.Transport",
+      "path": "Foundations/CameronMartinPath/Transport.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/CameronMartinPath/Transport.lean",
+      "sha256_source": "e02f0191958ab8c897c6c6a8bf08112c009b8ea94de20c7fa0b2e79114d4f5fa",
+      "sha256_copy": "e02f0191958ab8c897c6c6a8bf08112c009b8ea94de20c7fa0b2e79114d4f5fa",
+      "lines": 84,
+      "bytes": 4218
+    },
+    {
+      "module": "Foundations.Chaos.Basis",
+      "path": "Foundations/Chaos/Basis.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Chaos/Basis.lean",
+      "sha256_source": "2c6e8d98622bcce08ef7eb207a8f14f31c1beb239ae99883fbb35460d1498cb4",
+      "sha256_copy": "2c6e8d98622bcce08ef7eb207a8f14f31c1beb239ae99883fbb35460d1498cb4",
+      "lines": 58,
+      "bytes": 2650
+    },
+    {
+      "module": "Foundations.Chaos.Cylinders",
+      "path": "Foundations/Chaos/Cylinders.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Chaos/Cylinders.lean",
+      "sha256_source": "b955e6db8a6fcc5b57e0472870a800fe93fd9c38ce307bb70daa2a4ad8ae88fe",
+      "sha256_copy": "b955e6db8a6fcc5b57e0472870a800fe93fd9c38ce307bb70daa2a4ad8ae88fe",
+      "lines": 63,
+      "bytes": 3265
+    },
+    {
+      "module": "Foundations.Chaos.Finsupp",
+      "path": "Foundations/Chaos/Finsupp.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Chaos/Finsupp.lean",
+      "sha256_source": "ca2e6c8e8c9d2dd1bf890d20495b233b1e9d9738ed38adb2fdd91c984f582a84",
+      "sha256_copy": "ca2e6c8e8c9d2dd1bf890d20495b233b1e9d9738ed38adb2fdd91c984f582a84",
+      "lines": 107,
+      "bytes": 5100
+    },
+    {
+      "module": "Foundations.Chaos.Normalization",
+      "path": "Foundations/Chaos/Normalization.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Chaos/Normalization.lean",
+      "sha256_source": "5b6f7a5efd5962340d415753e5965c516ca2ecfc819b9663fde245118b614bb2",
+      "sha256_copy": "5b6f7a5efd5962340d415753e5965c516ca2ecfc819b9663fde245118b614bb2",
+      "lines": 45,
+      "bytes": 1891
+    },
+    {
+      "module": "Foundations.EnergyImageDensity.C1",
+      "path": "Foundations/EnergyImageDensity/C1.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/EnergyImageDensity/C1.lean",
+      "sha256_source": "a97d6c346aa6844e7b7b43bef109c15da1c02838816e3fca0668b4cc92f33544",
+      "sha256_copy": "a97d6c346aa6844e7b7b43bef109c15da1c02838816e3fca0668b4cc92f33544",
+      "lines": 126,
+      "bytes": 6101
+    },
+    {
+      "module": "Foundations.EnergyImageDensity.Density",
+      "path": "Foundations/EnergyImageDensity/Density.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/EnergyImageDensity/Density.lean",
+      "sha256_source": "1d092913534463e854603c947cf80978d3a4668b49bbcb5e675a5dbb1ccc73f3",
+      "sha256_copy": "1d092913534463e854603c947cf80978d3a4668b49bbcb5e675a5dbb1ccc73f3",
+      "lines": 60,
+      "bytes": 2625
+    },
+    {
+      "module": "Foundations.EnergyImageDensity.Lipschitz",
+      "path": "Foundations/EnergyImageDensity/Lipschitz.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/EnergyImageDensity/Lipschitz.lean",
+      "sha256_source": "b8872709a7662dbb7538fbbb6f33f528556fcedc9b5536a9dcab550ef18a3b4b",
+      "sha256_copy": "b8872709a7662dbb7538fbbb6f33f528556fcedc9b5536a9dcab550ef18a3b4b",
+      "lines": 134,
+      "bytes": 6646
+    },
+    {
+      "module": "Foundations.GaussianSeries.CharFun",
+      "path": "Foundations/GaussianSeries/CharFun.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/GaussianSeries/CharFun.lean",
+      "sha256_source": "17dd5b3ba7671691af5fdb76c471caf02cd55c0fff246196f9aa915b285916c3",
+      "sha256_copy": "17dd5b3ba7671691af5fdb76c471caf02cd55c0fff246196f9aa915b285916c3",
+      "lines": 82,
+      "bytes": 3878
+    },
+    {
+      "module": "Foundations.GaussianSeries.Existence",
+      "path": "Foundations/GaussianSeries/Existence.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/GaussianSeries/Existence.lean",
+      "sha256_source": "5354e25354122b95a13186a0cda1e8bdea5d6fe0c50088d5325ace658da5059b",
+      "sha256_copy": "5354e25354122b95a13186a0cda1e8bdea5d6fe0c50088d5325ace658da5059b",
+      "lines": 62,
+      "bytes": 3037
+    },
+    {
+      "module": "Foundations.GaussianSeries.Gram",
+      "path": "Foundations/GaussianSeries/Gram.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/GaussianSeries/Gram.lean",
+      "sha256_source": "a8bf7ab0b5efafdcc19ee447c71cb29fa7cbcb94a19c1282883ddf5a8e0efa21",
+      "sha256_copy": "a8bf7ab0b5efafdcc19ee447c71cb29fa7cbcb94a19c1282883ddf5a8e0efa21",
+      "lines": 65,
+      "bytes": 2660
+    },
+    {
+      "module": "Foundations.GaussianSeries.Law",
+      "path": "Foundations/GaussianSeries/Law.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/GaussianSeries/Law.lean",
+      "sha256_source": "826a58fd28f9e546eba8574a065de44a8b74d444a47592a796beaeae32f35128",
+      "sha256_copy": "826a58fd28f9e546eba8574a065de44a8b74d444a47592a796beaeae32f35128",
+      "lines": 124,
+      "bytes": 6723
+    },
+    {
+      "module": "Foundations.GaussianSeries.LevelMax",
+      "path": "Foundations/GaussianSeries/LevelMax.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/GaussianSeries/LevelMax.lean",
+      "sha256_source": "e04d7549a828ad328a52d4e16f82a7c48d07fba220949c8f171bc27ed86756fc",
+      "sha256_copy": "e04d7549a828ad328a52d4e16f82a7c48d07fba220949c8f171bc27ed86756fc",
+      "lines": 96,
+      "bytes": 4378
+    },
+    {
+      "module": "Foundations.GaussianSeries.Limit",
+      "path": "Foundations/GaussianSeries/Limit.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/GaussianSeries/Limit.lean",
+      "sha256_source": "61fa609c209ec82857c7a93ec158aac876dfeff4ff5ee8c338cf91778ca72afd",
+      "sha256_copy": "61fa609c209ec82857c7a93ec158aac876dfeff4ff5ee8c338cf91778ca72afd",
+      "lines": 82,
+      "bytes": 4535
+    },
+    {
+      "module": "Foundations.GaussianSeries.Schauder",
+      "path": "Foundations/GaussianSeries/Schauder.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/GaussianSeries/Schauder.lean",
+      "sha256_source": "c03595c550c0030f4d5754db20896ed1b1d6e9eb6b6428d77fcd9f754acd6eca",
+      "sha256_copy": "c03595c550c0030f4d5754db20896ed1b1d6e9eb6b6428d77fcd9f754acd6eca",
+      "lines": 122,
+      "bytes": 5415
+    },
+    {
+      "module": "Foundations.GaussianSeries.Tail",
+      "path": "Foundations/GaussianSeries/Tail.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/GaussianSeries/Tail.lean",
+      "sha256_source": "13e0f50187081a45d02e5c4d519db3ea433df34c87f555c0d5bcbc7751ebbf55",
+      "sha256_copy": "13e0f50187081a45d02e5c4d519db3ea433df34c87f555c0d5bcbc7751ebbf55",
+      "lines": 44,
+      "bytes": 1937
+    },
+    {
+      "module": "Foundations.GaussianSeries.Uniform",
+      "path": "Foundations/GaussianSeries/Uniform.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/GaussianSeries/Uniform.lean",
+      "sha256_source": "c70990b25f57ee5010180d560f1f3d3b2daafeadf783c46f3496ece730dfddc5",
+      "sha256_copy": "c70990b25f57ee5010180d560f1f3d3b2daafeadf783c46f3496ece730dfddc5",
+      "lines": 103,
+      "bytes": 4475
+    },
+    {
+      "module": "Foundations.Haar.Basic",
+      "path": "Foundations/Haar/Basic.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Haar/Basic.lean",
+      "sha256_source": "14daee05f55d76be0d03032a59ba774cd96d59c26fdd4bf0369d2e73100b6358",
+      "sha256_copy": "14daee05f55d76be0d03032a59ba774cd96d59c26fdd4bf0369d2e73100b6358",
+      "lines": 150,
+      "bytes": 6197
+    },
+    {
+      "module": "Foundations.Haar.Covariance",
+      "path": "Foundations/Haar/Covariance.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Haar/Covariance.lean",
+      "sha256_source": "00fcdcdbd9d79c2e43b2c6f59ee55623f7b30b713e28bde89a8233782dac2fed",
+      "sha256_copy": "00fcdcdbd9d79c2e43b2c6f59ee55623f7b30b713e28bde89a8233782dac2fed",
+      "lines": 132,
+      "bytes": 6525
+    },
+    {
+      "module": "Foundations.Haar.IntegratedKernel",
+      "path": "Foundations/Haar/IntegratedKernel.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Haar/IntegratedKernel.lean",
+      "sha256_source": "c047af6135f1e0c060955b112e4fb138ebd6b4162cd0432ab93558e2926b5350",
+      "sha256_copy": "c047af6135f1e0c060955b112e4fb138ebd6b4162cd0432ab93558e2926b5350",
+      "lines": 96,
+      "bytes": 4817
+    },
+    {
+      "module": "Foundations.Haar.Kernel",
+      "path": "Foundations/Haar/Kernel.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Haar/Kernel.lean",
+      "sha256_source": "abf5c831cafac405917c6eb352ab3843fb90ab036cfad7f5d2e115866a64e062",
+      "sha256_copy": "abf5c831cafac405917c6eb352ab3843fb90ab036cfad7f5d2e115866a64e062",
+      "lines": 79,
+      "bytes": 3715
+    },
+    {
+      "module": "Foundations.Haar.Schauder",
+      "path": "Foundations/Haar/Schauder.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Haar/Schauder.lean",
+      "sha256_source": "78e5e22c0a679dc403d05bc3ffe0cc33541edaa93048cab875a3cc74a12e6915",
+      "sha256_copy": "78e5e22c0a679dc403d05bc3ffe0cc33541edaa93048cab875a3cc74a12e6915",
+      "lines": 233,
+      "bytes": 10858
+    },
+    {
+      "module": "Foundations.Haar.Tent",
+      "path": "Foundations/Haar/Tent.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Haar/Tent.lean",
+      "sha256_source": "6e6db1e4d58437510625d065ed57f1b96c8aec3ab8e399653dc8c4c1d995cd0e",
+      "sha256_copy": "6e6db1e4d58437510625d065ed57f1b96c8aec3ab8e399653dc8c4c1d995cd0e",
+      "lines": 54,
+      "bytes": 2084
+    },
+    {
+      "module": "Foundations.HaarBasis.Basic",
+      "path": "Foundations/HaarBasis/Basic.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HaarBasis/Basic.lean",
+      "sha256_source": "18588401a5235bbd6214bc6feea1743b7933bbf0603f4e4e52c9412d0bad24c5",
+      "sha256_copy": "18588401a5235bbd6214bc6feea1743b7933bbf0603f4e4e52c9412d0bad24c5",
+      "lines": 89,
+      "bytes": 3729
+    },
+    {
+      "module": "Foundations.HaarBasis.Complete",
+      "path": "Foundations/HaarBasis/Complete.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HaarBasis/Complete.lean",
+      "sha256_source": "f7ffeba75d168b2eb97afbc6114143a61ddf1225120d7f58e5700b145a6a50c8",
+      "sha256_copy": "f7ffeba75d168b2eb97afbc6114143a61ddf1225120d7f58e5700b145a6a50c8",
+      "lines": 133,
+      "bytes": 5911
+    },
+    {
+      "module": "Foundations.HaarBasis.Indicator",
+      "path": "Foundations/HaarBasis/Indicator.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HaarBasis/Indicator.lean",
+      "sha256_source": "0a18adc210fac6f7e3ac2d41b84da0463a64801f4402ef84f26dc22eaa5e9f5c",
+      "sha256_copy": "0a18adc210fac6f7e3ac2d41b84da0463a64801f4402ef84f26dc22eaa5e9f5c",
+      "lines": 45,
+      "bytes": 2224
+    },
+    {
+      "module": "Foundations.HaarBasis.Orthonormal",
+      "path": "Foundations/HaarBasis/Orthonormal.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HaarBasis/Orthonormal.lean",
+      "sha256_source": "dbcbbb83e427f8ff31577caddf4df0b563a7c09de9da89ff7b44f78f4094d654",
+      "sha256_copy": "dbcbbb83e427f8ff31577caddf4df0b563a7c09de9da89ff7b44f78f4094d654",
+      "lines": 81,
+      "bytes": 3439
+    },
+    {
+      "module": "Foundations.Hermite.Basis",
+      "path": "Foundations/Hermite/Basis.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Hermite/Basis.lean",
+      "sha256_source": "dae22a5965b4827796b7365a45e6d97929d4ece957ff6fddb65922aa4dc24fb5",
+      "sha256_copy": "dae22a5965b4827796b7365a45e6d97929d4ece957ff6fddb65922aa4dc24fb5",
+      "lines": 60,
+      "bytes": 2661
+    },
+    {
+      "module": "Foundations.Hermite.Complete",
+      "path": "Foundations/Hermite/Complete.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Hermite/Complete.lean",
+      "sha256_source": "f14edcad30503eab091f5de33753f79a71ef4aa842b436f4d9d4cb3ac37e741f",
+      "sha256_copy": "f14edcad30503eab091f5de33753f79a71ef4aa842b436f4d9d4cb3ac37e741f",
+      "lines": 82,
+      "bytes": 3823
+    },
+    {
+      "module": "Foundations.Hermite.Exponential",
+      "path": "Foundations/Hermite/Exponential.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Hermite/Exponential.lean",
+      "sha256_source": "4505e2be80120e395cfd1af48e04ae662289fedb3b89dae64953b202b00cf458",
+      "sha256_copy": "4505e2be80120e395cfd1af48e04ae662289fedb3b89dae64953b202b00cf458",
+      "lines": 81,
+      "bytes": 3851
+    },
+    {
+      "module": "Foundations.Hermite.Orthogonality",
+      "path": "Foundations/Hermite/Orthogonality.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Hermite/Orthogonality.lean",
+      "sha256_source": "533a10176aa78d7410e204785afb5693bcbccd180460ff4a5c79984207f69802",
+      "sha256_copy": "533a10176aa78d7410e204785afb5693bcbccd180460ff4a5c79984207f69802",
+      "lines": 93,
+      "bytes": 3732
+    },
+    {
+      "module": "Foundations.Hermite.Polynomial",
+      "path": "Foundations/Hermite/Polynomial.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Hermite/Polynomial.lean",
+      "sha256_source": "35b0b694bb08f5a776e1e30064c7f51d259a2d46e9fa9d2deb200285fbf05dc2",
+      "sha256_copy": "35b0b694bb08f5a776e1e30064c7f51d259a2d46e9fa9d2deb200285fbf05dc2",
+      "lines": 60,
+      "bytes": 3002
+    },
+    {
+      "module": "Foundations.Hermite.Recurrence",
+      "path": "Foundations/Hermite/Recurrence.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Hermite/Recurrence.lean",
+      "sha256_source": "806f0c5d9fd3dc82aa6f1d22b2b8e43f6781721317b69451768b1d15371466d0",
+      "sha256_copy": "806f0c5d9fd3dc82aa6f1d22b2b8e43f6781721317b69451768b1d15371466d0",
+      "lines": 35,
+      "bytes": 1378
+    },
+    {
+      "module": "Foundations.Hermite.Rodrigues",
+      "path": "Foundations/Hermite/Rodrigues.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Hermite/Rodrigues.lean",
+      "sha256_source": "e54d248991bbe16ead0096309c7fe4d37f0d80a63946bcc03e6d38e29fc8e5e0",
+      "sha256_copy": "e54d248991bbe16ead0096309c7fe4d37f0d80a63946bcc03e6d38e29fc8e5e0",
+      "lines": 112,
+      "bytes": 5499
+    },
+    {
+      "module": "Foundations.Hermite.Span",
+      "path": "Foundations/Hermite/Span.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Hermite/Span.lean",
+      "sha256_source": "496d35c3f4983a6f58ca00e907cfc6a1f6731f0238a3ad635f4082770da5223c",
+      "sha256_copy": "496d35c3f4983a6f58ca00e907cfc6a1f6731f0238a3ad635f4082770da5223c",
+      "lines": 67,
+      "bytes": 3011
+    },
+    {
+      "module": "Foundations.HermiteD.Basic",
+      "path": "Foundations/HermiteD/Basic.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HermiteD/Basic.lean",
+      "sha256_source": "b327b9eda8fd15f06d1d7695ecb70674ab9f144ef402f93ea59f55bf5329077e",
+      "sha256_copy": "b327b9eda8fd15f06d1d7695ecb70674ab9f144ef402f93ea59f55bf5329077e",
+      "lines": 91,
+      "bytes": 4117
+    },
+    {
+      "module": "Foundations.HermiteD.Basis",
+      "path": "Foundations/HermiteD/Basis.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HermiteD/Basis.lean",
+      "sha256_source": "87964c09510a6cf0201605449e691fc1d3d9cd69f877fb8988fa4c40659138e5",
+      "sha256_copy": "87964c09510a6cf0201605449e691fc1d3d9cd69f877fb8988fa4c40659138e5",
+      "lines": 88,
+      "bytes": 4034
+    },
+    {
+      "module": "Foundations.HermiteD.Exponential",
+      "path": "Foundations/HermiteD/Exponential.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HermiteD/Exponential.lean",
+      "sha256_source": "09f33de0d110bad706da855f4ff2903b9c5b9067e6bfd13242a4c966956057e3",
+      "sha256_copy": "09f33de0d110bad706da855f4ff2903b9c5b9067e6bfd13242a4c966956057e3",
+      "lines": 77,
+      "bytes": 3917
+    },
+    {
+      "module": "Foundations.HermiteD.Orthogonality",
+      "path": "Foundations/HermiteD/Orthogonality.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HermiteD/Orthogonality.lean",
+      "sha256_source": "98ec688ba04e3fc8311a6efeb960e8b449dfdf8679d7f0d827d56256688a517a",
+      "sha256_copy": "98ec688ba04e3fc8311a6efeb960e8b449dfdf8679d7f0d827d56256688a517a",
+      "lines": 73,
+      "bytes": 3212
+    },
+    {
+      "module": "Foundations.HermiteD.Polynomial",
+      "path": "Foundations/HermiteD/Polynomial.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HermiteD/Polynomial.lean",
+      "sha256_source": "2580e32ccc1b7bb902938028c09ba31c5db871d93f65d95c3aeafb1fb8ff3294",
+      "sha256_copy": "2580e32ccc1b7bb902938028c09ba31c5db871d93f65d95c3aeafb1fb8ff3294",
+      "lines": 99,
+      "bytes": 4621
+    },
+    {
+      "module": "Foundations.HermiteD.Uniqueness",
+      "path": "Foundations/HermiteD/Uniqueness.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HermiteD/Uniqueness.lean",
+      "sha256_source": "ed14bb33813b331f2cc861f939ee49ae4eac9b1901ad2ffc31b0a84d2a367f89",
+      "sha256_copy": "ed14bb33813b331f2cc861f939ee49ae4eac9b1901ad2ffc31b0a84d2a367f89",
+      "lines": 71,
+      "bytes": 3307
+    },
+    {
+      "module": "Foundations.HypercontractivityD.Density",
+      "path": "Foundations/HypercontractivityD/Density.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HypercontractivityD/Density.lean",
+      "sha256_source": "7867ccfb07e0c125bb4698da1aa2198ea2c2d743ed2c4d15e1432eab9abe02ae",
+      "sha256_copy": "7867ccfb07e0c125bb4698da1aa2198ea2c2d743ed2c4d15e1432eab9abe02ae",
+      "lines": 82,
+      "bytes": 4237
+    },
+    {
+      "module": "Foundations.HypercontractivityD.Mollify",
+      "path": "Foundations/HypercontractivityD/Mollify.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/HypercontractivityD/Mollify.lean",
+      "sha256_source": "6eec3baca9e0b98a064190fd14dd3fa543311e429a987ed423384ce43237d543",
+      "sha256_copy": "6eec3baca9e0b98a064190fd14dd3fa543311e429a987ed423384ce43237d543",
+      "lines": 102,
+      "bytes": 5504
+    },
+    {
+      "module": "Foundations.LogSobolev.Basic",
+      "path": "Foundations/LogSobolev/Basic.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/Basic.lean",
+      "sha256_source": "e23219e38c5a3b9b90ed6fedeab39bd0df6b0d5cc97873eeb6a2903743d20759",
+      "sha256_copy": "e23219e38c5a3b9b90ed6fedeab39bd0df6b0d5cc97873eeb6a2903743d20759",
+      "lines": 93,
+      "bytes": 4446
+    },
+    {
+      "module": "Foundations.LogSobolev.BoundedCalculus",
+      "path": "Foundations/LogSobolev/BoundedCalculus.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/BoundedCalculus.lean",
+      "sha256_source": "b217b5acc55c9a7e18904e7d804a3e71b1c92588432b3514456c34552de0cf1d",
+      "sha256_copy": "b217b5acc55c9a7e18904e7d804a3e71b1c92588432b3514456c34552de0cf1d",
+      "lines": 92,
+      "bytes": 4405
+    },
+    {
+      "module": "Foundations.LogSobolev.Entropy",
+      "path": "Foundations/LogSobolev/Entropy.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/Entropy.lean",
+      "sha256_source": "ef967b9f35878d355f6548bafeff735593e5f054d88675237471fcc44dc19ab4",
+      "sha256_copy": "ef967b9f35878d355f6548bafeff735593e5f054d88675237471fcc44dc19ab4",
+      "lines": 66,
+      "bytes": 3110
+    },
+    {
+      "module": "Foundations.LogSobolev.EntropyFlow",
+      "path": "Foundations/LogSobolev/EntropyFlow.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/EntropyFlow.lean",
+      "sha256_source": "5f19c08b5efc19fea915a18f2bc3329d9eb5899ee97c55749938fc87a377f206",
+      "sha256_copy": "5f19c08b5efc19fea915a18f2bc3329d9eb5899ee97c55749938fc87a377f206",
+      "lines": 130,
+      "bytes": 7770
+    },
+    {
+      "module": "Foundations.LogSobolev.EntropyLimit",
+      "path": "Foundations/LogSobolev/EntropyLimit.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/EntropyLimit.lean",
+      "sha256_source": "fff68801037b84b1b1ab3417e3885ab97e3d78e08dc64ac67343667cb60579ef",
+      "sha256_copy": "fff68801037b84b1b1ab3417e3885ab97e3d78e08dc64ac67343667cb60579ef",
+      "lines": 108,
+      "bytes": 5849
+    },
+    {
+      "module": "Foundations.LogSobolev.Fisher",
+      "path": "Foundations/LogSobolev/Fisher.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/Fisher.lean",
+      "sha256_source": "47abf460443f6a73ec42b239956cefa7a5667089bf21637391086907a7de96ca",
+      "sha256_copy": "47abf460443f6a73ec42b239956cefa7a5667089bf21637391086907a7de96ca",
+      "lines": 98,
+      "bytes": 5388
+    },
+    {
+      "module": "Foundations.LogSobolev.GaussianIBP",
+      "path": "Foundations/LogSobolev/GaussianIBP.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/GaussianIBP.lean",
+      "sha256_source": "15e2107086fc1675b664cf1e03376d59c0416ce056e999e1576cec96b88ad792",
+      "sha256_copy": "15e2107086fc1675b664cf1e03376d59c0416ce056e999e1576cec96b88ad792",
+      "lines": 70,
+      "bytes": 3741
+    },
+    {
+      "module": "Foundations.LogSobolev.Gross",
+      "path": "Foundations/LogSobolev/Gross.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/Gross.lean",
+      "sha256_source": "015e85c0f8e5f88b9231f7831c6df905c25ebdff88a5e3c105f4ea547e8d425c",
+      "sha256_copy": "015e85c0f8e5f88b9231f7831c6df905c25ebdff88a5e3c105f4ea547e8d425c",
+      "lines": 74,
+      "bytes": 4196
+    },
+    {
+      "module": "Foundations.LogSobolev.H1",
+      "path": "Foundations/LogSobolev/H1.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/H1.lean",
+      "sha256_source": "4c419d17ffe2b691e219bbab39f8c00789cfd5846f0285c4c0355f62e91a26ad",
+      "sha256_copy": "4c419d17ffe2b691e219bbab39f8c00789cfd5846f0285c4c0355f62e91a26ad",
+      "lines": 76,
+      "bytes": 4256
+    },
+    {
+      "module": "Foundations.LogSobolev.MehlerDeriv",
+      "path": "Foundations/LogSobolev/MehlerDeriv.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/MehlerDeriv.lean",
+      "sha256_source": "b8e0c843eb4aa6a0d1f7dd45cfa7c657a1ea748dfa0a7b8d00da448dd9fd4b47",
+      "sha256_copy": "b8e0c843eb4aa6a0d1f7dd45cfa7c657a1ea748dfa0a7b8d00da448dd9fd4b47",
+      "lines": 95,
+      "bytes": 5561
+    },
+    {
+      "module": "Foundations.LogSobolev.MehlerTime",
+      "path": "Foundations/LogSobolev/MehlerTime.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/MehlerTime.lean",
+      "sha256_source": "0603a09eb42d8a89886b2e64463142afe8377ae60760d8eb8531283fa268c578",
+      "sha256_copy": "0603a09eb42d8a89886b2e64463142afe8377ae60760d8eb8531283fa268c578",
+      "lines": 96,
+      "bytes": 4939
+    },
+    {
+      "module": "Foundations.LogSobolev.Representative",
+      "path": "Foundations/LogSobolev/Representative.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolev/Representative.lean",
+      "sha256_source": "3ef4e3887f7e03f955154ebf6c6b2a6b2bf040f1a8e0a20d04d93a914ae8b055",
+      "sha256_copy": "3ef4e3887f7e03f955154ebf6c6b2a6b2bf040f1a8e0a20d04d93a914ae8b055",
+      "lines": 50,
+      "bytes": 2585
+    },
+    {
+      "module": "Foundations.LogSobolevD.Basic",
+      "path": "Foundations/LogSobolevD/Basic.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolevD/Basic.lean",
+      "sha256_source": "2b1674c237e1abcb56fae8ba7fcc525a86a9a56d7382943ba41c5c85c5730e0f",
+      "sha256_copy": "2b1674c237e1abcb56fae8ba7fcc525a86a9a56d7382943ba41c5c85c5730e0f",
+      "lines": 132,
+      "bytes": 6550
+    },
+    {
+      "module": "Foundations.LogSobolevD.BoundedCalculus",
+      "path": "Foundations/LogSobolevD/BoundedCalculus.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolevD/BoundedCalculus.lean",
+      "sha256_source": "5afc0a119a75c9ce5477c6aec6f9e1963d25868bc3b6783ec96cc7c07b9d4b70",
+      "sha256_copy": "5afc0a119a75c9ce5477c6aec6f9e1963d25868bc3b6783ec96cc7c07b9d4b70",
+      "lines": 50,
+      "bytes": 2645
+    },
+    {
+      "module": "Foundations.LogSobolevD.Entropy",
+      "path": "Foundations/LogSobolevD/Entropy.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolevD/Entropy.lean",
+      "sha256_source": "478a92fa8b1f61b77f96c037ac1fe0d939078679f8d5527697defa1a15b2fe20",
+      "sha256_copy": "478a92fa8b1f61b77f96c037ac1fe0d939078679f8d5527697defa1a15b2fe20",
+      "lines": 90,
+      "bytes": 4649
+    },
+    {
+      "module": "Foundations.LogSobolevD.EntropyFlow",
+      "path": "Foundations/LogSobolevD/EntropyFlow.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolevD/EntropyFlow.lean",
+      "sha256_source": "c3caacd8fef6db8bad4a8b674a3ca5e045effda2d1a0c2ee235fda58885f9511",
+      "sha256_copy": "c3caacd8fef6db8bad4a8b674a3ca5e045effda2d1a0c2ee235fda58885f9511",
+      "lines": 112,
+      "bytes": 6848
+    },
+    {
+      "module": "Foundations.LogSobolevD.Fisher",
+      "path": "Foundations/LogSobolevD/Fisher.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolevD/Fisher.lean",
+      "sha256_source": "be1e8cdff97157fb46af644bd8178c139d4dc3d8dbebfcc6888dc0bf151a754b",
+      "sha256_copy": "be1e8cdff97157fb46af644bd8178c139d4dc3d8dbebfcc6888dc0bf151a754b",
+      "lines": 104,
+      "bytes": 5577
+    },
+    {
+      "module": "Foundations.LogSobolevD.GaussianIBP",
+      "path": "Foundations/LogSobolevD/GaussianIBP.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolevD/GaussianIBP.lean",
+      "sha256_source": "5179b69297a156079e117a83efeae34ae54ec72fc9115b932e9ff489943baa01",
+      "sha256_copy": "5179b69297a156079e117a83efeae34ae54ec72fc9115b932e9ff489943baa01",
+      "lines": 106,
+      "bytes": 5752
+    },
+    {
+      "module": "Foundations.LogSobolevD.Gross",
+      "path": "Foundations/LogSobolevD/Gross.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolevD/Gross.lean",
+      "sha256_source": "3297dd556af2431d8800db266d422fe39ad66891ce9962e9d3bf067d3003054c",
+      "sha256_copy": "3297dd556af2431d8800db266d422fe39ad66891ce9962e9d3bf067d3003054c",
+      "lines": 86,
+      "bytes": 4690
+    },
+    {
+      "module": "Foundations.LogSobolevD.Mehler",
+      "path": "Foundations/LogSobolevD/Mehler.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolevD/Mehler.lean",
+      "sha256_source": "7f44a5462684b8b746b966aba5bbce9972684acb89bc63e80aa1bdcc14d0cad3",
+      "sha256_copy": "7f44a5462684b8b746b966aba5bbce9972684acb89bc63e80aa1bdcc14d0cad3",
+      "lines": 134,
+      "bytes": 8027
+    },
+    {
+      "module": "Foundations.LogSobolevD.MehlerTime",
+      "path": "Foundations/LogSobolevD/MehlerTime.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/LogSobolevD/MehlerTime.lean",
+      "sha256_source": "923db1b0bb65d5f4a4690a5038f0ae1ad27ed20148db46d4fd1d684d1d4cf784",
+      "sha256_copy": "923db1b0bb65d5f4a4690a5038f0ae1ad27ed20148db46d4fd1d684d1d4cf784",
+      "lines": 125,
+      "bytes": 6784
+    },
+    {
+      "module": "Foundations.Mehler.Gaussian",
+      "path": "Foundations/Mehler/Gaussian.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Mehler/Gaussian.lean",
+      "sha256_source": "9a096b4ba4bd933c756dc88b4e793aa9fb74889b50d67454e248e70f38cac003",
+      "sha256_copy": "9a096b4ba4bd933c756dc88b4e793aa9fb74889b50d67454e248e70f38cac003",
+      "lines": 73,
+      "bytes": 3596
+    },
+    {
+      "module": "Foundations.Mehler.Hermite",
+      "path": "Foundations/Mehler/Hermite.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Mehler/Hermite.lean",
+      "sha256_source": "b2ae5c652fe4d2b2dba528485d89b90d7a26b6a4f675dc731b99972925ba4ee9",
+      "sha256_copy": "b2ae5c652fe4d2b2dba528485d89b90d7a26b6a4f675dc731b99972925ba4ee9",
+      "lines": 88,
+      "bytes": 3831
+    },
+    {
+      "module": "Foundations.Mehler.Kernel",
+      "path": "Foundations/Mehler/Kernel.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Mehler/Kernel.lean",
+      "sha256_source": "d6519388bd437722bc6f5e311badcef2b5171bea3ad21d0deac5e2493646b888",
+      "sha256_copy": "d6519388bd437722bc6f5e311badcef2b5171bea3ad21d0deac5e2493646b888",
+      "lines": 105,
+      "bytes": 5000
+    },
+    {
+      "module": "Foundations.Mehler.Markov",
+      "path": "Foundations/Mehler/Markov.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Mehler/Markov.lean",
+      "sha256_source": "5df88f53166834b3272e534e0ed6d645f26a762ad43335d69b81beb0798d1449",
+      "sha256_copy": "5df88f53166834b3272e534e0ed6d645f26a762ad43335d69b81beb0798d1449",
+      "lines": 39,
+      "bytes": 1913
+    },
+    {
+      "module": "Foundations.Mehler.Spectral",
+      "path": "Foundations/Mehler/Spectral.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Mehler/Spectral.lean",
+      "sha256_source": "6b7139e4feb744431d97fc4cb36668dfd7ee3e6cc488a24149183c46663d1d9c",
+      "sha256_copy": "6b7139e4feb744431d97fc4cb36668dfd7ee3e6cc488a24149183c46663d1d9c",
+      "lines": 107,
+      "bytes": 5143
+    },
+    {
+      "module": "Foundations.MehlerD.Gaussian",
+      "path": "Foundations/MehlerD/Gaussian.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/MehlerD/Gaussian.lean",
+      "sha256_source": "8020d99380b51beb39eef8110631369c828d93f025284386151078745bc96ea5",
+      "sha256_copy": "8020d99380b51beb39eef8110631369c828d93f025284386151078745bc96ea5",
+      "lines": 40,
+      "bytes": 1619
+    },
+    {
+      "module": "Foundations.MehlerD.Hermite",
+      "path": "Foundations/MehlerD/Hermite.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/MehlerD/Hermite.lean",
+      "sha256_source": "1a35a57cb1443c735018e0b8d415d51bd970c67440077206f319c38ff3b6460f",
+      "sha256_copy": "1a35a57cb1443c735018e0b8d415d51bd970c67440077206f319c38ff3b6460f",
+      "lines": 43,
+      "bytes": 1684
+    },
+    {
+      "module": "Foundations.MehlerD.Kernel",
+      "path": "Foundations/MehlerD/Kernel.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/MehlerD/Kernel.lean",
+      "sha256_source": "a780469b90032fc2c719b0373d9ade9fe1961684b15c1dc0dececaa91618664c",
+      "sha256_copy": "a780469b90032fc2c719b0373d9ade9fe1961684b15c1dc0dececaa91618664c",
+      "lines": 108,
+      "bytes": 5416
+    },
+    {
+      "module": "Foundations.MehlerD.Markov",
+      "path": "Foundations/MehlerD/Markov.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/MehlerD/Markov.lean",
+      "sha256_source": "47350ccdcb5086ffd52d1d7240ae0b5a607284d01c6b94d1253aabdf0b3b1195",
+      "sha256_copy": "47350ccdcb5086ffd52d1d7240ae0b5a607284d01c6b94d1253aabdf0b3b1195",
+      "lines": 37,
+      "bytes": 1863
+    },
+    {
+      "module": "Foundations.MehlerD.Spectral",
+      "path": "Foundations/MehlerD/Spectral.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/MehlerD/Spectral.lean",
+      "sha256_source": "4eff2881e73eb320421e909dfa874f4bc62cf0f7f6993715a15685128bedc08d",
+      "sha256_copy": "4eff2881e73eb320421e909dfa874f4bc62cf0f7f6993715a15685128bedc08d",
+      "lines": 108,
+      "bytes": 5447
+    },
+    {
+      "module": "Foundations.Sections.Basic",
+      "path": "Foundations/Sections/Basic.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sections/Basic.lean",
+      "sha256_source": "fa47ab27d3cee99670f37af7c7efe9e031f1c3086321e5eef9c26d6b2e1cc94c",
+      "sha256_copy": "fa47ab27d3cee99670f37af7c7efe9e031f1c3086321e5eef9c26d6b2e1cc94c",
+      "lines": 130,
+      "bytes": 5721
+    },
+    {
+      "module": "Foundations.Sections.Corollaries",
+      "path": "Foundations/Sections/Corollaries.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sections/Corollaries.lean",
+      "sha256_source": "5b529beef39c60718c70cb23e73ed915fe04eada243cf1c888d511eee7d2b870",
+      "sha256_copy": "5b529beef39c60718c70cb23e73ed915fe04eada243cf1c888d511eee7d2b870",
+      "lines": 76,
+      "bytes": 3696
+    },
+    {
+      "module": "Foundations.Sections.Isometry",
+      "path": "Foundations/Sections/Isometry.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sections/Isometry.lean",
+      "sha256_source": "27c7e530a65ea3c12d5e8991a57ba8c4f529600c6a33466f8eaab5ff17031b8c",
+      "sha256_copy": "27c7e530a65ea3c12d5e8991a57ba8c4f529600c6a33466f8eaab5ff17031b8c",
+      "lines": 68,
+      "bytes": 3671
+    },
+    {
+      "module": "Foundations.Sections.Measurable",
+      "path": "Foundations/Sections/Measurable.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sections/Measurable.lean",
+      "sha256_source": "3800ed52bb521e190ada8054c00e37a34226c13a55af4c18ad0cacb86719b256",
+      "sha256_copy": "3800ed52bb521e190ada8054c00e37a34226c13a55af4c18ad0cacb86719b256",
+      "lines": 162,
+      "bytes": 8082
+    },
+    {
+      "module": "Foundations.Semigroup.Contractive",
+      "path": "Foundations/Semigroup/Contractive.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Semigroup/Contractive.lean",
+      "sha256_source": "04db475f60932112e8fbb30f378a6c35d587f5a2b5c6367ad337bd8edca8df4f",
+      "sha256_copy": "04db475f60932112e8fbb30f378a6c35d587f5a2b5c6367ad337bd8edca8df4f",
+      "lines": 39,
+      "bytes": 1470
+    },
+    {
+      "module": "Foundations.Semigroup.Convergence",
+      "path": "Foundations/Semigroup/Convergence.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Semigroup/Convergence.lean",
+      "sha256_source": "f1eb072112378bda3ba76dd858516619a6f0cc8f3d29960e5db761bc1cf4bf96",
+      "sha256_copy": "f1eb072112378bda3ba76dd858516619a6f0cc8f3d29960e5db761bc1cf4bf96",
+      "lines": 71,
+      "bytes": 3720
+    },
+    {
+      "module": "Foundations.Semigroup.Estimates",
+      "path": "Foundations/Semigroup/Estimates.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Semigroup/Estimates.lean",
+      "sha256_source": "94ca49a67dd4d3e59e71e7218a3ff3789686c2b858eac430a113226f7de99c2c",
+      "sha256_copy": "94ca49a67dd4d3e59e71e7218a3ff3789686c2b858eac430a113226f7de99c2c",
+      "lines": 49,
+      "bytes": 2570
+    },
+    {
+      "module": "Foundations.Semigroup.Exponential",
+      "path": "Foundations/Semigroup/Exponential.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Semigroup/Exponential.lean",
+      "sha256_source": "8dac5850c438fe667d9d11053a9484c7a3c195df9fde0420e47a4fb04f314e15",
+      "sha256_copy": "8dac5850c438fe667d9d11053a9484c7a3c195df9fde0420e47a4fb04f314e15",
+      "lines": 25,
+      "bytes": 1116
+    },
+    {
+      "module": "Foundations.Semigroup.Generator",
+      "path": "Foundations/Semigroup/Generator.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Semigroup/Generator.lean",
+      "sha256_source": "2a78c436a3b7b331de6ef171ff25e54fc5671a778ad841deb26908a713501d6b",
+      "sha256_copy": "2a78c436a3b7b331de6ef171ff25e54fc5671a778ad841deb26908a713501d6b",
+      "lines": 72,
+      "bytes": 3845
+    },
+    {
+      "module": "Foundations.Semigroup.Resolvent",
+      "path": "Foundations/Semigroup/Resolvent.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Semigroup/Resolvent.lean",
+      "sha256_source": "24363b879d21dcb3f409ce0fe76f9859d02401f5f54aceb2fe2374b2837ffadd",
+      "sha256_copy": "24363b879d21dcb3f409ce0fe76f9859d02401f5f54aceb2fe2374b2837ffadd",
+      "lines": 114,
+      "bytes": 4739
+    },
+    {
+      "module": "Foundations.Semigroup.SelfAdjoint",
+      "path": "Foundations/Semigroup/SelfAdjoint.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Semigroup/SelfAdjoint.lean",
+      "sha256_source": "a39dbd4b597a7581af5117ae6ea971b0d7226fbdaddfa39165e3d2af551e5318",
+      "sha256_copy": "a39dbd4b597a7581af5117ae6ea971b0d7226fbdaddfa39165e3d2af551e5318",
+      "lines": 63,
+      "bytes": 2912
+    },
+    {
+      "module": "Foundations.Semigroup.Semigroup",
+      "path": "Foundations/Semigroup/Semigroup.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Semigroup/Semigroup.lean",
+      "sha256_source": "7af645843dd0ed8db0441e0dec12b5f8f3e55309a827c742e265af1fe088e33e",
+      "sha256_copy": "7af645843dd0ed8db0441e0dec12b5f8f3e55309a827c742e265af1fe088e33e",
+      "lines": 93,
+      "bytes": 4526
+    },
+    {
+      "module": "Foundations.Semigroup.Yosida",
+      "path": "Foundations/Semigroup/Yosida.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Semigroup/Yosida.lean",
+      "sha256_source": "4d3942c0dd185b8df1f388081f7d7b00d984ac927134cda095600a51cffcfbd4",
+      "sha256_copy": "4d3942c0dd185b8df1f388081f7d7b00d984ac927134cda095600a51cffcfbd4",
+      "lines": 110,
+      "bytes": 4881
+    },
+    {
+      "module": "Foundations.Sobolev1D.Cutoff",
+      "path": "Foundations/Sobolev1D/Cutoff.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sobolev1D/Cutoff.lean",
+      "sha256_source": "bb4d943f8cad2c45d3bc97d1ed161fcf38bb86fb2f4e0ca3f3b22368dd17f11c",
+      "sha256_copy": "bb4d943f8cad2c45d3bc97d1ed161fcf38bb86fb2f4e0ca3f3b22368dd17f11c",
+      "lines": 160,
+      "bytes": 9207
+    },
+    {
+      "module": "Foundations.Sobolev1D.Density",
+      "path": "Foundations/Sobolev1D/Density.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sobolev1D/Density.lean",
+      "sha256_source": "1f05ed3aec3475367e8e0bfe7d33e896f91050da22c9d76d0be96a2c6c88d490",
+      "sha256_copy": "1f05ed3aec3475367e8e0bfe7d33e896f91050da22c9d76d0be96a2c6c88d490",
+      "lines": 132,
+      "bytes": 7443
+    },
+    {
+      "module": "Foundations.Sobolev1D.Local",
+      "path": "Foundations/Sobolev1D/Local.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sobolev1D/Local.lean",
+      "sha256_source": "1289f2c048d89c1ea08dd49341f959a5c51b2e356146908a916e4f889036412f",
+      "sha256_copy": "1289f2c048d89c1ea08dd49341f959a5c51b2e356146908a916e4f889036412f",
+      "lines": 111,
+      "bytes": 6246
+    },
+    {
+      "module": "Foundations.Sobolev1D.Lp",
+      "path": "Foundations/Sobolev1D/Lp.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sobolev1D/Lp.lean",
+      "sha256_source": "df554504e3f7da258fe0695f793701cdee681237678590c4c2fe09b796c1bf2c",
+      "sha256_copy": "df554504e3f7da258fe0695f793701cdee681237678590c4c2fe09b796c1bf2c",
+      "lines": 89,
+      "bytes": 5325
+    },
+    {
+      "module": "Foundations.Sobolev1D.Mollify",
+      "path": "Foundations/Sobolev1D/Mollify.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sobolev1D/Mollify.lean",
+      "sha256_source": "0f2ddb5fc8149a7b91acc94afc1217083ae651cb84bbd873e516501f99404865",
+      "sha256_copy": "0f2ddb5fc8149a7b91acc94afc1217083ae651cb84bbd873e516501f99404865",
+      "lines": 128,
+      "bytes": 6324
+    },
+    {
+      "module": "Foundations.Sobolev1D.MollifyL2",
+      "path": "Foundations/Sobolev1D/MollifyL2.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sobolev1D/MollifyL2.lean",
+      "sha256_source": "87a5cc3778ab63e8f31a0b34dc8714daf66c28ad9647cae9d7a35a33c330d903",
+      "sha256_copy": "87a5cc3778ab63e8f31a0b34dc8714daf66c28ad9647cae9d7a35a33c330d903",
+      "lines": 146,
+      "bytes": 8045
+    },
+    {
+      "module": "Foundations.Sobolev1D.Primitive",
+      "path": "Foundations/Sobolev1D/Primitive.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sobolev1D/Primitive.lean",
+      "sha256_source": "dd1706200e5b48330327a422c44f51d84592265ca9ef16645cfcf49758fe5452",
+      "sha256_copy": "dd1706200e5b48330327a422c44f51d84592265ca9ef16645cfcf49758fe5452",
+      "lines": 104,
+      "bytes": 5714
+    },
+    {
+      "module": "Foundations.Sobolev1D.Representative",
+      "path": "Foundations/Sobolev1D/Representative.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sobolev1D/Representative.lean",
+      "sha256_source": "a4b832fe7cd1aa1cd83864a8cfc4a98039bce4f130f8a766e890e315357502b3",
+      "sha256_copy": "a4b832fe7cd1aa1cd83864a8cfc4a98039bce4f130f8a766e890e315357502b3",
+      "lines": 84,
+      "bytes": 4893
+    },
+    {
+      "module": "Foundations.Sobolev1D.WeightedMollify",
+      "path": "Foundations/Sobolev1D/WeightedMollify.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Sobolev1D/WeightedMollify.lean",
+      "sha256_source": "c85c0332bf7b07a6745f316da6f8b636a91f245568937505377519fc79cb5340",
+      "sha256_copy": "c85c0332bf7b07a6745f316da6f8b636a91f245568937505377519fc79cb5340",
+      "lines": 116,
+      "bytes": 6653
+    },
+    {
+      "module": "Foundations.Wiener.Coordinates",
+      "path": "Foundations/Wiener/Coordinates.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Wiener/Coordinates.lean",
+      "sha256_source": "5319b38413b601678fd923416d87092121812959bc3a8668cb28d93d05ca5ee4",
+      "sha256_copy": "5319b38413b601678fd923416d87092121812959bc3a8668cb28d93d05ca5ee4",
+      "lines": 120,
+      "bytes": 6010
+    },
+    {
+      "module": "Foundations.Wiener.Dyadic",
+      "path": "Foundations/Wiener/Dyadic.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Wiener/Dyadic.lean",
+      "sha256_source": "e9ee39384bda4b34152c258a4757efc7389767c330075d75ba93f7c39994d0f0",
+      "sha256_copy": "e9ee39384bda4b34152c258a4757efc7389767c330075d75ba93f7c39994d0f0",
+      "lines": 117,
+      "bytes": 5397
+    },
+    {
+      "module": "Foundations.Wiener.L2",
+      "path": "Foundations/Wiener/L2.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Wiener/L2.lean",
+      "sha256_source": "8cb5f777b5e97a5fc1ca8f9334829341e3cb3b7b2a580ccb881d917317c3a11e",
+      "sha256_copy": "8cb5f777b5e97a5fc1ca8f9334829341e3cb3b7b2a580ccb881d917317c3a11e",
+      "lines": 49,
+      "bytes": 2596
+    },
+    {
+      "module": "Foundations.Wiener.PathSpace",
+      "path": "Foundations/Wiener/PathSpace.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Wiener/PathSpace.lean",
+      "sha256_source": "6f50d34e72aaf9af215be800673c674d8ea25e7297d68f71e8dbfd7cec4909bb",
+      "sha256_copy": "6f50d34e72aaf9af215be800673c674d8ea25e7297d68f71e8dbfd7cec4909bb",
+      "lines": 65,
+      "bytes": 2980
+    },
+    {
+      "module": "Foundations.Wiener.SchauderMap",
+      "path": "Foundations/Wiener/SchauderMap.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/Wiener/SchauderMap.lean",
+      "sha256_source": "2c9953512fe352cac409d75cc02e712b643122d337087e9d845bd19d1f8648e3",
+      "sha256_copy": "2c9953512fe352cac409d75cc02e712b643122d337087e9d845bd19d1f8648e3",
+      "lines": 94,
+      "bytes": 4648
+    },
+    {
+      "module": "Foundations.WienerPath.Coefficients",
+      "path": "Foundations/WienerPath/Coefficients.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/WienerPath/Coefficients.lean",
+      "sha256_source": "6302a0e3baecefe55c4111eaa4f5fd3e93476d63384d30db733b88fbe5347f66",
+      "sha256_copy": "6302a0e3baecefe55c4111eaa4f5fd3e93476d63384d30db733b88fbe5347f66",
+      "lines": 50,
+      "bytes": 2379
+    },
+    {
+      "module": "Foundations.WienerPath.Indicator",
+      "path": "Foundations/WienerPath/Indicator.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/WienerPath/Indicator.lean",
+      "sha256_source": "00b4347005707d48c251d3b3b84f02846c3be19e906ebf17216f9db71afa3c9e",
+      "sha256_copy": "00b4347005707d48c251d3b3b84f02846c3be19e906ebf17216f9db71afa3c9e",
+      "lines": 65,
+      "bytes": 3413
+    },
+    {
+      "module": "Foundations.WienerPath.Integral",
+      "path": "Foundations/WienerPath/Integral.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/WienerPath/Integral.lean",
+      "sha256_source": "48d0d97e2c2b8b7b8d934bb8ad784fbe1d08244a304f6037f210e90ffbcf8d0d",
+      "sha256_copy": "48d0d97e2c2b8b7b8d934bb8ad784fbe1d08244a304f6037f210e90ffbcf8d0d",
+      "lines": 67,
+      "bytes": 2968
+    },
+    {
+      "module": "Foundations.WienerPath.Reindex",
+      "path": "Foundations/WienerPath/Reindex.lean",
+      "source": "Recherche/lean_calcul_erreurs/D_fondations/Foundations/WienerPath/Reindex.lean",
+      "sha256_source": "e5568edb1e769a4bb9e1599c37531a4f087db7e241511ad1a511c2790ffbdc76",
+      "sha256_copy": "e5568edb1e769a4bb9e1599c37531a4f087db7e241511ad1a511c2790ffbdc76",
+      "lines": 56,
+      "bytes": 2838
+    },
+    {
+      "module": "GeometricMeasure.Analysis.BesselKernel",
+      "path": "GeometricMeasure/Analysis/BesselKernel.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/BesselKernel.lean",
+      "sha256_source": "9e1c1609a7403389c01a21db053b4115fce6990805adbec73e20e6069329cd78",
+      "sha256_copy": "9e1c1609a7403389c01a21db053b4115fce6990805adbec73e20e6069329cd78",
+      "lines": 226,
+      "bytes": 10138
+    },
+    {
+      "module": "GeometricMeasure.Analysis.CalderonZygmundDecomposition",
+      "path": "GeometricMeasure/Analysis/CalderonZygmundDecomposition.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/CalderonZygmundDecomposition.lean",
+      "sha256_source": "ed62a5393efb28a5f1d9fa7407dc8929930cea255877fd832c571dcd5dc5dd1e",
+      "sha256_copy": "ed62a5393efb28a5f1d9fa7407dc8929930cea255877fd832c571dcd5dc5dd1e",
+      "lines": 610,
+      "bytes": 27679
+    },
+    {
+      "module": "GeometricMeasure.Analysis.CalderonZygmundGeometry",
+      "path": "GeometricMeasure/Analysis/CalderonZygmundGeometry.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/CalderonZygmundGeometry.lean",
+      "sha256_source": "ead0f47171583dd356798960cc3484229e0d1f045c05e4cb839a5150b532c7b2",
+      "sha256_copy": "ead0f47171583dd356798960cc3484229e0d1f045c05e4cb839a5150b532c7b2",
+      "lines": 367,
+      "bytes": 17120
+    },
+    {
+      "module": "GeometricMeasure.Analysis.CalderonZygmundPartition",
+      "path": "GeometricMeasure/Analysis/CalderonZygmundPartition.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/CalderonZygmundPartition.lean",
+      "sha256_source": "60c6f6e2eba8e5006938b7af1b31263dc0f7b411215c6165747f7f1f281faee1",
+      "sha256_copy": "60c6f6e2eba8e5006938b7af1b31263dc0f7b411215c6165747f7f1f281faee1",
+      "lines": 121,
+      "bytes": 4922
+    },
+    {
+      "module": "GeometricMeasure.Analysis.CalderonZygmundWeak",
+      "path": "GeometricMeasure/Analysis/CalderonZygmundWeak.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/CalderonZygmundWeak.lean",
+      "sha256_source": "42a15ee48672d19c4934c0224f25b7d427e97397797700679ef7f4f240af2035",
+      "sha256_copy": "42a15ee48672d19c4934c0224f25b7d427e97397797700679ef7f4f240af2035",
+      "lines": 397,
+      "bytes": 18716
+    },
+    {
+      "module": "GeometricMeasure.Analysis.CoordinateTransport",
+      "path": "GeometricMeasure/Analysis/CoordinateTransport.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/CoordinateTransport.lean",
+      "sha256_source": "432864de87a085e6865c0f838b2ed2818275c802c754f780a9968302ee5c976c",
+      "sha256_copy": "432864de87a085e6865c0f838b2ed2818275c802c754f780a9968302ee5c976c",
+      "lines": 116,
+      "bytes": 5720
+    },
+    {
+      "module": "GeometricMeasure.Analysis.EllipticEnergy",
+      "path": "GeometricMeasure/Analysis/EllipticEnergy.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/EllipticEnergy.lean",
+      "sha256_source": "20b89920953a077abd38e06d7f3f1509cf6ec09abd55abe30b3ebb1b635d3841",
+      "sha256_copy": "20b89920953a077abd38e06d7f3f1509cf6ec09abd55abe30b3ebb1b635d3841",
+      "lines": 543,
+      "bytes": 25421
+    },
+    {
+      "module": "GeometricMeasure.Analysis.HeatHessian",
+      "path": "GeometricMeasure/Analysis/HeatHessian.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/HeatHessian.lean",
+      "sha256_source": "2fbd29a322484550c4d5569b30affb1de14b61041c32768f8f925e7d1a6ed3d1",
+      "sha256_copy": "2fbd29a322484550c4d5569b30affb1de14b61041c32768f8f925e7d1a6ed3d1",
+      "lines": 833,
+      "bytes": 42743
+    },
+    {
+      "module": "GeometricMeasure.Analysis.HeatKernel",
+      "path": "GeometricMeasure/Analysis/HeatKernel.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/HeatKernel.lean",
+      "sha256_source": "6fb0cebf23c672e52ce7c4601cc42f947f400300e23604f3a507dfb0c80737c8",
+      "sha256_copy": "6fb0cebf23c672e52ce7c4601cc42f947f400300e23604f3a507dfb0c80737c8",
+      "lines": 401,
+      "bytes": 17098
+    },
+    {
+      "module": "GeometricMeasure.Analysis.PositivityVitali",
+      "path": "GeometricMeasure/Analysis/PositivityVitali.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/PositivityVitali.lean",
+      "sha256_source": "a9b8449977d9262807af9c19b3a7af5910e4e91103a59959a338fd86a79db63d",
+      "sha256_copy": "a9b8449977d9262807af9c19b3a7af5910e4e91103a59959a338fd86a79db63d",
+      "lines": 210,
+      "bytes": 10492
+    },
+    {
+      "module": "GeometricMeasure.Analysis.SingularTransfer",
+      "path": "GeometricMeasure/Analysis/SingularTransfer.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/SingularTransfer.lean",
+      "sha256_source": "6c2588d589a59b40ac0ac4c84918aefbafc902372a479b0c7b27d2f0047db6da",
+      "sha256_copy": "6c2588d589a59b40ac0ac4c84918aefbafc902372a479b0c7b27d2f0047db6da",
+      "lines": 62,
+      "bytes": 2692
+    },
+    {
+      "module": "GeometricMeasure.Analysis.SmoothL1Density",
+      "path": "GeometricMeasure/Analysis/SmoothL1Density.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/SmoothL1Density.lean",
+      "sha256_source": "9b5ad5cec179e720f1b14b30c2a9539c39cd35c13da58ffc7b7b4a8c1ba30162",
+      "sha256_copy": "9b5ad5cec179e720f1b14b30c2a9539c39cd35c13da58ffc7b7b4a8c1ba30162",
+      "lines": 170,
+      "bytes": 8358
+    },
+    {
+      "module": "GeometricMeasure.Analysis.TruncatedBessel",
+      "path": "GeometricMeasure/Analysis/TruncatedBessel.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Analysis/TruncatedBessel.lean",
+      "sha256_source": "395305fa6c46cd8daa411b0331581224150d2b163ccc3337667af2157eeb3af2",
+      "sha256_copy": "395305fa6c46cd8daa411b0331581224150d2b163ccc3337667af2157eeb3af2",
+      "lines": 224,
+      "bytes": 9936
+    },
+    {
+      "module": "GeometricMeasure.Current.BesselResolvent",
+      "path": "GeometricMeasure/Current/BesselResolvent.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/BesselResolvent.lean",
+      "sha256_source": "0e291d12b91c864221b8825b2acb1e512ca544df14bb07715c22c58ac6f1c3d1",
+      "sha256_copy": "0e291d12b91c864221b8825b2acb1e512ca544df14bb07715c22c58ac6f1c3d1",
+      "lines": 847,
+      "bytes": 41410
+    },
+    {
+      "module": "GeometricMeasure.Current.BesselResolventPackage",
+      "path": "GeometricMeasure/Current/BesselResolventPackage.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/BesselResolventPackage.lean",
+      "sha256_source": "44a0c8e0e080a122599677bcdb83c1c5570bd4a6d14722686cc46ea3e9a57b17",
+      "sha256_copy": "44a0c8e0e080a122599677bcdb83c1c5570bd4a6d14722686cc46ea3e9a57b17",
+      "lines": 190,
+      "bytes": 8687
+    },
+    {
+      "module": "GeometricMeasure.Current.BesselWeak",
+      "path": "GeometricMeasure/Current/BesselWeak.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/BesselWeak.lean",
+      "sha256_source": "939e1c5c7c3859be95a4546bc597977169ebc5ff3e50c0ed6d9ed237da9b0309",
+      "sha256_copy": "939e1c5c7c3859be95a4546bc597977169ebc5ff3e50c0ed6d9ed237da9b0309",
+      "lines": 178,
+      "bytes": 8051
+    },
+    {
+      "module": "GeometricMeasure.Current.BesselWeakPackage",
+      "path": "GeometricMeasure/Current/BesselWeakPackage.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/BesselWeakPackage.lean",
+      "sha256_source": "03164bb3b7a2551cfc90134bcec8d35700af2eef6d2540b4b7ff8466b8ec0f61",
+      "sha256_copy": "03164bb3b7a2551cfc90134bcec8d35700af2eef6d2540b4b7ff8466b8ec0f61",
+      "lines": 248,
+      "bytes": 12228
+    },
+    {
+      "module": "GeometricMeasure.Current.Compactness",
+      "path": "GeometricMeasure/Current/Compactness.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/Compactness.lean",
+      "sha256_source": "ce169e7a1a63015d9979275c3826ffa97174ac9b79d0932fb1ce46b79f03767a",
+      "sha256_copy": "ce169e7a1a63015d9979275c3826ffa97174ac9b79d0932fb1ce46b79f03767a",
+      "lines": 223,
+      "bytes": 12039
+    },
+    {
+      "module": "GeometricMeasure.Current.ConvolutionDerivative",
+      "path": "GeometricMeasure/Current/ConvolutionDerivative.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/ConvolutionDerivative.lean",
+      "sha256_source": "59ee61b02b00e631ffcc95cd93a95b9e01e29ff43401379d83a4de7f294a3fe8",
+      "sha256_copy": "59ee61b02b00e631ffcc95cd93a95b9e01e29ff43401379d83a4de7f294a3fe8",
+      "lines": 253,
+      "bytes": 12835
+    },
+    {
+      "module": "GeometricMeasure.Current.CoordinateNormalFamily",
+      "path": "GeometricMeasure/Current/CoordinateNormalFamily.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/CoordinateNormalFamily.lean",
+      "sha256_source": "a3120eefc92c92668d4a8b5ef3c1182d020f011e2f113bd916034d8efd781e6e",
+      "sha256_copy": "a3120eefc92c92668d4a8b5ef3c1182d020f011e2f113bd916034d8efd781e6e",
+      "lines": 166,
+      "bytes": 9687
+    },
+    {
+      "module": "GeometricMeasure.Current.CovectorMass",
+      "path": "GeometricMeasure/Current/CovectorMass.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/CovectorMass.lean",
+      "sha256_source": "11874cecd169e404d8480a7e23847278141efe852c82d620d97939304f768066",
+      "sha256_copy": "11874cecd169e404d8480a7e23847278141efe852c82d620d97939304f768066",
+      "lines": 97,
+      "bytes": 5164
+    },
+    {
+      "module": "GeometricMeasure.Current.Dilation",
+      "path": "GeometricMeasure/Current/Dilation.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/Dilation.lean",
+      "sha256_source": "c40ffa695abca84b4d0212097b9bc271510564159009335c0b62d356aa912f42",
+      "sha256_copy": "c40ffa695abca84b4d0212097b9bc271510564159009335c0b62d356aa912f42",
+      "lines": 233,
+      "bytes": 12785
+    },
+    {
+      "module": "GeometricMeasure.Current.DilationTests",
+      "path": "GeometricMeasure/Current/DilationTests.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/DilationTests.lean",
+      "sha256_source": "bd0c732e4d9de32633406551354dcc5654ea8de8516c39196899be791ebf10ae",
+      "sha256_copy": "bd0c732e4d9de32633406551354dcc5654ea8de8516c39196899be791ebf10ae",
+      "lines": 71,
+      "bytes": 3615
+    },
+    {
+      "module": "GeometricMeasure.Current.EllipticEnergy",
+      "path": "GeometricMeasure/Current/EllipticEnergy.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/EllipticEnergy.lean",
+      "sha256_source": "5f4fb7d50cb72a6f8e4803c6b38205b1cf50f2b5c159b61e1b253975ead37a4f",
+      "sha256_copy": "5f4fb7d50cb72a6f8e4803c6b38205b1cf50f2b5c159b61e1b253975ead37a4f",
+      "lines": 265,
+      "bytes": 12961
+    },
+    {
+      "module": "GeometricMeasure.Current.FiniteNormalFamily",
+      "path": "GeometricMeasure/Current/FiniteNormalFamily.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/FiniteNormalFamily.lean",
+      "sha256_source": "eb243d69f42f651ba0397319ba98b0eb7775a3b2b95e260159cdf3aa0cfafe81",
+      "sha256_copy": "eb243d69f42f651ba0397319ba98b0eb7775a3b2b95e260159cdf3aa0cfafe81",
+      "lines": 260,
+      "bytes": 12581
+    },
+    {
+      "module": "GeometricMeasure.Current.FirstOrderStructure",
+      "path": "GeometricMeasure/Current/FirstOrderStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/FirstOrderStructure.lean",
+      "sha256_source": "c10efcb017f76f275d268574e699f0ef6c1834316e493c5a169ae8e781b4bd02",
+      "sha256_copy": "c10efcb017f76f275d268574e699f0ef6c1834316e493c5a169ae8e781b4bd02",
+      "lines": 411,
+      "bytes": 19892
+    },
+    {
+      "module": "GeometricMeasure.Current.KernelCompactness",
+      "path": "GeometricMeasure/Current/KernelCompactness.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/KernelCompactness.lean",
+      "sha256_source": "408c3ccf6c5e1faaedad470891db06b2a462cccbe311afde261094b2bdd1482b",
+      "sha256_copy": "408c3ccf6c5e1faaedad470891db06b2a462cccbe311afde261094b2bdd1482b",
+      "lines": 314,
+      "bytes": 17844
+    },
+    {
+      "module": "GeometricMeasure.Current.LinearCombinations",
+      "path": "GeometricMeasure/Current/LinearCombinations.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/LinearCombinations.lean",
+      "sha256_source": "4d42a250750d37a6c07ea631798fd430b2692524a419394324bf83a49025634f",
+      "sha256_copy": "4d42a250750d37a6c07ea631798fd430b2692524a419394324bf83a49025634f",
+      "lines": 125,
+      "bytes": 6241
+    },
+    {
+      "module": "GeometricMeasure.Current.LocalMass",
+      "path": "GeometricMeasure/Current/LocalMass.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/LocalMass.lean",
+      "sha256_source": "6807c8023fbc0e3a0a505df6eab69bae40f766de037ab344368f40a32fc370e9",
+      "sha256_copy": "6807c8023fbc0e3a0a505df6eab69bae40f766de037ab344368f40a32fc370e9",
+      "lines": 455,
+      "bytes": 21955
+    },
+    {
+      "module": "GeometricMeasure.Current.LocalStructure",
+      "path": "GeometricMeasure/Current/LocalStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/LocalStructure.lean",
+      "sha256_source": "95f62da17aada30d105fded3e9b7550add25ea8a10ead42b7f66ab18ba434fa0",
+      "sha256_copy": "95f62da17aada30d105fded3e9b7550add25ea8a10ead42b7f66ab18ba434fa0",
+      "lines": 361,
+      "bytes": 17312
+    },
+    {
+      "module": "GeometricMeasure.Current.LocalizedDilation",
+      "path": "GeometricMeasure/Current/LocalizedDilation.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/LocalizedDilation.lean",
+      "sha256_source": "c57035d7bea816a6364077a190b455050917fe7aa50f00b36dfb80779d4d6722",
+      "sha256_copy": "c57035d7bea816a6364077a190b455050917fe7aa50f00b36dfb80779d4d6722",
+      "lines": 258,
+      "bytes": 14927
+    },
+    {
+      "module": "GeometricMeasure.Current.LocalizedMollification",
+      "path": "GeometricMeasure/Current/LocalizedMollification.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/LocalizedMollification.lean",
+      "sha256_source": "25fce9e5a32e31b803c40871b461693edf3c08998671cffdeb0c3e0ba1ad4a79",
+      "sha256_copy": "25fce9e5a32e31b803c40871b461693edf3c08998671cffdeb0c3e0ba1ad4a79",
+      "lines": 921,
+      "bytes": 50208
+    },
+    {
+      "module": "GeometricMeasure.Current.Mass",
+      "path": "GeometricMeasure/Current/Mass.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/Mass.lean",
+      "sha256_source": "c4db033a4ab968da710db026c8096a7f1f1920c9dec163aa91bd974f0527cbcf",
+      "sha256_copy": "c4db033a4ab968da710db026c8096a7f1f1920c9dec163aa91bd974f0527cbcf",
+      "lines": 401,
+      "bytes": 20776
+    },
+    {
+      "module": "GeometricMeasure.Current.MatrixBlowup",
+      "path": "GeometricMeasure/Current/MatrixBlowup.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/MatrixBlowup.lean",
+      "sha256_source": "7e91dadeb6539bbb3c394a1f9bc3d3db19998c28fd1d760345539e8bbeca265a",
+      "sha256_copy": "7e91dadeb6539bbb3c394a1f9bc3d3db19998c28fd1d760345539e8bbeca265a",
+      "lines": 652,
+      "bytes": 33108
+    },
+    {
+      "module": "GeometricMeasure.Current.MatrixDivergence",
+      "path": "GeometricMeasure/Current/MatrixDivergence.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/MatrixDivergence.lean",
+      "sha256_source": "559dd83d1a900dcfd054673c33cd0fe7137e63e137fc6343818d65b2ace513e8",
+      "sha256_copy": "559dd83d1a900dcfd054673c33cd0fe7137e63e137fc6343818d65b2ace513e8",
+      "lines": 67,
+      "bytes": 2602
+    },
+    {
+      "module": "GeometricMeasure.Current.MatrixStructure",
+      "path": "GeometricMeasure/Current/MatrixStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/MatrixStructure.lean",
+      "sha256_source": "99d07f0848375fba4d4cfb77f2cb9470e74e60ba9487bc2de060a9f854291879",
+      "sha256_copy": "99d07f0848375fba4d4cfb77f2cb9470e74e60ba9487bc2de060a9f854291879",
+      "lines": 349,
+      "bytes": 17790
+    },
+    {
+      "module": "GeometricMeasure.Current.MeasureCurrent",
+      "path": "GeometricMeasure/Current/MeasureCurrent.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/MeasureCurrent.lean",
+      "sha256_source": "c1191fc40e6b3d97a560dc067105edcf73f14ebbe320691762e76c70709be116",
+      "sha256_copy": "c1191fc40e6b3d97a560dc067105edcf73f14ebbe320691762e76c70709be116",
+      "lines": 198,
+      "bytes": 9407
+    },
+    {
+      "module": "GeometricMeasure.Current.MollificationDiagonal",
+      "path": "GeometricMeasure/Current/MollificationDiagonal.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/MollificationDiagonal.lean",
+      "sha256_source": "8b0b4cc547d50db1ff946165c58d5e66bddfc9e3118b80478ffb838407ab04d1",
+      "sha256_copy": "8b0b4cc547d50db1ff946165c58d5e66bddfc9e3118b80478ffb838407ab04d1",
+      "lines": 435,
+      "bytes": 21951
+    },
+    {
+      "module": "GeometricMeasure.Current.NormalFamily",
+      "path": "GeometricMeasure/Current/NormalFamily.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/NormalFamily.lean",
+      "sha256_source": "80c87d50fa649f66f37fe42685952c60b1ae39093010cc6da7a5e2d59f42e0d4",
+      "sha256_copy": "80c87d50fa649f66f37fe42685952c60b1ae39093010cc6da7a5e2d59f42e0d4",
+      "lines": 269,
+      "bytes": 13937
+    },
+    {
+      "module": "GeometricMeasure.Current.PolarFreezing",
+      "path": "GeometricMeasure/Current/PolarFreezing.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/PolarFreezing.lean",
+      "sha256_source": "c4686672d8f94ae6d1e7ad900ca08aa2e1ee7459365fa720a6f639e6d3082ce2",
+      "sha256_copy": "c4686672d8f94ae6d1e7ad900ca08aa2e1ee7459365fa720a6f639e6d3082ce2",
+      "lines": 40,
+      "bytes": 1554
+    },
+    {
+      "module": "GeometricMeasure.Current.PositiveTangent",
+      "path": "GeometricMeasure/Current/PositiveTangent.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/PositiveTangent.lean",
+      "sha256_source": "b7c40e69a0cba787e9558ef731fb58ed20e0b63c698d17946bd8d1ee8486b9b5",
+      "sha256_copy": "b7c40e69a0cba787e9558ef731fb58ed20e0b63c698d17946bd8d1ee8486b9b5",
+      "lines": 167,
+      "bytes": 8661
+    },
+    {
+      "module": "GeometricMeasure.Current.RectangularStructure",
+      "path": "GeometricMeasure/Current/RectangularStructure.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/RectangularStructure.lean",
+      "sha256_source": "f5f68b9c7acd9645777e1c295571b6da0da97771f139002edec909fe5ba25156",
+      "sha256_copy": "f5f68b9c7acd9645777e1c295571b6da0da97771f139002edec909fe5ba25156",
+      "lines": 263,
+      "bytes": 12386
+    },
+    {
+      "module": "GeometricMeasure.Current.RegularPartLimit",
+      "path": "GeometricMeasure/Current/RegularPartLimit.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/RegularPartLimit.lean",
+      "sha256_source": "6030243a4866a8c361488e0a9016dfcbc5ee47a936ac622dc93f93bde2bad391",
+      "sha256_copy": "6030243a4866a8c361488e0a9016dfcbc5ee47a936ac622dc93f93bde2bad391",
+      "lines": 149,
+      "bytes": 8267
+    },
+    {
+      "module": "GeometricMeasure.Current.SignedMollifierTests",
+      "path": "GeometricMeasure/Current/SignedMollifierTests.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/SignedMollifierTests.lean",
+      "sha256_source": "cf0f319056d5dc96d13a2a255e66389ae49503b3f490708bd06288ccb45f3b48",
+      "sha256_copy": "cf0f319056d5dc96d13a2a255e66389ae49503b3f490708bd06288ccb45f3b48",
+      "lines": 93,
+      "bytes": 4920
+    },
+    {
+      "module": "GeometricMeasure.Current.StrongBlowupLimit",
+      "path": "GeometricMeasure/Current/StrongBlowupLimit.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/StrongBlowupLimit.lean",
+      "sha256_source": "3fa52a698fae6725c5f4bb648c405d1ff5f70c9023871940f0976f9f9c9946bb",
+      "sha256_copy": "3fa52a698fae6725c5f4bb648c405d1ff5f70c9023871940f0976f9f9c9946bb",
+      "lines": 218,
+      "bytes": 12116
+    },
+    {
+      "module": "GeometricMeasure.Current.StrongMeasureLimit",
+      "path": "GeometricMeasure/Current/StrongMeasureLimit.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/StrongMeasureLimit.lean",
+      "sha256_source": "1e117f84798c660a20590021077f7b7470f9d1b553e8794353ad0c697f4b7460",
+      "sha256_copy": "1e117f84798c660a20590021077f7b7470f9d1b553e8794353ad0c697f4b7460",
+      "lines": 172,
+      "bytes": 8467
+    },
+    {
+      "module": "GeometricMeasure.Current.Tangent",
+      "path": "GeometricMeasure/Current/Tangent.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/Tangent.lean",
+      "sha256_source": "52e6c6d98f5ae46ce41fb5a9eace8b15945eaba1781ba24ce7dbb742fc2d214c",
+      "sha256_copy": "52e6c6d98f5ae46ce41fb5a9eace8b15945eaba1781ba24ce7dbb742fc2d214c",
+      "lines": 466,
+      "bytes": 27181
+    },
+    {
+      "module": "GeometricMeasure.Current.Tests",
+      "path": "GeometricMeasure/Current/Tests.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/Tests.lean",
+      "sha256_source": "1cb2741a225799d2215b2077832da65785c5cc5d8943a1416181dc31b17e48ca",
+      "sha256_copy": "1cb2741a225799d2215b2077832da65785c5cc5d8943a1416181dc31b17e48ca",
+      "lines": 74,
+      "bytes": 3352
+    },
+    {
+      "module": "GeometricMeasure.Current.TruncatedBessel",
+      "path": "GeometricMeasure/Current/TruncatedBessel.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/TruncatedBessel.lean",
+      "sha256_source": "d27ea05939e34dbaee6d5bb74cfff6b07760f26e0f1fe8bd0df170788a38bbdb",
+      "sha256_copy": "d27ea05939e34dbaee6d5bb74cfff6b07760f26e0f1fe8bd0df170788a38bbdb",
+      "lines": 490,
+      "bytes": 24133
+    },
+    {
+      "module": "GeometricMeasure.Current.TruncatedKernelCZ",
+      "path": "GeometricMeasure/Current/TruncatedKernelCZ.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/TruncatedKernelCZ.lean",
+      "sha256_source": "bc4eb1de2d62032054e72b77760c11bbdfa26baf58fe23a0bb620d501f2c47b5",
+      "sha256_copy": "bc4eb1de2d62032054e72b77760c11bbdfa26baf58fe23a0bb620d501f2c47b5",
+      "lines": 377,
+      "bytes": 19930
+    },
+    {
+      "module": "GeometricMeasure.Current.VectorMeasureCompactness",
+      "path": "GeometricMeasure/Current/VectorMeasureCompactness.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/VectorMeasureCompactness.lean",
+      "sha256_source": "7eb3a7e4286df61b777fea773ee376310333dcc947c027c8bfed1704d270af8d",
+      "sha256_copy": "7eb3a7e4286df61b777fea773ee376310333dcc947c027c8bfed1704d270af8d",
+      "lines": 51,
+      "bytes": 2635
+    },
+    {
+      "module": "GeometricMeasure.Current.WeakConvergence",
+      "path": "GeometricMeasure/Current/WeakConvergence.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/WeakConvergence.lean",
+      "sha256_source": "aa24224a00a626f600fdf10cc9b042b58ffdda676d46c5f99c1086a855a38785",
+      "sha256_copy": "aa24224a00a626f600fdf10cc9b042b58ffdda676d46c5f99c1086a855a38785",
+      "lines": 34,
+      "bytes": 1512
+    },
+    {
+      "module": "GeometricMeasure.Current.ZeroDimensionalHeat",
+      "path": "GeometricMeasure/Current/ZeroDimensionalHeat.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Current/ZeroDimensionalHeat.lean",
+      "sha256_source": "905d76e5ff052d46e7e6e2549f0d42508ce8331f7cb780d38f9a76cbd8543446",
+      "sha256_copy": "905d76e5ff052d46e7e6e2549f0d42508ce8331f7cb780d38f9a76cbd8543446",
+      "lines": 40,
+      "bytes": 1292
+    },
+    {
+      "module": "GeometricMeasure.Matrix.Ellipticity",
+      "path": "GeometricMeasure/Matrix/Ellipticity.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Matrix/Ellipticity.lean",
+      "sha256_source": "674dd410a08aae1fc1fb692f8990dd103b028e64dcb57d236050d9f9706edd00",
+      "sha256_copy": "674dd410a08aae1fc1fb692f8990dd103b028e64dcb57d236050d9f9706edd00",
+      "lines": 231,
+      "bytes": 9370
+    },
+    {
+      "module": "GeometricMeasure.Matrix.RankDeterminant",
+      "path": "GeometricMeasure/Matrix/RankDeterminant.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Matrix/RankDeterminant.lean",
+      "sha256_source": "57613b6e3ed9e0352baeb55eea87d03fbdfe7592a7dea96b6c83cfbb2f356f60",
+      "sha256_copy": "57613b6e3ed9e0352baeb55eea87d03fbdfe7592a7dea96b6c83cfbb2f356f60",
+      "lines": 65,
+      "bytes": 2330
+    },
+    {
+      "module": "GeometricMeasure.Matrix.WaveCone",
+      "path": "GeometricMeasure/Matrix/WaveCone.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/Matrix/WaveCone.lean",
+      "sha256_source": "c4df0379976ae97860ad5458d65020b9def4d81c0f6428e03a955bc3fd32dd9b",
+      "sha256_copy": "c4df0379976ae97860ad5458d65020b9def4d81c0f6428e03a955bc3fd32dd9b",
+      "lines": 212,
+      "bytes": 9374
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.Compactness",
+      "path": "GeometricMeasure/VectorMeasure/Compactness.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/Compactness.lean",
+      "sha256_source": "f1e1825fea54c884ee82b2972be6c2d9a0127f6d4cd07ce7558fa114735247af",
+      "sha256_copy": "f1e1825fea54c884ee82b2972be6c2d9a0127f6d4cd07ce7558fa114735247af",
+      "lines": 325,
+      "bytes": 16191
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.Coordinates",
+      "path": "GeometricMeasure/VectorMeasure/Coordinates.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/Coordinates.lean",
+      "sha256_source": "87dafee8deed13a2d4c76edaec5742f3ae23030e440564d191958ad4ec9c3d82",
+      "sha256_copy": "87dafee8deed13a2d4c76edaec5742f3ae23030e440564d191958ad4ec9c3d82",
+      "lines": 112,
+      "bytes": 4907
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.Differentiation",
+      "path": "GeometricMeasure/VectorMeasure/Differentiation.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/Differentiation.lean",
+      "sha256_source": "bf1da91a9bdc6174e9c173666c9215313d592e139ebc92575e392a16fc2970f3",
+      "sha256_copy": "bf1da91a9bdc6174e9c173666c9215313d592e139ebc92575e392a16fc2970f3",
+      "lines": 105,
+      "bytes": 5316
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.DilationGeometry",
+      "path": "GeometricMeasure/VectorMeasure/DilationGeometry.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/DilationGeometry.lean",
+      "sha256_source": "b5623b958e4ab33226897be207eb09161e7b7f56c3070dd75755970bfcd143f9",
+      "sha256_copy": "b5623b958e4ab33226897be207eb09161e7b7f56c3070dd75755970bfcd143f9",
+      "lines": 20,
+      "bytes": 721
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.Domination",
+      "path": "GeometricMeasure/VectorMeasure/Domination.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/Domination.lean",
+      "sha256_source": "7058ccff3cd7c54b9968435195c1ab0ac3d30dd799ce4416f95501cebc1cfeee",
+      "sha256_copy": "7058ccff3cd7c54b9968435195c1ab0ac3d30dd799ce4416f95501cebc1cfeee",
+      "lines": 77,
+      "bytes": 3081
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.FiniteDimensional",
+      "path": "GeometricMeasure/VectorMeasure/FiniteDimensional.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/FiniteDimensional.lean",
+      "sha256_source": "b7d5f4469f693e3ba6cdbef2e9e3301d83a29c26e54e07148943d298285f9c04",
+      "sha256_copy": "b7d5f4469f693e3ba6cdbef2e9e3301d83a29c26e54e07148943d298285f9c04",
+      "lines": 78,
+      "bytes": 3535
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.GoodRadii",
+      "path": "GeometricMeasure/VectorMeasure/GoodRadii.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/GoodRadii.lean",
+      "sha256_source": "2b9cd7fe7c6a464532ceda6578885e87c259bc84a990c308fb4a5231e0269d0a",
+      "sha256_copy": "2b9cd7fe7c6a464532ceda6578885e87c259bc84a990c308fb4a5231e0269d0a",
+      "lines": 106,
+      "bytes": 4841
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.Lebesgue",
+      "path": "GeometricMeasure/VectorMeasure/Lebesgue.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/Lebesgue.lean",
+      "sha256_source": "6bfde4138e1b3876a9d2c16818b2299238d6d3ea01b23f743de7688af5cd9066",
+      "sha256_copy": "6bfde4138e1b3876a9d2c16818b2299238d6d3ea01b23f743de7688af5cd9066",
+      "lines": 208,
+      "bytes": 10983
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.LinearImage",
+      "path": "GeometricMeasure/VectorMeasure/LinearImage.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/LinearImage.lean",
+      "sha256_source": "a506e81e40504cd3e6a4b8f65e1959f6e3b8299ed27f256ae347c0b6e83e6f87",
+      "sha256_copy": "a506e81e40504cd3e6a4b8f65e1959f6e3b8299ed27f256ae347c0b6e83e6f87",
+      "lines": 333,
+      "bytes": 16567
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.Localization",
+      "path": "GeometricMeasure/VectorMeasure/Localization.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/Localization.lean",
+      "sha256_source": "c3c9958f77670e70b0ad998b1da551a2b34b6e5af46e2065593f19ffc3bc3baf",
+      "sha256_copy": "c3c9958f77670e70b0ad998b1da551a2b34b6e5af46e2065593f19ffc3bc3baf",
+      "lines": 151,
+      "bytes": 7755
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.Matrix",
+      "path": "GeometricMeasure/VectorMeasure/Matrix.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/Matrix.lean",
+      "sha256_source": "11c008b6ee9198f508deecbbad8f3df5f9648cfe4d523e652c876131cb5361ba",
+      "sha256_copy": "11c008b6ee9198f508deecbbad8f3df5f9648cfe4d523e652c876131cb5361ba",
+      "lines": 289,
+      "bytes": 13425
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.MeasureConvolution",
+      "path": "GeometricMeasure/VectorMeasure/MeasureConvolution.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/MeasureConvolution.lean",
+      "sha256_source": "8a68ec9ac53390385492fbb6446404f2626036500598058d75f5e6464c09645e",
+      "sha256_copy": "8a68ec9ac53390385492fbb6446404f2626036500598058d75f5e6464c09645e",
+      "lines": 326,
+      "bytes": 16657
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.Operations",
+      "path": "GeometricMeasure/VectorMeasure/Operations.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/Operations.lean",
+      "sha256_source": "b2f4ee523c1b67f1db78cd966c9ed1f1e3348e1aec288398c710e6ef15f3895e",
+      "sha256_copy": "b2f4ee523c1b67f1db78cd966c9ed1f1e3348e1aec288398c710e6ef15f3895e",
+      "lines": 121,
+      "bytes": 6271
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.Polar",
+      "path": "GeometricMeasure/VectorMeasure/Polar.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/Polar.lean",
+      "sha256_source": "a64cf9ac87a10676dc41a6477ab538ee3324e01c40785e4c8b9b60451647cceb",
+      "sha256_copy": "a64cf9ac87a10676dc41a6477ab538ee3324e01c40785e4c8b9b60451647cceb",
+      "lines": 172,
+      "bytes": 8846
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.PolarFreezing",
+      "path": "GeometricMeasure/VectorMeasure/PolarFreezing.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/PolarFreezing.lean",
+      "sha256_source": "614740d3f2cd2be65acf9a3194aa161fb66ef4f1929282d4e9631456624213eb",
+      "sha256_copy": "614740d3f2cd2be65acf9a3194aa161fb66ef4f1929282d4e9631456624213eb",
+      "lines": 337,
+      "bytes": 16659
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.SingularDifferentiation",
+      "path": "GeometricMeasure/VectorMeasure/SingularDifferentiation.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/SingularDifferentiation.lean",
+      "sha256_source": "12bbb2d35462139281bd63dfe8b6e8e76e4bb45cd2ae3f98b58d5bb0c4eaa12c",
+      "sha256_copy": "12bbb2d35462139281bd63dfe8b6e8e76e4bb45cd2ae3f98b58d5bb0c4eaa12c",
+      "lines": 408,
+      "bytes": 22044
+    },
+    {
+      "module": "GeometricMeasure.VectorMeasure.WeakConvergence",
+      "path": "GeometricMeasure/VectorMeasure/WeakConvergence.lean",
+      "source": "Recherche/lean_calcul_erreurs/H_eid/GeometricMeasure/VectorMeasure/WeakConvergence.lean",
+      "sha256_source": "090351dc3d41341adfc10072a4a0bea715eb92bfb111610da17c73e448389be1",
+      "sha256_copy": "090351dc3d41341adfc10072a4a0bea715eb92bfb111610da17c73e448389be1",
+      "lines": 124,
+      "bytes": 5819
+    }
+  ],
+  "total_modules": 407,
+  "total_lines": 66141,
+  "total_source_bytes": 3310137,
+  "dependencies": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "520045ab14e26149ee970e2e617ca04b09bde5d6",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.32.1",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.32.0",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ]
+}
