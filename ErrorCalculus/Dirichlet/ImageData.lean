@@ -1,5 +1,9 @@
 import ErrorCalculus.Dirichlet.ImageGamma
 
+/-!
+# The image error data
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 namespace ErrorCalculus

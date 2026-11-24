@@ -16,10 +16,8 @@ cancellation with a bounded multiplier.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal
-set_option maxHeartbeats 800000
 
 namespace ErrorCalculus
 

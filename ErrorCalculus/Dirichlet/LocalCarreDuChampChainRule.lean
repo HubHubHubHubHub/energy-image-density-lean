@@ -1,6 +1,6 @@
 import ErrorCalculus.Dirichlet.LocalCarreDuChampMultivariate
-import ErrorCalculus.Dirichlet.ClosureCalculusLimits
 import Mathlib.Analysis.Normed.Group.Indicator
+import ErrorCalculus.Dirichlet.ClosureCalculusLimits.Basic
 
 /-!
 # multivariate chain rule: the `ChainRule` contract proved for every m
@@ -28,10 +28,8 @@ The indicator bounds use Mathlib's `norm_indicator_le_norm_self`.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal
-set_option maxHeartbeats 800000
 
 namespace ErrorCalculus
 

@@ -19,7 +19,6 @@ The normal-current formulation is De Philippis–Rindler, Corollary 1.12.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Set Metric
 open scoped Topology ENNReal
 

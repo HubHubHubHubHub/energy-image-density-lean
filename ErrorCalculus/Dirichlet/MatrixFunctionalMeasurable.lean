@@ -1,4 +1,4 @@
-import ErrorCalculus.Dirichlet.MatrixSqrtMeasurable
+import ErrorCalculus.Dirichlet.MatrixSqrtMeasurable.Basic
 
 /-!
 # Matrix Functional Measurable
@@ -7,7 +7,6 @@ import ErrorCalculus.Dirichlet.MatrixSqrtMeasurable
 Measurable functional calculus for continuous scalar functions on real symmetric matrices.
 -/
 noncomputable section
-set_option backward.isDefEq.respectTransparency false
 open Filter Topology Matrix
 open scoped Matrix.Norms.L2Operator MatrixOrder
 namespace ErrorCalculus

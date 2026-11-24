@@ -12,7 +12,6 @@ Countable kernels and the single measurable exceptional set.
 -/
 noncomputable section
 open Classical
-set_option maxHeartbeats 800000
 open MeasureTheory Filter
 namespace ErrorCalculus
 variable {ι Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω}
@@ -82,7 +81,7 @@ theorem rawGammaKernel_ae (a b : ι →₀ ℝ) :
   rw [ha]
   simp_rw [hb]
   simp [kernelForm, Finsupp.linearCombination_apply, Finsupp.sum, rawGammaKernel,
-    Finset.mul_sum, mul_assoc]
+    Finset.mul_sum]
 
 /-- Only countably many finite rational tests are used to define the good set. -/
 def gammaGood : Set Ω := {ω | ∀ (s : Finset ι) (q : s → ℚ),

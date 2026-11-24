@@ -6,6 +6,10 @@ import Mathlib.Analysis.Calculus.MeanValue
 import Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus
 import Mathlib.Tactic
 
+/-!
+# Smooth truncation functions
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology Set
 open scoped NNReal

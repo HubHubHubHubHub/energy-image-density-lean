@@ -16,7 +16,7 @@ namespace ErrorCalculus.ErrorStructure
 variable {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} [IsProbabilityMeasure μ]
 variable (S : ErrorStructure Ω μ) {n : ℕ}
 
-/-- The image law used throughout. -/
+/-- The image distribution used throughout. -/
 abbrev eidImageLaw (f : Fin n → S.dom) : Measure (Fin n → ℝ) :=
   imageLaw (fun i => (f i : Lp ℝ 2 μ))
 
@@ -29,7 +29,7 @@ theorem eidImageLaw_eq_map (f : Fin n → S.dom) :
     S.eidImageLaw f = μ.map (S.representativeVec f) :=
   Measure.map_congr (S.imageRepresentative_ae_representativeVec f)
 
-/-- The conditional covariance entry, as an L¹ class under the image law. -/
+/-- The conditional covariance entry, as an L¹ class under the image distribution. -/
 def imageGammaMatrixGeneral (f : Fin n → S.dom) (i j : Fin n) :
     Lp ℝ 1 (S.eidImageLaw f) :=
   (S.image (fun k => (f k : Lp ℝ 2 μ)) (fun k => (f k).property)).Γ

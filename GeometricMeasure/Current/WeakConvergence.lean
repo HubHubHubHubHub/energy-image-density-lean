@@ -1,7 +1,11 @@
-import GeometricMeasure.VectorMeasure.WeakConvergence
-import GeometricMeasure.Current.MeasureCurrent
+import GeometricMeasure.VectorMeasure.WeakConvergence.Basic
+import GeometricMeasure.Current.MeasureCurrent.Basic
 
-/-! Weak convergence through bounded covector fields and positive coordinates. -/
+/-!
+# Weak convergence of currents and lower semicontinuity of mass
+
+Weak convergence through bounded covector fields and positive coordinates.
+-/
 noncomputable section
 open MeasureTheory TopologicalSpace Filter Set
 open scoped ENNReal NNReal Topology

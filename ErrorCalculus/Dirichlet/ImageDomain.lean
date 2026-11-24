@@ -4,6 +4,10 @@ import Mathlib.Analysis.Normed.Lp.SmoothApprox
 import Mathlib.Analysis.Calculus.Deriv.Support
 import Mathlib.Analysis.Calculus.MeanValue
 
+/-!
+# The domain of the image structure
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 open scoped NNReal
@@ -25,7 +29,7 @@ theorem pullback_composition {k : ℕ} (u : Fin k → Lp ℝ 2 (imageLaw X))
   funext i
   exact (huω i).symm
 
-/-- A Lipschitz function is square integrable for the law of an L² tuple. -/
+/-- A Lipschitz function is square integrable for the distribution of an L² tuple. -/
 theorem imageFunction_memLp [IsProbabilityMeasure μ] {F : (Fin m → ℝ) → ℝ} {L : ℝ≥0} (hL : LipschitzWith L F) :
     MemLp F 2 (imageLaw X) := by
   apply (memLp_map_measure_iff hL.continuous.measurable.aestronglyMeasurable
@@ -64,7 +68,7 @@ theorem imageDom_of_contDiff_lipschitz {F : (Fin m → ℝ) → ℝ} {L : ℝ≥
     rw [he]
     exact (S.constant_calculus (F 0)).choose
 
-/-- smooth compactly supported functions give density for the image law. -/
+/-- smooth compactly supported functions give density for the image distribution. -/
 theorem imageDom_dense : Dense (S.toErrorData.imageDom X : Set (Lp ℝ 2 (imageLaw X))) := by
   apply (Lp.dense_hasCompactSupport_contDiff (μ := imageLaw X) (E := Fin m → ℝ) (F := ℝ)
     (p := 2) (by norm_num)).mono

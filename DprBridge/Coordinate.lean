@@ -10,7 +10,6 @@ The polar norms and normality predicates of `ErrorCalculus` agree with the coord
 finiteness of the dominated measure and all normal-current hypotheses.
 -/
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Set
 open scoped ContDiff
 

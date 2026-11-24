@@ -1,8 +1,18 @@
-import ErrorCalculus.Dirichlet.FiniteEnergyExamples
-import ErrorCalculus.Dirichlet.DensityDomainEquality
-import ErrorCalculus.Dirichlet.WhiteNoiseHilbert
 import Mathlib.MeasureTheory.Function.AbsolutelyContinuous
 import Mathlib.Tactic
+import ErrorCalculus.Dirichlet.WhiteNoiseHilbert.Basic
+import ErrorCalculus.Dirichlet.FiniteEnergyMeasure.Basic
+import ErrorCalculus.Dirichlet.GeneratorComposition.Basic
+import Foundations.Sections.Defs
+import Mathlib.Algebra.Polynomial.Sequence
+import Mathlib.Analysis.InnerProductSpace.l2Space
+import Mathlib.LinearAlgebra.PiTensorProduct.Generators
+import Mathlib.MeasureTheory.Measure.SeparableMeasure
+import Mathlib.Probability.Distributions.Gaussian.IsGaussianProcess.Independence
+import Mathlib.Probability.Distributions.Gaussian.Multivariate
+import Mathlib.Probability.Independence.InfinitePi
+import Mathlib.RingTheory.Polynomial.Hermite.Gaussian
+import Mathlib.Topology.Algebra.MvPolynomial
 
 /-!
 # Truncation convergence in a Dirichlet form
@@ -14,7 +24,6 @@ Symmetric truncations of a domain element converge in the form norm and in energ
 noncomputable section
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal InnerProductSpace
-set_option maxHeartbeats 1600000
 
 namespace ErrorCalculus.Capacity.DirichletForm
 

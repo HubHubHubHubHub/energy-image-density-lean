@@ -3,6 +3,10 @@ import Mathlib.Analysis.Calculus.ContDiff.RCLike
 import Mathlib.Analysis.InnerProductSpace.PiL2
 import Mathlib.Analysis.Normed.Lp.MeasurableSpace
 
+/-!
+# Vector representatives and the multivariate chain rule
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 namespace ErrorCalculus.ErrorStructure
@@ -26,6 +30,8 @@ theorem coeFn_representativeVec (u : Fin d → S.dom) :
 def euclideanEquiv (d : ℕ) : (Fin d → ℝ) ≃L[ℝ] EuclideanSpace ℝ (Fin d) :=
   (PiLp.continuousLinearEquiv 2 ℝ (fun _ : Fin d => ℝ)).symm
 
+/-- The Euclidean-valued map built from the chosen representatives `S.representativeVec u` of the
+classes `u i`. -/
 def toEuclidean (u : Fin d → S.dom) : Ω → EuclideanSpace ℝ (Fin d) :=
   euclideanEquiv d ∘ S.representativeVec u
 

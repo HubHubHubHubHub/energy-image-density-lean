@@ -1,7 +1,10 @@
 import ErrorCalculus.Dirichlet.PolarCurrent
 
+/-!
+# Polar currents from densities
+-/
+
 noncomputable section
-set_option backward.isDefEq.respectTransparency false
 open MeasureTheory Filter
 namespace ErrorCalculus
 variable {n : ℕ}
@@ -28,16 +31,14 @@ theorem polarNorm_direction {w : (Fin n → ℝ) → (Fin n → ℝ)}
   intro y hy
   have hpos : 0 < polarNorm (w y) := ENNReal.ofReal_pos.mp (pos_iff_ne_zero.mpr hy)
   have hw0 : w y ≠ 0 := by simpa using (ne_of_gt hpos)
-  simp [polarDirection, hw0, polarNorm_smul, abs_of_pos (inv_pos.mpr hpos),
-    inv_mul_cancel₀ hpos.ne']
+  simp [polarDirection, hw0, polarNorm_smul, abs_of_pos (inv_pos.mpr hpos)]
 
 theorem polarNorm_mul_direction (w : (Fin n → ℝ) → (Fin n → ℝ))
     (i j : Fin n) (y : Fin n → ℝ) :
     polarNorm (w y) * polarDirection w i y j = w y j := by
   by_cases h : w y = 0
   · simp [polarDirection, h, polarNorm]
-  · simp [polarDirection, h, Pi.smul_apply, smul_eq_mul,
-      ← mul_assoc, mul_inv_cancel₀ (polarNorm_eq_zero.not.mpr h)]
+  · simp [polarDirection, h, Pi.smul_apply, smul_eq_mul]
 
 theorem polarMass_finite (μ : Measure (Fin n → ℝ))
     (w : (Fin n → ℝ) → (Fin n → ℝ))

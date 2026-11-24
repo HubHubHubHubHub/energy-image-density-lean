@@ -13,7 +13,6 @@ dominated measure ν: neither finiteness nor σ-finiteness of ν is required. Di
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Set
 
 namespace GeometricMeasure

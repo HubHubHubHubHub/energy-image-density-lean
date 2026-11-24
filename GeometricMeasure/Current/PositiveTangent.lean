@@ -1,6 +1,5 @@
-import GeometricMeasure.Current.PolarFreezing
-import GeometricMeasure.Current.Tangent
-import GeometricMeasure.Current.VectorMeasureCompactness
+import GeometricMeasure.Current.Tangent.Basic
+import GeometricMeasure.VectorMeasure.PolarFreezing
 
 /-!
 # common positive extraction
@@ -12,7 +11,6 @@ singularity of the limit nor convergence in variation is asserted.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Metric Set
 open scoped ENNReal NNReal Topology
 

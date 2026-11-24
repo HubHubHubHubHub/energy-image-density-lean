@@ -1,5 +1,9 @@
 import ErrorCalculus.Dirichlet.PolarCurrent
 
+/-!
+# The De Philippis–Rindler hypothesis
+-/
+
 noncomputable section
 open MeasureTheory
 namespace ErrorCalculus

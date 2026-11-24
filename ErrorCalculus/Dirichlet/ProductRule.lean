@@ -2,6 +2,10 @@ import ErrorCalculus.Dirichlet.Truncation
 import ErrorCalculus.Dirichlet.Calculus
 import Mathlib.MeasureTheory.Function.LpSeminorm.CompareExp
 
+/-!
+# The product rule for the carré du champ
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 open scoped ENNReal

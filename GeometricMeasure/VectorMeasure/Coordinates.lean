@@ -4,7 +4,10 @@ import Mathlib.MeasureTheory.SpecificCodomains.WithLp
 import Mathlib.MeasureTheory.VectorMeasure.Decomposition.RadonNikodym
 import Mathlib.MeasureTheory.VectorMeasure.Variation.Basic
 
-/-! Coordinates and reconstruction of Euclidean vector measures by scalar RN derivatives.
+/-!
+# Coordinates of Euclidean vector measures
+
+Coordinates and reconstruction of Euclidean vector measures by scalar RN derivatives.
 The source is an arbitrary measurable space; the target always carries the Euclidean norm.
 -/
 

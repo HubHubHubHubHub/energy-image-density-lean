@@ -1,6 +1,10 @@
 import ErrorCalculus.Dirichlet.ImageStructure
 import Mathlib.MeasureTheory.Function.ConditionalExpectation.Basic
 
+/-!
+# The image carré du champ as a conditional expectation
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 namespace ErrorCalculus

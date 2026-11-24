@@ -1,6 +1,6 @@
-import ErrorCalculus.Dirichlet.QuadForm
 import Mathlib.MeasureTheory.Function.L2Space
 import Mathlib.Tactic
+import ErrorCalculus.Dirichlet.QuadForm.Basic
 
 /-!
 # framework, constants, staircase contractions
@@ -16,10 +16,8 @@ replaces BH's semigroup.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal
-set_option maxHeartbeats 800000
 
 namespace ErrorCalculus
 

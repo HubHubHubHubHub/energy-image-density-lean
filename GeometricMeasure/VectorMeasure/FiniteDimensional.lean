@@ -1,7 +1,10 @@
 import GeometricMeasure.VectorMeasure.Coordinates
 import Mathlib.MeasureTheory.VectorMeasure.WithDensityVec
 
-/-! Finite variation for Euclidean vector measures, without assuming it in the
+/-!
+# Finite variation of Euclidean vector measures
+
+Finite variation for Euclidean vector measures, without assuming it in the
 construction. A finite sum of scalar Jordan variations is a common dominating measure.
 -/
 

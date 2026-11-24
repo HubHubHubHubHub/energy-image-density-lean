@@ -16,7 +16,6 @@ equivalence), smooth compactly supported tests and the derivative (`comp_right_f
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Set
 open scoped ContDiff
 

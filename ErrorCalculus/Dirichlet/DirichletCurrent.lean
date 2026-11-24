@@ -1,10 +1,17 @@
-import ErrorCalculus.Dirichlet.MatrixSqrtMeasurable
 import ErrorCalculus.Dirichlet.ConditionalMatrix
 import ErrorCalculus.Dirichlet.PolarCurrentDensity
-import ErrorCalculus.Dirichlet.GeneratorWeights
+import ErrorCalculus.Dirichlet.MatrixSqrtMeasurable.Basic
+import ErrorCalculus.Dirichlet.GeneratorWeights.Basic
+import ErrorCalculus.Dirichlet.SemigroupResolvent
+import Mathlib.Analysis.Calculus.BumpFunction.Convolution
+import Mathlib.Analysis.FunctionalSpaces.SobolevInequality
+import Mathlib.Analysis.Normed.Operator.Completeness
+
+/-!
+# Dirichlet currents from the conditional energy matrix
+-/
 
 noncomputable section
-set_option backward.isDefEq.respectTransparency false
 open MeasureTheory Filter Topology
 namespace ErrorCalculus.ErrorStructure
 variable {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} [IsProbabilityMeasure μ]
@@ -55,7 +62,7 @@ theorem dirichletRow_action (f : Fin n → S.dom) (i : Fin n)
   rw [integral_finsetSum _ (fun j _ => (h j).integrable_mul (S.imageGammaMatrixGeneral f i j))]
   exact Finset.sum_congr rfl (fun j _ => S.imageGammaMatrixGeneral_characterization f i j (h j))
 
-/-- The EID measure is dominated by the unrestricted image law. -/
+/-- The EID measure is dominated by the unrestricted image distribution. -/
 theorem eidMeasure_le_imageLaw (f : Fin n → S.dom) : S.eidMeasure f ≤ S.eidImageLaw f := by
   rw [S.eidImageLaw_eq_map]
   exact Measure.map_mono Measure.restrict_le_self (S.measurable_representativeVec f)

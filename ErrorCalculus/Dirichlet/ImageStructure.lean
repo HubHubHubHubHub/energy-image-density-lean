@@ -1,5 +1,9 @@
 import ErrorCalculus.Dirichlet.ImageCalculus
 
+/-!
+# The image error structure
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 namespace ErrorCalculus.ErrorStructure

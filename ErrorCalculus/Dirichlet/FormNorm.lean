@@ -1,5 +1,9 @@
-import ErrorCalculus.Dirichlet.QuadForm
 import Mathlib.Tactic.Linarith
+import ErrorCalculus.Dirichlet.QuadForm.Basic
+
+/-!
+# The form norm
+-/
 
 noncomputable section
 namespace ErrorCalculus.QuadForm

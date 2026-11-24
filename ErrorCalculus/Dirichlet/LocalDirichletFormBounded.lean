@@ -15,10 +15,8 @@ I.3.3.2, p. 14, by squares then polarization); ℰ-orthogonal decomposition f = 
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal
-set_option maxHeartbeats 800000
 
 namespace ErrorCalculus
 

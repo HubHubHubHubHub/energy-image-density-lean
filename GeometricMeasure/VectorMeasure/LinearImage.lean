@@ -1,4 +1,4 @@
-import GeometricMeasure.VectorMeasure.Matrix
+import GeometricMeasure.VectorMeasure.Matrix.Basic
 
 /-!
 # Linear Image

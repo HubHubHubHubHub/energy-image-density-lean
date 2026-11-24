@@ -1,6 +1,10 @@
-import GeometricMeasure.VectorMeasure.Operations
+import GeometricMeasure.VectorMeasure.Operations.Basic
 
-/-! Affine dilations and pullbacks of compactly supported smooth tests. -/
+/-!
+# Preimages of closed balls under dilations
+
+Affine dilations and pullbacks of compactly supported smooth tests.
+-/
 noncomputable section
 open MeasureTheory TopologicalSpace Set
 open scoped ENNReal Topology

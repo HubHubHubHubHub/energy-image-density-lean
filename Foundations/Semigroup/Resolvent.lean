@@ -4,13 +4,18 @@ import Mathlib.Tactic.Module
 import Mathlib.Tactic.Linarith
 import Mathlib.Tactic.Positivity
 
-/-! Contractive resolvents, their common dense domain, and their generator. -/
+/-!
+# Contraction resolvents and their generator
+
+Contractive resolvents, their common dense domain, and their generator.
+-/
 noncomputable section
 open Filter Topology
 namespace Foundations
 
 /-- The values at nonpositive parameters are immaterial. -/
 structure ContractionResolvent (H : Type*) [NormedAddCommGroup H] [NormedSpace ℝ H] where
+  /-- The resolvent family: a continuous linear operator `G b` on `H` for each real `b`. -/
   G : ℝ → H →L[ℝ] H
   resolvent_eq : ∀ {a b}, 0 < a → 0 < b → G a - G b = (b-a) • (G a * G b)
   norm_le : ∀ {b}, 0 < b → ‖b • G b‖ ≤ 1
@@ -65,6 +70,7 @@ theorem range_eq {a b : ℝ} (ha : 0 < a) (hb : 0 < b) :
   rw [map_add, map_smul, ← hc]
   linear_combination (norm := module) -he
 
+/-- The domain of the resolvent: the range of `G 1`. -/
 def dom : Submodule ℝ H := LinearMap.range (R.G 1).toLinearMap
 
 theorem mem_dom_G {b : ℝ} (hb : 0 < b) (x : H) : R.G b x ∈ R.dom := by
@@ -77,9 +83,11 @@ theorem dense_dom : Dense (R.dom : Set H) := by
   filter_upwards [eventually_gt_atTop (0 : ℝ)] with b hb
   exact R.dom.smul_mem b (R.mem_dom_G hb x)
 
+/-- The linear equivalence between `H` and the domain given by the injective operator `G 1`. -/
 def domainEquiv : H ≃ₗ[ℝ] R.dom := LinearEquiv.ofInjective (R.G 1).toLinearMap
   (R.injective_G (by norm_num))
 
+/-- The generator `y ↦ y - (G 1)⁻¹ y` on the domain. -/
 def generator : R.dom →ₗ[ℝ] H := R.dom.subtype - R.domainEquiv.symm.toLinearMap
 
 theorem generator_G_one (y : H) :

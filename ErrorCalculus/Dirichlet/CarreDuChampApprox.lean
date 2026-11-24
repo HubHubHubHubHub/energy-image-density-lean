@@ -16,7 +16,6 @@ f: 0 ≤ ℰ(gh, g) − ½ ℰ(h, g²) ≤ ℰ(fh, f) − ½ ℰ(h, f²) ≤ M �
 noncomputable section
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal InnerProductSpace
-set_option maxHeartbeats 1600000
 
 namespace ErrorCalculus.Capacity
 namespace DirichletForm

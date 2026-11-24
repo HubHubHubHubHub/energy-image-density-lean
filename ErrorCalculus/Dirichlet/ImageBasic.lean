@@ -1,5 +1,9 @@
 import ErrorCalculus.Dirichlet.ErrorStructure
 
+/-!
+# Image tuples, pullbacks and the image distribution
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 namespace ErrorCalculus
@@ -23,7 +27,7 @@ theorem measurable_imageRepresentative {m : ℕ} (X : Fin m → Lp ℝ 2 μ) :
 theorem imageRepresentative_ae_eq {m : ℕ} (X : Fin m → Lp ℝ 2 μ) :
     imageRepresentative X =ᵐ[μ] imageTuple X := (imageTuple_aemeasurable X).ae_eq_mk.symm
 
-/-- The image probability law. -/
+/-- The image probability distribution. -/
 def imageLaw {m : ℕ} (X : Fin m → Lp ℝ 2 μ) : Measure (Fin m → ℝ) :=
   μ.map (imageRepresentative X)
 

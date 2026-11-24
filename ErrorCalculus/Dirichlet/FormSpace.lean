@@ -2,6 +2,10 @@ import ErrorCalculus.Dirichlet.FormNorm
 import Mathlib.Analysis.Normed.Group.Completeness
 import Mathlib.Tactic
 
+/-!
+# The form space and its inclusion map
+-/
+
 noncomputable section
 open Filter Topology
 namespace ErrorCalculus.QuadForm

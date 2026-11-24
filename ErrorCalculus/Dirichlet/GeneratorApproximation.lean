@@ -1,4 +1,25 @@
-import ErrorCalculus.Dirichlet.FormSpaceDensityLadder
+import ErrorCalculus.Dirichlet.FormSpaceDensityLadder.Basic
+import ErrorCalculus.Dirichlet.EntropyDecay.Basic
+import ErrorCalculus.Dirichlet.ImageStructure
+import ErrorCalculus.Dirichlet.ResolventMarkov.Basic
+import Foundations.Sections.Defs
+import Mathlib.Algebra.Polynomial.Sequence
+import Mathlib.Analysis.Calculus.ContDiff.Polynomial
+import Mathlib.Analysis.Calculus.Deriv.Abs
+import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
+import Mathlib.Analysis.InnerProductSpace.l2Space
+import Mathlib.LinearAlgebra.PiTensorProduct.Generators
+import Mathlib.MeasureTheory.Measure.Hausdorff
+import Mathlib.MeasureTheory.Measure.SeparableMeasure
+import Mathlib.Probability.BrownianMotion.Basic
+import Mathlib.Probability.Independence.InfinitePi
+import Mathlib.RingTheory.Polynomial.Hermite.Gaussian
+import Mathlib.Topology.Algebra.MvPolynomial
+import Mathlib.Topology.ContinuousMap.SecondCountableSpace
+
+/-!
+# Approximation by elements of the generator domain
+-/
 
 noncomputable section
 open MeasureTheory Filter Topology

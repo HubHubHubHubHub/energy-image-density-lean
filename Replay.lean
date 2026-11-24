@@ -62,7 +62,7 @@ run_cmd do
       for axiomName in axioms do
         unless [``propext, ``Classical.choice, ``Quot.sound].contains axiomName do
           throwError "Unexpected foundational constant {axiomName} in {name}"
-  unless totalModules == 407 do
+  unless totalModules == 163 do
     throwError "Imported module count differs from the export manifest: {totalModules}"
   logInfo m!"AUDIT_MODULES={totalModules}"
   logInfo m!"AUDIT_DECLARATIONS={total}"

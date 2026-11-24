@@ -1,7 +1,11 @@
 import ErrorCalculus.Dirichlet.Calculus
-import ErrorCalculus.Dirichlet.ExtensionGammaBounds
 import Mathlib.MeasureTheory.Measure.WithDensity
 import Mathlib.MeasureTheory.Measure.Lebesgue.Basic
+import ErrorCalculus.Dirichlet.ExtensionGammaBounds.Basic
+
+/-!
+# Energy measures and the energy image density property
+-/
 
 noncomputable section
 open MeasureTheory Filter Topology

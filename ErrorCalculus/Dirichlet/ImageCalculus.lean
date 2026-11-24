@@ -1,5 +1,9 @@
 import ErrorCalculus.Dirichlet.ImageDomain
-import ErrorCalculus.Dirichlet.ClosureCalculusLimits
+import ErrorCalculus.Dirichlet.ClosureCalculusLimits.Basic
+
+/-!
+# Functional calculus for image structures
+-/
 
 noncomputable section
 open MeasureTheory Filter Topology

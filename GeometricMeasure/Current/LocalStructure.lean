@@ -12,7 +12,6 @@ masses. The controls are compiled separately from the library aggregator.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Set
 open scoped ENNReal BigOperators Topology
 

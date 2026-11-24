@@ -1,13 +1,13 @@
-import DprBridge.BH1991PrintedProof
-import DprBridge.ChainRuleBridge
-import DprBridge.EID
-import DprBridge.NormalContractionsBridge
+import DprBridge.BH1991PrintedProof.Basic
+import DprBridge.ChainRuleBridge.Basic
+import DprBridge.EID.Basic
+import DprBridge.NormalContractionsBridge.Basic
 import GeometricMeasure.Current.CoordinateNormalFamily
 import GeometricMeasure.Current.FiniteNormalFamily
-import GeometricMeasure.Current.FirstOrderStructure
+import GeometricMeasure.Current.FirstOrderStructure.Basic
 import GeometricMeasure.Current.LocalStructure
 import GeometricMeasure.Current.MatrixStructure
-import GeometricMeasure.Current.NormalFamily
+import GeometricMeasure.Current.NormalFamily.Basic
 import GeometricMeasure.Current.RectangularStructure
 import GeometricMeasure.VectorMeasure.LinearImage
 

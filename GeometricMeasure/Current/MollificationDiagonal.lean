@@ -1,6 +1,6 @@
 import GeometricMeasure.VectorMeasure.MeasureConvolution
-import GeometricMeasure.Current.Compactness
 import GeometricMeasure.Current.LinearCombinations
+import GeometricMeasure.Current.Compactness.Basic
 
 /-!
 # Mollification Diagonal
@@ -13,7 +13,6 @@ here because their reference proofs use the current mass formula.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Metric Set
 open scoped ENNReal NNReal Topology Convolution
 namespace GeometricMeasure

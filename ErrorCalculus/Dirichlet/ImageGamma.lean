@@ -1,6 +1,10 @@
 import ErrorCalculus.Dirichlet.ImageTests
 import Mathlib.MeasureTheory.Measure.Decomposition.IntegralRNDeriv
 
+/-!
+# The carré du champ of the image structure
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 namespace ErrorCalculus.ErrorData

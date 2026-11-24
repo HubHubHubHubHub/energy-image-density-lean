@@ -9,7 +9,6 @@ Bouleau–Hirsch V.1.1.6.2, proved with finitely many bounded measurable kernel 
 measurable pseudoinverse replaces measurable unit selection.
 -/
 noncomputable section
-set_option backward.isDefEq.respectTransparency false
 open MeasureTheory Filter Topology Matrix
 namespace ErrorCalculus.ErrorStructure
 variable {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} [IsProbabilityMeasure μ]
@@ -50,7 +49,7 @@ def conditionalKernelTest (f : Fin n → S.dom) (k i : Fin n) : ImageTest (Fin n
   toFun y := boundedKernelColumn (S.conditionalMatrix f y) k i
   measurable := (measurable_pi_apply i).comp
     ((measurable_boundedKernelColumn k).comp (S.measurable_conditionalMatrix f))
-  bound := ⟨1, fun y => boundedKernelColumn_bound _ k i⟩
+  bound := ⟨1, fun _ => boundedKernelColumn_bound _ k i⟩
 
 /-- The original Γ matrix annihilates every measurable kernel column of its conditional matrix. -/
 theorem gamma_mulVec_conditionalKernel_ae (f : Fin n → S.dom) (k : Fin n) :

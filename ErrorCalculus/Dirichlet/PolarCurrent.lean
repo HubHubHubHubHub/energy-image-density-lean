@@ -37,8 +37,10 @@ theorem smoothOrder_ne_analyticOrder : (∞ : WithTop ℕ∞) ≠ ⊤ := by simp
 /-- A finite one-current: its mass and a measurable Euclidean unit direction.
 No assumption about a distributional boundary is part of this structure. -/
 structure PolarCurrent (n : ℕ) where
+  /-- The mass measure of the current. -/
   mass : Measure (Fin n → ℝ)
   finite_mass : IsFiniteMeasure mass
+  /-- The direction field, of polar norm one almost everywhere for the mass. -/
   direction : (Fin n → ℝ) → (Fin n → ℝ)
   measurable_direction : Measurable direction
   norm_direction : ∀ᵐ y ∂mass, polarNorm (direction y) = 1

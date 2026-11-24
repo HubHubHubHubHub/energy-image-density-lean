@@ -17,7 +17,6 @@ specialization. The Annals page reference, pp. 1027–1028, is unverified agains
 
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Set Filter Metric
 open scoped Topology RealInnerProductSpace Convolution
 namespace GeometricMeasure

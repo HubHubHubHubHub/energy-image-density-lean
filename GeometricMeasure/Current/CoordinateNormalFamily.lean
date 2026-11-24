@@ -1,7 +1,8 @@
 import GeometricMeasure.Analysis.CoordinateTransport
-import GeometricMeasure.Current.NormalFamily
 import GeometricMeasure.Current.LinearCombinations
 import GeometricMeasure.Current.MollificationDiagonal
+import GeometricMeasure.Current.NormalFamily.Basic
+import GeometricMeasure.VectorMeasure.PolarFreezing
 
 /-!
 # Coordinate Normal Family
@@ -20,7 +21,6 @@ transported direction, with transported D = σp − σm (boundary = −div on bo
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Set
 open scoped ContDiff
 

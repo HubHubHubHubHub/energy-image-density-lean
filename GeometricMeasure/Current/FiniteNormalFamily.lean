@@ -1,4 +1,4 @@
-import GeometricMeasure.Current.FirstOrderStructure
+import GeometricMeasure.Current.FirstOrderStructure.Basic
 
 /-!
 # Finite Normal Family
@@ -11,7 +11,6 @@ equations use globally finite measures; local conclusions use interior tests.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Set
 open scoped ENNReal BigOperators
 

@@ -24,10 +24,8 @@ The multivariate `ChainRule` is proved in `LocalCarreDuChampChainRule` and conne
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal
-set_option maxHeartbeats 800000
 
 namespace ErrorCalculus
 

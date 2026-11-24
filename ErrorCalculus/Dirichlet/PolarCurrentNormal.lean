@@ -1,8 +1,11 @@
 import ErrorCalculus.Dirichlet.PolarCurrentDensity
 
+/-!
+# Normality of polar currents with a source density
+-/
+
 noncomputable section
 open scoped ContDiff
-set_option backward.isDefEq.respectTransparency false
 open MeasureTheory Filter
 namespace ErrorCalculus.PolarCurrent
 variable {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} {n : ℕ}

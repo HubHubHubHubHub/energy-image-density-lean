@@ -1,4 +1,4 @@
-import GeometricMeasure.Current.EllipticEnergy
+import GeometricMeasure.Current.EllipticEnergy.Basic
 
 /-!
 # L² and Hörmander bounds for the truncated second kernel
@@ -12,7 +12,6 @@ Bibliographic context: De Philippis–Rindler, pp. 9–10, (2.9)–(2.12).
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Set Filter Metric
 open scoped Topology RealInnerProductSpace Convolution ContDiff
 namespace GeometricMeasure

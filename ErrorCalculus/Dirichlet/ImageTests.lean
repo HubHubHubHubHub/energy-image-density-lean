@@ -1,12 +1,17 @@
 import ErrorCalculus.Dirichlet.ImageBasic
 import Mathlib.MeasureTheory.Function.AEEqOfIntegral
 
+/-!
+# Test functions on the image space
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 namespace ErrorCalculus
 
 /-- Bounded measurable real tests used in the Radon--Nikodym characterization. -/
 structure ImageTest (α : Type*) [MeasurableSpace α] where
+  /-- The underlying real function. -/
   toFun : α → ℝ
   measurable : Measurable toFun
   bound : ∃ C : ℝ, ∀ x, ‖toFun x‖ ≤ C
@@ -15,15 +20,19 @@ namespace ImageTest
 variable {α β : Type*} [MeasurableSpace α] [MeasurableSpace β]
 instance : CoeFun (ImageTest α) (fun _ => α → ℝ) := ⟨toFun⟩
 
+/-- The constant test `1`. -/
 def one : ImageTest α := ⟨fun _ => 1, measurable_const, 1, by simp⟩
 
+/-- The indicator function of a measurable set, as a test. -/
 def indicator (s : Set α) (hs : MeasurableSet s) : ImageTest α :=
   ⟨s.indicator (fun _ => 1), measurable_const.indicator hs, 1, by
     intro x; by_cases hx : x ∈ s <;> simp [Set.indicator_of_mem, Set.indicator_of_notMem, hx]⟩
 
+/-- The test `H ∘ f`, for a measurable map `f`. -/
 def comp (H : ImageTest β) (f : α → β) (hf : Measurable f) : ImageTest α :=
   ⟨H ∘ f, H.measurable.comp hf, H.bound.imp fun _ hC x => hC (f x)⟩
 
+/-- The pointwise product of two tests. -/
 def mul (H K : ImageTest α) : ImageTest α where
   toFun x := H x * K x
   measurable := H.measurable.mul K.measurable

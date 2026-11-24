@@ -2,6 +2,10 @@ import ErrorCalculus.Dirichlet.FormSpace
 import Mathlib.Analysis.InnerProductSpace.LaxMilgram
 import Mathlib.Analysis.InnerProductSpace.Adjoint
 
+/-!
+# The resolvent of a closed form
+-/
+
 noncomputable section
 namespace ErrorCalculus.QuadForm
 variable {H : Type*} [NormedAddCommGroup H] [InnerProductSpace ℝ H]

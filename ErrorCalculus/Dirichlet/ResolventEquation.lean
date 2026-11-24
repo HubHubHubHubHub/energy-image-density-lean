@@ -1,6 +1,10 @@
 import ErrorCalculus.Dirichlet.ResolventBasic
 import Mathlib.Analysis.SpecificLimits.Basic
 
+/-!
+# The resolvent equation
+-/
+
 noncomputable section
 open Filter Topology
 namespace ErrorCalculus.QuadForm

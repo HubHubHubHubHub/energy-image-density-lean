@@ -2,6 +2,10 @@ import Mathlib.Analysis.InnerProductSpace.Dual
 import Mathlib.Analysis.Normed.Module.WeakDual
 import Mathlib.Topology.Separation.Hausdorff
 
+/-!
+# Weak cluster points of bounded sequences
+-/
+
 noncomputable section
 open Filter Topology
 namespace ErrorCalculus

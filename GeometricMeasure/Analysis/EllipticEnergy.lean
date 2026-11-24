@@ -18,7 +18,6 @@ estimates specialize the distributional framework.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Set Filter Metric
 open scoped Topology RealInnerProductSpace Convolution ContDiff
 namespace GeometricMeasure

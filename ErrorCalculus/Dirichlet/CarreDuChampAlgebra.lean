@@ -21,7 +21,6 @@ The continuation (approximating forms, prop. 4.1.1) is in
 noncomputable section
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal InnerProductSpace
-set_option maxHeartbeats 1600000
 
 namespace ErrorCalculus.Capacity
 namespace DirichletForm

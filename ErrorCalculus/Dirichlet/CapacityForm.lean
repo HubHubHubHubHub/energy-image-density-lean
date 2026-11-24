@@ -1,6 +1,16 @@
 import ErrorCalculus.Dirichlet.FormSpace
-import ErrorCalculus.Dirichlet.LatticeGamma
 import Mathlib.Tactic
+import ErrorCalculus.Dirichlet.LatticeGamma.Basic
+import ErrorCalculus.Dirichlet.BoundedDenseStrong.Basic
+import ErrorCalculus.Dirichlet.EIDVectorChain
+import ErrorCalculus.Dirichlet.ExtensionLp
+import ErrorCalculus.Dirichlet.GeneratorWeights.Basic
+import ErrorCalculus.Dirichlet.SemigroupResolvent
+import Mathlib.Analysis.Calculus.BumpFunction.Convolution
+import Mathlib.Analysis.Calculus.Rademacher
+import Mathlib.Analysis.FunctionalSpaces.SobolevInequality
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.ArctanDeriv
+import Mathlib.MeasureTheory.Function.ContinuousMapDense
 
 /-!
 # Dirichlet forms on L²(μ), normal contractions, lattices
@@ -17,7 +27,6 @@ adaptations, not new results.
 noncomputable section
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal InnerProductSpace
-set_option maxHeartbeats 1600000
 
 namespace ErrorCalculus.Capacity
 
@@ -35,6 +44,7 @@ not be dense and μ is arbitrary: this framework is broader than BH I.1/I.3. The
 is supplied as data; its equivalence with the Markov property alone is not proved here.
 -/
 structure DirichletForm (μ : Measure Ω) where
+  /-- The underlying nonnegative symmetric quadratic form on `L²(μ)`. -/
   form : QuadForm (Lp ℝ 2 μ)
   closed : form.IsClosed
   contraction : ∀ {F : ℝ → ℝ}, LipschitzWith 1 F → F 0 = 0 → ∀ (u : form.dom) (w : Lp ℝ 2 μ),

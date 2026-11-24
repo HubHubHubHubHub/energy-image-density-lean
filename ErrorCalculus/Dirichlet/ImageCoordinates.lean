@@ -1,5 +1,9 @@
 import ErrorCalculus.Dirichlet.ImageStructure
 
+/-!
+# Coordinates of the image structure
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 open scoped NNReal
@@ -7,7 +11,7 @@ namespace ErrorCalculus
 variable {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} [IsProbabilityMeasure μ]
 variable {m : ℕ} (X : Fin m → Lp ℝ 2 μ)
 
-/-- The i-th coordinate as an L² class for the image law. -/
+/-- The i-th coordinate as an L² class for the image distribution. -/
 def imageCoordinate (i : Fin m) : Lp ℝ 2 (imageLaw X) :=
   (imageFunction_memLp X (ContinuousLinearMap.proj (R := ℝ) (φ := fun _ : Fin m => ℝ) i).lipschitz).toLp _
 
@@ -44,7 +48,7 @@ theorem image_coordinate_variance (i j : Fin m) :
     (fun _ => 1) measurable_const ⟨1, by simp⟩
   simpa only [one_mul, S.imageLift_imageCoord] using h
 
-/-- scalar image calculus, without any extra assumption on the image law. -/
+/-- scalar image calculus, without any extra assumption on the image distribution. -/
 theorem image_scalar_variance (Y : Fin 1 → Lp ℝ 2 μ) (hY : ∀ i, Y i ∈ S.dom)
     {F : ℝ → ℝ} {L : ℝ≥0} (hC : ContDiff ℝ 1 F) (hL : LipschitzWith L F)
     (w : Lp ℝ 2 (imageLaw Y)) (hw : ⇑w =ᵐ[imageLaw Y] fun x => F (x 0)) :

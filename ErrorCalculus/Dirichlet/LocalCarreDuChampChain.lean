@@ -1,5 +1,5 @@
 import ErrorCalculus.Dirichlet.LocalCarreDuChampClamp
-import ErrorCalculus.Dirichlet.FiniteEnergyMeasure
+import ErrorCalculus.Dirichlet.FiniteEnergyMeasure.Basic
 
 /-!
 # univariate chain rule and `LeibnizRule` for the generic carre du champ
@@ -25,10 +25,8 @@ ordinary rather than strict differentiability are outside this module.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal
-set_option maxHeartbeats 800000
 
 namespace ErrorCalculus
 

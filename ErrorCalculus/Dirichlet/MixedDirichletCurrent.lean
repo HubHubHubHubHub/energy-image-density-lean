@@ -1,10 +1,13 @@
 import ErrorCalculus.Dirichlet.MixedConditionalMatrix
-import ErrorCalculus.Dirichlet.GeneratorComposition
 import ErrorCalculus.Dirichlet.PolarCurrentNormal
+import ErrorCalculus.Dirichlet.GeneratorComposition.Basic
+
+/-!
+# Mixed Dirichlet currents
+-/
 
 noncomputable section
 open scoped ContDiff
-set_option backward.isDefEq.respectTransparency false
 open MeasureTheory Filter Topology
 namespace ErrorCalculus.ErrorStructure
 variable {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} [IsProbabilityMeasure μ]
@@ -19,7 +22,7 @@ theorem integrable_mixedConditionalMatrix_columnNorm (f g : Fin n → S.dom) (j 
 In applications g is the kth generator approximation of f. -/
 def dirichletRowSeq (f g : Fin n → S.dom) (j : Fin n) : PolarCurrent n :=
   PolarCurrent.ofDensity (S.eidImageLaw f) (fun y i => S.condMatrixEntry f g i j y)
-    (measurable_pi_lambda _ (fun i => (Lp.stronglyMeasurable _).measurable))
+    (measurable_pi_lambda _ (fun _ => (Lp.stronglyMeasurable _).measurable))
     (S.integrable_mixedConditionalMatrix_columnNorm f g j) j
 
 theorem dirichletRowSeq_action (f g : Fin n → S.dom) (j : Fin n)

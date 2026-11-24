@@ -13,7 +13,6 @@ Current.MollificationDiagonal. This module does not depend on any Current module
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Metric Set
 open scoped ENNReal NNReal Topology
 namespace GeometricMeasure

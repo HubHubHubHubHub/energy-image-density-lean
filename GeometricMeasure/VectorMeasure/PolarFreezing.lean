@@ -1,6 +1,6 @@
-import GeometricMeasure.VectorMeasure.SingularDifferentiation
 import GeometricMeasure.VectorMeasure.DilationGeometry
 import Mathlib.MeasureTheory.Measure.FiniteMeasure
+import GeometricMeasure.VectorMeasure.SingularDifferentiation.Basic
 
 /-!
 # exact transport and freezing of the matrix polar
@@ -12,7 +12,6 @@ neither divergence nor ellipticity.
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Metric Set
 open scoped ENNReal NNReal Topology
 

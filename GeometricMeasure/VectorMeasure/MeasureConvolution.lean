@@ -14,7 +14,6 @@ and Jordan variation for signed measures. No direct or transitive import of Curr
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Metric Set
 open scoped ENNReal NNReal Topology Convolution
 namespace GeometricMeasure

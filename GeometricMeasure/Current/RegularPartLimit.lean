@@ -17,7 +17,6 @@ The resulting limit is used in `Current.MatrixStructure` to prove De Philippisâ€
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Metric Set
 open scoped Topology Convolution
 namespace GeometricMeasure

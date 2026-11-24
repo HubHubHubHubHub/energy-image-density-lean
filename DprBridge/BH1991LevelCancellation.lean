@@ -1,6 +1,27 @@
-import DprBridge.BH1991GammaLocality
-import DprBridge.BH1991NormalContractions
-import DprBridge.BH1991Printed
+import DprBridge.BH1991GammaLocality.Basic
+import DprBridge.BH1991NormalContractions.Basic
+import DprBridge.BH1991Printed.Basic
+import ErrorCalculus.Dirichlet.EIDConditionalGeneral
+import ErrorCalculus.Dirichlet.EntropyDecay.Basic
+import ErrorCalculus.Dirichlet.ResolventMarkov.Basic
+import ErrorCalculus.Dirichlet.SemigroupResolvent
+import GeometricMeasure.Current.Mass.Basic
+import GeometricMeasure.VectorMeasure.Compactness.Basic
+import GeometricMeasure.VectorMeasure.PolarFreezing
+import Mathlib.Algebra.Polynomial.Sequence
+import Mathlib.Analysis.Calculus.ContDiff.Polynomial
+import Mathlib.Analysis.Calculus.Deriv.Abs
+import Mathlib.Analysis.Calculus.Rademacher
+import Mathlib.Analysis.FunctionalSpaces.SobolevInequality
+import Mathlib.Analysis.InnerProductSpace.l2Space
+import Mathlib.LinearAlgebra.PiTensorProduct.Generators
+import Mathlib.MeasureTheory.Measure.Hausdorff
+import Mathlib.MeasureTheory.Measure.SeparableMeasure
+import Mathlib.Probability.BrownianMotion.Basic
+import Mathlib.Probability.Independence.InfinitePi
+import Mathlib.RingTheory.Polynomial.Hermite.Gaussian
+import Mathlib.Topology.Algebra.MvPolynomial
+import Mathlib.Topology.ContinuousMap.SecondCountableSpace
 
 /-!
 # Level cancellation and centered truncations
@@ -16,7 +37,6 @@ References: Bouleau–Hirsch (1991), ch. I, I.5.1.3, I.5.2.3 and I.6.1.1–3; ch
 transports in shifted annihilation.
 -/
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Topology ErrorCalculus
 open scoped NNReal ENNReal
 universe u
@@ -114,7 +134,8 @@ theorem mul_truncS_add_eq_zero (h w : D.toCapacity.Space) (a : ℝ) (n : ℕ)
     rw [he, min_eq_left (by linarith), max_eq_left (by linarith)]
     ring
 
-set_option maxHeartbeats 1000000 in
+-- Exceeds the default heartbeats: `whnf` times out at 500000, passes at 600000 (measured).
+set_option maxHeartbeats 600000 in
 /--
 Conditional on BH locality, a bounded domain multiplier h annihilates Gamma(v,w) almost
 everywhere for arbitrary domain arguments v,w whenever h(w+a) vanishes almost everywhere.

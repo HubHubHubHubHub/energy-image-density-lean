@@ -1,5 +1,9 @@
 import ErrorCalculus.Dirichlet.HilbertWeakStrong
-import ErrorCalculus.Dirichlet.LowerSemicontinuous
+import ErrorCalculus.Dirichlet.LowerSemicontinuous.Basic
+
+/-!
+# Convergence in the form space
+-/
 
 noncomputable section
 open Filter Topology

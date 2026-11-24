@@ -1,5 +1,9 @@
-import ErrorCalculus.Dirichlet.ExtensionGammaBounds
 import Mathlib.MeasureTheory.Integral.DominatedConvergence
+import ErrorCalculus.Dirichlet.ExtensionGammaBounds.Basic
+
+/-!
+# Bounded multiplication operators on `L^p`
+-/
 
 noncomputable section
 open MeasureTheory Filter Topology

@@ -1,6 +1,10 @@
 import GeometricMeasure.VectorMeasure.Polar
 
-/-! Absolute continuity and singularity detected by Euclidean variation. -/
+/-!
+# Absolute continuity and singularity of vector measures
+
+Absolute continuity and singularity detected by Euclidean variation.
+-/
 
 noncomputable section
 open MeasureTheory

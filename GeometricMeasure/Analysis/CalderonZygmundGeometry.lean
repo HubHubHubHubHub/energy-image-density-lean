@@ -269,9 +269,12 @@ Hart Smith, Lecture 8, pp. 2–4; DPR, pp. 1027–1028 (Page references unverifi
 editions.)
 -/
 structure BallFamily (d : ℕ) (f : Space d → ℝ) (lam : ℝ) where
+  /-- The countable index type of the balls. -/
   Index : Type
   countableIndex : Countable Index
+  /-- The centers of the balls. -/
   center : Index → Space d
+  /-- The radii of the balls. -/
   radius : Index → ℝ
   radius_pos : ∀ i, 0 < radius i
   disjoint : Pairwise (fun i j => Disjoint (ball (center i) (radius i))

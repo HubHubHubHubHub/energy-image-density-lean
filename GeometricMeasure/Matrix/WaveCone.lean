@@ -16,7 +16,6 @@ noncomputable section
 open scoped Matrix
 open WithLp
 namespace GeometricMeasure
-set_option autoImplicit false
 variable {n : ℕ}
 
 /-- DPR p. 15. Entrywise embedding of a real matrix into ℂ. -/

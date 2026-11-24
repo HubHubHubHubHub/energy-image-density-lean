@@ -1,8 +1,11 @@
-import ErrorCalculus.Dirichlet.EIDConditional
 import ErrorCalculus.Dirichlet.MixedDirichletCurrent
+import ErrorCalculus.Dirichlet.EIDConditional.Basic
+
+/-!
+# Energy image density under the De Philippis–Rindler hypothesis, general case
+-/
 
 noncomputable section
-set_option backward.isDefEq.respectTransparency false
 open MeasureTheory Filter Topology
 namespace ErrorCalculus.ErrorStructure
 variable {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} [IsProbabilityMeasure μ]

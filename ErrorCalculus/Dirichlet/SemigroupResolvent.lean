@@ -1,6 +1,10 @@
 import ErrorCalculus.Dirichlet.ResolventEquation
 import Foundations.Semigroup.Resolvent
 
+/-!
+# The form resolvent as a contraction resolvent
+-/
+
 noncomputable section
 open Filter Topology
 namespace ErrorCalculus.QuadForm

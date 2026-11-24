@@ -3,6 +3,10 @@ import Mathlib.Topology.Order.LiminfLimsup
 import Mathlib.Analysis.Normed.Operator.BanachSteinhaus
 import Mathlib.Tactic
 
+/-!
+# Weak and strong convergence in Hilbert spaces
+-/
+
 noncomputable section
 open Filter Topology
 open scoped InnerProductSpace

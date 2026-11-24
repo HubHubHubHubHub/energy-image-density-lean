@@ -1,8 +1,12 @@
-import GeometricMeasure.VectorMeasure.Lebesgue
 import Mathlib.MeasureTheory.Covering.BesicovitchVectorSpace
+import GeometricMeasure.VectorMeasure.Lebesgue.Basic
 
-/-! Closed-ball differentiation on finite-dimensional Euclidean spaces.
-Scalar errors use ENNReal; vector averages use the real mass of the ball. -/
+/-!
+# Differentiation of measures on closed balls
+
+Closed-ball differentiation on finite-dimensional Euclidean spaces.
+Scalar errors use ENNReal; vector averages use the real mass of the ball.
+-/
 
 noncomputable section
 open MeasureTheory Filter Metric

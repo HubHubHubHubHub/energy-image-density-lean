@@ -1,4 +1,7 @@
-import GeometricMeasure.Current.LocalizedDilation
+import GeometricMeasure.Current.LocalizedDilation.Basic
+import GeometricMeasure.Current.Mass.Basic
+import GeometricMeasure.Current.WeakConvergence
+import GeometricMeasure.VectorMeasure.Compactness.Basic
 
 /-!
 # Finite combinations of currents and local divergences
@@ -9,7 +12,6 @@ on open sets. References: De Philippis–Rindler, pp. 8–9, and row-wise diverg
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Metric Set
 open scoped ENNReal NNReal Topology
 

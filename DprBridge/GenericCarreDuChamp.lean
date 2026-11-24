@@ -1,5 +1,13 @@
-import DprBridge.TextStatements
 import ErrorCalculus.Dirichlet.LocalCarreDuChampLevels
+import DprBridge.TextStatements.Basic
+import ErrorCalculus.Dirichlet.EIDConditionalGeneral
+import ErrorCalculus.Dirichlet.EntropyDecay.Basic
+import ErrorCalculus.Dirichlet.ResolventMarkov.Basic
+import Mathlib.Analysis.Calculus.ContDiff.Polynomial
+import Mathlib.Analysis.Calculus.Deriv.Abs
+import Mathlib.MeasureTheory.Measure.Hausdorff
+import Mathlib.Probability.BrownianMotion.Basic
+import Mathlib.Topology.ContinuousMap.SecondCountableSpace
 
 /-!
 # Carré-du-champ adapters for EBM Dirichlet structures
@@ -21,7 +29,6 @@ The generic chain, clamp and Leibniz rules give `BHFunctionalCalculusStatement`,
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal
 

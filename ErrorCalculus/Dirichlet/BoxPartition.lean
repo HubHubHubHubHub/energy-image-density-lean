@@ -21,10 +21,8 @@ The module imports `LocalCarreDuChampChain` solely to reuse `abs_interpSlope_le`
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal
-set_option maxHeartbeats 800000
 
 namespace ErrorCalculus
 

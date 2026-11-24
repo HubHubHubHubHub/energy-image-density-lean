@@ -1,8 +1,9 @@
 import GeometricMeasure.Analysis.BesselKernel
-import GeometricMeasure.Current.LocalizedMollification
 import Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts
 import Mathlib.MeasureTheory.Integral.IntegralEqImproper
 import Mathlib.Analysis.Calculus.ParametricIntegral
+import GeometricMeasure.Current.LocalizedMollification.Basic
+import GeometricMeasure.VectorMeasure.PolarFreezing
 
 /-!
 # Bessel Resolvent
@@ -19,7 +20,6 @@ specialization. The Annals page reference, pp. 1027–1028, is unverified agains
 
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Set Filter Metric
 open scoped Topology RealInnerProductSpace Convolution
 namespace GeometricMeasure

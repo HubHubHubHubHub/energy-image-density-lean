@@ -3,8 +3,11 @@ import ErrorCalculus.Dirichlet.ConditionalMatrixLemma
 import ErrorCalculus.Dirichlet.GeneratorApproximation
 import ErrorCalculus.Dirichlet.FiniteL1Subsequence
 
+/-!
+# The mixed conditional energy matrix
+-/
+
 noncomputable section
-set_option backward.isDefEq.respectTransparency false
 open MeasureTheory Filter Topology
 namespace ErrorCalculus.ErrorStructure
 variable {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} [IsProbabilityMeasure μ]
@@ -52,7 +55,7 @@ def mixedConditionalMatrix (f g : Fin n → S.dom) (y : Fin n → ℝ) : Matrix 
 
 theorem measurable_mixedConditionalMatrix (f g : Fin n → S.dom) :
     Measurable (S.mixedConditionalMatrix f g) :=
-  measurable_pi_lambda _ (fun i => measurable_pi_lambda _ (fun j => (Lp.stronglyMeasurable _).measurable))
+  measurable_pi_lambda _ (fun _ => measurable_pi_lambda _ (fun _ => (Lp.stronglyMeasurable _).measurable))
 
 /-- EBM (4.19): one subsequence yields determinant convergence ν-a.e. -/
 theorem det_condMatrix_seq_tendsto_ae (f : Fin n → S.dom) (g : ℕ → Fin n → S.dom)

@@ -1,4 +1,3 @@
-import ErrorCalculus.Dirichlet.QuadForm
 import Mathlib.MeasureTheory.Function.L2Space
 import Mathlib.MeasureTheory.SpecificCodomains.Pi
 import Mathlib.Analysis.Calculus.ContDiff.Basic
@@ -6,6 +5,11 @@ import Mathlib.Analysis.Calculus.FDeriv.Pi
 import Mathlib.Analysis.Calculus.Deriv.Comp
 import Mathlib.Tactic.NormNum
 import Mathlib.Tactic.Ring
+import ErrorCalculus.Dirichlet.QuadForm.Basic
+
+/-!
+# Error structures
+-/
 
 noncomputable section
 open MeasureTheory Filter Topology
@@ -15,7 +19,9 @@ variable {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} [IsProbabilityMeasu
 
 /-- The algebraic carré du champ on a linear L² domain. -/
 structure ErrorData (Ω : Type*) [MeasurableSpace Ω] (μ : Measure Ω) [IsProbabilityMeasure μ] where
+  /-- The linear domain, a submodule of `L²(μ)`. -/
   dom : Submodule ℝ (Lp ℝ 2 μ)
+  /-- The carré du champ, a bilinear map from the domain to `L¹(μ)`. -/
   Γ : dom →ₗ[ℝ] dom →ₗ[ℝ] Lp ℝ 1 μ
   Γ_symm : ∀ u v, Γ u v = Γ v u
   Γ_nonneg : ∀ u, 0 ≤ᵐ[μ] ⇑(Γ u u)

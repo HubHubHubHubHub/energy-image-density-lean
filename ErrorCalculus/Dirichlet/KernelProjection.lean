@@ -1,5 +1,5 @@
-import ErrorCalculus.Dirichlet.RangeProjectionMeasurable
 import ErrorCalculus.Dirichlet.ConditionalMatrix
+import ErrorCalculus.Dirichlet.RangeProjectionMeasurable.Basic
 
 /-!
 # Kernel Projection
@@ -9,7 +9,6 @@ Measurable bounded kernel tests. We use all columns of I − P_range, rescaled b
 This avoids choosing a single unit kernel vector.
 -/
 noncomputable section
-set_option backward.isDefEq.respectTransparency false
 open MeasureTheory Matrix
 namespace ErrorCalculus
 variable {n : ℕ}

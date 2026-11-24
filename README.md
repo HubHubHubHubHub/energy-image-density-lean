@@ -70,10 +70,7 @@ The full list of selected declarations, modules and SHA-256 hashes is in
 
 ## Scope and limitations
 
-- Only first-order operators with constant coefficients are covered. A Lean 4
-  formalisation of the De Philippis–Rindler theorem for operators of every order,
-  with variable coefficients, was made public by S. Armstrong on 23 October 2026:
-  [`A-free-measures`](https://github.com/scottnarmstrong/A-free-measures).
+- Only first-order operators with constant coefficients are covered.
 - The functional calculus is proved for C¹ Lipschitz functions; the Lipschitz chain
   rule of Eriksson-Bique–Murugan is neither formalised nor needed.
 - Non-vacuity: the hypotheses of Theorem 1.7 are instantiated by the
@@ -119,8 +116,10 @@ revisions. It never downloads anything.
 - `DprBridge/`: discharge of the De Philippis–Rindler hypothesis, the
   Eriksson-Bique–Murugan interface, and the Bouleau–Hirsch 1991 statement.
 
-The library trees are copied byte for byte from a private development repository;
-`MANIFEST.json` records the hash of each file.
+The library trees are exported from a private development repository. Most files
+are copied byte for byte; 76 modules have only their `import` lines rewritten, so
+that the export leaves out modules the results above do not use. `MANIFEST.json` records
+the hash of each file and, for each rewritten module, its import edits.
 
 ## Sources
 

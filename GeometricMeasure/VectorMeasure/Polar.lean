@@ -1,7 +1,11 @@
 import GeometricMeasure.VectorMeasure.FiniteDimensional
 
-/-! Polar decomposition for Euclidean vector measures. The total variation and
-the variation formula for a density are supplied by Mathlib. -/
+/-!
+# Polar decomposition of vector measures
+
+Polar decomposition for Euclidean vector measures. The total variation and
+the variation formula for a density are supplied by Mathlib.
+-/
 
 noncomputable section
 open MeasureTheory

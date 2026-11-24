@@ -22,7 +22,6 @@ generator or domain density) and the isometry 𝔻 → 𝔻' (proposition 9.1.3 
 noncomputable section
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal InnerProductSpace
-set_option maxHeartbeats 1600000
 
 namespace ErrorCalculus.Capacity
 namespace DirichletForm

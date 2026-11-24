@@ -14,7 +14,6 @@ Reference: De Philippis–Rindler, arXiv p. 12, Lemma 2.1, specialized through t
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Metric Set
 open scoped Topology Convolution
 namespace GeometricMeasure

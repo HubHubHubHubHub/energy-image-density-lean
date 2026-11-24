@@ -6,11 +6,11 @@ import Mathlib.MeasureTheory.Function.ConditionalExpectation.PullOut
 # Image L1Transfer
 
 ## Main results
-Pushforward of an arbitrary signed L¹ density, as a continuous linear map to L¹ of the image law.
+Pushforward of an arbitrary signed L¹ density, as a continuous linear map to L¹ of the image
+distribution.
 Unlike image Γ, the second input need not factor through X.
 -/
 noncomputable section
-set_option backward.isDefEq.respectTransparency false
 open MeasureTheory Filter Topology
 namespace ErrorCalculus
 variable {Ω : Type*} [MeasurableSpace Ω] {μ : Measure Ω} [IsProbabilityMeasure μ]
@@ -61,7 +61,7 @@ theorem imageL1Class_pullback (a : Lp ℝ 1 μ) :
   filter_upwards [imageL1Pullback_ae X (imageL1Class X a), he, hc] with ω hp he hc
   exact hp.trans (he.trans ((congrFun (imageL1Representative_comp X a) ω).trans hc))
 
-/-- Linear conditional transfer to the image law. -/
+/-- Linear conditional transfer to the image distribution. -/
 def imageL1Linear : Lp ℝ 1 μ →ₗ[ℝ] Lp ℝ 1 (imageLaw X) where
   toFun := imageL1Class X
   map_add' a b := by

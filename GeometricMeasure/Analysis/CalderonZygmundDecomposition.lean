@@ -479,8 +479,11 @@ Source: Hart Smith, Lecture 8, pp. 2–4; DPR, pp. 1027–1028 (Page references 
 cited editions.)
 -/
 structure Decomposition (d : ℕ) (f : Space d → ℝ) (lam : ℝ) where
+  /-- The underlying family of Calderón–Zygmund balls. -/
   balls : BallFamily d f lam
+  /-- The good part of the decomposition. -/
   g : Space d → ℝ
+  /-- The bad parts of the decomposition, one for each ball. -/
   b : balls.Index → Space d → ℝ
   input_integrable : Integrable f
   good_eq : g = CalderonZygmund.good f balls.pieces

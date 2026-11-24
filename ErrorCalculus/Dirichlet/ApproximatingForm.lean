@@ -1,5 +1,9 @@
 import ErrorCalculus.Dirichlet.ResolventEquation
-import ErrorCalculus.Dirichlet.LowerSemicontinuous
+import ErrorCalculus.Dirichlet.LowerSemicontinuous.Basic
+
+/-!
+# Approximating forms and the form domain
+-/
 
 noncomputable section
 open Filter Topology

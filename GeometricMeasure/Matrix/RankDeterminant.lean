@@ -15,7 +15,6 @@ proofs use Mathlib's matrix rank and determinant theory.
 -/
 
 noncomputable section
-set_option autoImplicit false
 namespace GeometricMeasure
 variable {n : ℕ}
 

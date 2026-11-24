@@ -10,7 +10,6 @@ without requiring them to converge separately. Monotonicity of the scales is unn
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Metric Set
 open scoped Topology Convolution
 namespace GeometricMeasure

@@ -1,7 +1,11 @@
 import Mathlib.Analysis.Distribution.TestFunction
 import Mathlib.Analysis.InnerProductSpace.PiL2
 
-/-! Smooth covector tests, boundary and the mass defined by a supremum of tests. -/
+/-!
+# Test forms, boundary and mass of one-currents
+
+Smooth covector tests, boundary and the mass defined by a supremum of tests.
+-/
 
 noncomputable section
 open MeasureTheory TopologicalSpace
@@ -9,15 +13,18 @@ open scoped ENNReal Topology
 
 namespace GeometricMeasure
 
+/-- Smooth compactly supported real test functions on `EuclideanSpace ℝ (Fin d)`. -/
 abbrev ScalarCurrentTest (d : ℕ) :=
   TestFunction (⊤ : Opens (EuclideanSpace ℝ (Fin d))) ℝ (⊤ : ℕ∞)
 
+/-- Smooth compactly supported test one-forms on `EuclideanSpace ℝ (Fin d)`. -/
 abbrev OneFormCurrentTest (d : ℕ) :=
   TestFunction (⊤ : Opens (EuclideanSpace ℝ (Fin d)))
     (EuclideanSpace ℝ (Fin d) →L[ℝ] ℝ) (⊤ : ℕ∞)
 
 variable {d : ℕ}
 
+/-- The derivative `φ ↦ fderiv ℝ φ`, from scalar tests to test one-forms. -/
 def currentTestDerivative : ScalarCurrentTest d →L[ℝ] OneFormCurrentTest d :=
   TestFunction.fderivCLM ℝ (⊤ : ℕ∞) (⊤ : ℕ∞)
 
@@ -26,6 +33,7 @@ theorem currentTestDerivative_apply (φ : ScalarCurrentTest d) :
       (EuclideanSpace ℝ (Fin d) →L[ℝ] ℝ)) = fderiv ℝ φ :=
   TestFunction.fderivCLM_apply_of_le φ (by simp)
 
+/-- The boundary `φ ↦ T (fderiv ℝ φ)` of a one-current `T`. -/
 def oneCurrentBoundary (T : OneFormCurrentTest d →L[ℝ] ℝ) :
     ScalarCurrentTest d →L[ℝ] ℝ := T.comp currentTestDerivative
 
@@ -33,6 +41,8 @@ theorem oneCurrentBoundary_apply (T : OneFormCurrentTest d →L[ℝ] ℝ)
     (φ : ScalarCurrentTest d) :
     oneCurrentBoundary T φ = T (currentTestDerivative φ) := rfl
 
+/-- The mass on `U` of a functional on tests: the supremum of `ENNReal.ofReal (T ω)` over the tests
+`ω` supported in `U` with pointwise norm at most `1`. -/
 def testFunctionalMassOn {F : Type*} [NormedAddCommGroup F] [NormedSpace ℝ F]
     (T : TestFunction (⊤ : Opens (EuclideanSpace ℝ (Fin d)))
       F (⊤ : ℕ∞) →L[ℝ] ℝ) (U : Set (EuclideanSpace ℝ (Fin d))) : ℝ≥0∞ :=
@@ -40,6 +50,7 @@ def testFunctionalMassOn {F : Type*} [NormedAddCommGroup F] [NormedSpace ℝ F]
     (_ : tsupport (ω : EuclideanSpace ℝ (Fin d) → F) ⊆ U)
     (_ : ∀ x, ‖ω x‖ ≤ 1), ENNReal.ofReal (T ω)
 
+/-- A one-current is normal if it and its boundary have finite mass. -/
 def IsNormalOneCurrent (T : OneFormCurrentTest d →L[ℝ] ℝ) : Prop :=
   testFunctionalMassOn T Set.univ < ⊤ ∧
     testFunctionalMassOn (oneCurrentBoundary T) Set.univ < ⊤

@@ -3,6 +3,10 @@ import Mathlib.Analysis.Calculus.ContDiff.Operations
 import Mathlib.Analysis.Calculus.Deriv.Mul
 import Mathlib.Tactic.Linarith
 
+/-!
+# Constants and one-variable functional calculus
+-/
+
 noncomputable section
 open MeasureTheory Filter Topology
 open scoped NNReal

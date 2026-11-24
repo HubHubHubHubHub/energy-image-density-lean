@@ -1,6 +1,6 @@
 import ErrorCalculus.Dirichlet.LocalDirichletForm
 import ErrorCalculus.Dirichlet.ExtensionLp
-import ErrorCalculus.Dirichlet.LowerSemicontinuous
+import ErrorCalculus.Dirichlet.LowerSemicontinuous.Basic
 
 /-!
 # piecewise affine interpolation and univariate Lipschitz calculus
@@ -13,10 +13,8 @@ f in L², and closedness concludes (`exists_mem_of_lipschitzWith`).
 -/
 
 noncomputable section
-set_option autoImplicit false
 open MeasureTheory Filter Topology
 open scoped NNReal ENNReal
-set_option maxHeartbeats 800000
 
 namespace ErrorCalculus
 
